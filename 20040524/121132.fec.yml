@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 121132.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387019
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Andy Rosenburg for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: PO Box 41887
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Arlington
+  - name: ZIP
+    number: '8'
+    value: VA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '22204'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4VA08091
+  - name: CAN/OFFICE
+    number: '11'
+    value: Rosenburg^Andrew M
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: VA
+  - name: Signed
+    number: 14-
+    value: 08
+  - value: '20040524'
+  expected_count: 14
+  input: F6,C00387019,"Andy Rosenburg for Congress, Inc.",PO Box 41887,,Arlington,VA,22204,H4VA08091,"Rosenburg^Andrew
+    M",H,VA,08,20040524
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x1cb7908>
+  result: []
+- input: F65,C00387019,IND,Steiner^Sylvia L,75 Eisenhower Parkway,,Roseland,NJ,07068,Self
+    employed,Homemaker,20040524,1000.00,C00387019,H4VA08091,Rosenburg^Andrew^M,H,VA,08,,,,,,,,F65_524040601
+  record: <fec.version.v5_1.F65.Records instance at 0x1cb7b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00387019
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Steiner^Sylvia L
+  - name: STREET 1
+    number: '5'
+    value: 75 Eisenhower Parkway
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Roseland
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: 07068
+  - name: INDEMP
+    number: '10'
+    value: Self employed
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20040524'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00387019
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4VA08091
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Rosenburg^Andrew^M
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: VA
+  - name: CAN/DIST
+    number: '19'
+    value: 08
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65_524040601
+sourceurl: !!python/unicode 20040524
+type: single

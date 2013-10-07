@@ -1,0 +1,320 @@
+countraw: 6
+countrows: 4
+filename: 124328.fec
+header: {}
+rows:
+- input: '"F6","C00261958","Friends of Jack Kingston","PO Box 2133","","Savannah","GA","31402   ","H2GA01157","John
+    Heddens Kingston","H","GA","01",20040706'
+  record: <fec.version.v5_1.F6.Records instance at 0x16c1ea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261958
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Jack Kingston
+  - name: STREET 1
+    number: '4'
+    value: PO Box 2133
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Savannah
+  - name: STATE
+    number: '7'
+    value: GA
+  - name: ZIP
+    number: '8'
+    value: '31402   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2GA01157
+  - name: CANDIDATE NAME
+    number: '10'
+    value: John Heddens Kingston
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: GA
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20040706'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261958
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Chicken Council PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. George B. Watts
+  - name: STREET 2
+    number: '6'
+    value: 1015 15th Street NW
+  - name: CITY
+    number: '7'
+    value: ' Suite 930 '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200052706'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040706'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0706200455C12979
+  expected_count: 27
+  input: '"F65","C00261958","PAC","National Chicken Council PAC","Mr. George B. Watts","1015
+    15th Street NW, Suite 930 ","Washington","DC","200052706","","",20040706,1000.00,"","","","","",,"","","","","","","","0706200455C12979"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x16c1638>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261958
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Turkey Federation PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Joel Brandenberger
+  - name: STREET 2
+    number: '6'
+    value: 1225 New York Avenue NW
+  - name: CITY
+    number: '7'
+    value: ' STE 400 '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20005    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040706'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0706200455C12977
+  expected_count: 27
+  input: '"F65","C00261958","PAC","National Turkey Federation PAC","Mr. Joel Brandenberger","1225
+    New York Avenue NW, STE 400 ","Washington","DC","20005    ","","",20040706,1000.00,"","","","","",,"","","","","","","","0706200455C12977"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x16c1cb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00261958
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Carpet & Rug Institute Pac
+  - name: STREET 1
+    number: '5'
+    value: Mr. John L. Miller
+  - name: STREET 2
+    number: '6'
+    value: ' III'
+  - name: CITY
+    number: '7'
+    value: 'P.O. Box 2048 '
+  - name: STATE
+    number: '8'
+    value: Dalton
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30722    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040706'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0706200455C12978
+  expected_count: 27
+  input: '"F65","C00261958","PAC","Carpet & Rug Institute Pac","Mr. John L. Miller,
+    III","P.O. Box 2048 ","Dalton","GA","30722    ","","",20040706,1000.00,"","","","","",,"","","","","","","","0706200455C12978"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x16c1638>
+  result: []
+sourceurl: !!python/unicode 20040706
+type: single

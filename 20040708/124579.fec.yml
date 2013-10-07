@@ -1,0 +1,351 @@
+countraw: 6
+countrows: 4
+filename: 124579.fec
+header: {}
+rows:
+- input: F24,C00101212,Right to Life of Michigan Political Action Committee,P O Box
+    901,,Grand Rapids,MI,495090901,Colligan^Susan^Mrs.^,20040708,48
+  record: <fec.version.v5_1.F24.Records instance at 0x18a53f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Right to Life of Michigan Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: P O Box 901
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Grand Rapids
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '495090901'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Colligan^Susan^Mrs.^
+  - name: Signed
+    number: 10-
+    value: '20040708'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- input: SE24,C00101212,ORG,RLM Telemarketing,P O Box 901,,Grand Rapids,MI,495090901,GOTV
+    calls 7-07-07,20040708,143.00,S,H4MI07053,BISBEE^CLARK^^,H,MI,07,C00101212,,,,,,,,,,,,,,,,,,SE24.5847,,,,,P2004,,004,,11219.50
+  record: <fec.version.v5_1.SE.Records instance at 0x18a58c0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: RLM Telemarketing
+  - name: STREET 1
+    number: '5'
+    value: P O Box 901
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Grand Rapids
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '495090901'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: GOTV calls 7-07-07
+  - name: DATE
+    number: '11'
+    value: '20040708'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '143.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4MI07053
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BISBEE^CLARK^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: MI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '07'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00101212
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.5847
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '11219.50'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: SE24
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: SE24.5847
+  - name: TEXT4000
+    number: '4'
+    value: Schedule E memo entry made in order to file 48 hr Independent Expenditure
+      report
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: TEXT,SE24,SE24.5847,Schedule E memo entry made in order to file 48 hr Independent
+    Expenditure report
+  input_count: 4
+  record: <fec.version.v5_1.TEXT.Records instance at 0x18a53f8>
+  result: []
+- input: SE24,C00101212,ORG,RLM Telemarketing,P O Box 901,,Grand Rapids,MI,495090901,GOTV
+    calls 7-07-04,20040708,26.00,S,H4MI07053,BISBEE^CLARK^^,H,MI,07,C00101212,,,,,,,,,,,,,,,,,,SE24.5848,,,,,P2004,,004,,11245.50
+  record: <fec.version.v5_1.SE.Records instance at 0x18a58c0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: RLM Telemarketing
+  - name: STREET 1
+    number: '5'
+    value: P O Box 901
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Grand Rapids
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '495090901'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: GOTV calls 7-07-04
+  - name: DATE
+    number: '11'
+    value: '20040708'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '26.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4MI07053
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BISBEE^CLARK^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: MI
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '07'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00101212
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.5848
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '11245.50'
+sourceurl: !!python/unicode 20040708
+type: single

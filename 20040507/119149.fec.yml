@@ -1,0 +1,226 @@
+countraw: 5
+countrows: 3
+filename: 119149.fec
+header: {}
+rows:
+- input: F6,C00396739,BUFORD FOR CONGRESS,105 CROSSWOODS PLACE,,NICHOLASVILLE,KY,40356,H4KY06098,BUFORD^TOM^^,H,KY,06,20040507
+  record: <fec.version.v5_1.F6.Records instance at 0x18a5a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396739
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BUFORD FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 105 CROSSWOODS PLACE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: NICHOLASVILLE
+  - name: STATE
+    number: '7'
+    value: KY
+  - name: ZIP
+    number: '8'
+    value: '40356'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4KY06098
+  - name: CANDIDATE NAME
+    number: '10'
+    value: BUFORD^TOM^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: KY
+  - name: CAN/DIST
+    number: '13'
+    value: '06'
+  - name: Signed
+    number: 14-
+    value: '20040507'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396739
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Knapp^Gary^^
+  - name: STREET 1
+    number: '5'
+    value: 816 Congress Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' 1100'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Austin
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: INDEMP
+    number: '10'
+    value: '78701'
+  - name: INDOCC
+    number: '11'
+    value: Monticale Farm
+  - name: Of Contribution
+    number: 12-
+    value: Horse Farmer
+  - name: AMOUNT
+    number: '13'
+    value: '20040505'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00396739
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4KY06098
+  - name: CAN/OFFICE
+    number: '17'
+    value: BUFORD^TOM^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: KY
+  - name: CONDUIT NAME
+    number: '20'
+    value: '06'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4328
+  expected_count: 27
+  input: F65,C00396739,IND,Knapp^Gary^^,"816 Congress Avenue, 1100",,Austin,TX,78701,Monticale
+    Farm,Horse Farmer,20040505,1000.00,C00396739,H4KY06098,BUFORD^TOM^^,H,KY,06,,,,,,,,F6.4328
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x18a5b00>
+  result: []
+- input: F65,C00396739,PAC,AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE,1101
+    VERMONT AVENUE NW,12TH FLOOR,WASHINGTON,DC,20005,,,20040505,5000.00,C00396739,H4KY06098,BUFORD^TOM^^,H,KY,06,,,,,,,,F6.4327
+  record: <fec.version.v5_1.F65.Records instance at 0x18a5a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396739
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 1101 VERMONT AVENUE NW
+  - name: STREET 2
+    number: '6'
+    value: 12TH FLOOR
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040505'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00396739
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4KY06098
+  - name: CANDIDATE NAME
+    number: '16'
+    value: BUFORD^TOM^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '06'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4327
+sourceurl: !!python/unicode 20040507
+type: single

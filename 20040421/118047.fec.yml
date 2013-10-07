@@ -1,0 +1,128 @@
+countraw: 3
+countrows: 1
+filename: 118047.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 901 15th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: PTY/CODE
+    number: '9'
+    value: '20005'
+  - name: CAN/OFFICE
+    number: '10'
+    value: DEM
+  - name: CAN/STATE
+    number: '11'
+    value: P
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00383653
+  - name: STREET 1
+    number: '16'
+    value: John Kerry for President
+  - name: STREET 2
+    number: '17'
+    value: ' Inc.'
+  - name: CITY
+    number: '18'
+    value: 901 15th Street
+  - name: STATE
+    number: '19'
+    value: ' NW'
+  - name: ZIP
+    number: '20'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: Washington
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: DC
+  - name: STREET 1
+    number: '23'
+    value: '20005'
+  - name: STREET 2
+    number: '24'
+    value: C00398198
+  - name: CITY
+    number: '25'
+    value: Kerry Victory 2004
+  - name: STATE
+    number: '26'
+    value: 430 South Capitol Street
+  - name: ZIP
+    number: '27'
+    value: ' SE'
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: Washington
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: DC
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20003'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: Robert Farmer
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '20040420'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: '0'
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: '0'
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Kerry
+  - value: John
+  - value: F.
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: F2N,"P80000235","","901 15th Street, NW","","Washington","DC","20005","DEM","P","","","2004","C00383653","John
+    Kerry for President, Inc.","901 15th Street, NW","","Washington","DC","20005","C00398198","Kerry
+    Victory 2004","430 South Capitol Street, SE","","Washington","DC","20003","Robert
+    Farmer",20040420,"0","0","Kerry","John","F.","",""
+  input_count: 40
+  record: <fec.version.v5_1.F2.Records instance at 0x18a0a28>
+  result: []
+sourceurl: !!python/unicode 20040421
+type: single

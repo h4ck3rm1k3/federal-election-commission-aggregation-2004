@@ -1,0 +1,125 @@
+countraw: 3
+countrows: 1
+filename: 120595.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: P00003335
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 1600 PENNSYLVANIA AVENUE NW
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20500'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2004'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00386987
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Bush-Cheney '04 Inc
+  - name: STREET 1
+    number: '16'
+    value: PO Box 10648
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Arlington
+  - name: STATE
+    number: '19'
+    value: VA
+  - name: ZIP
+    number: '20'
+    value: '22210'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: Bush-Cheney '04 Compliance Committee
+  - name: STREET 1
+    number: '23'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '24'
+    value: PO Box 10477
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Arlington
+  - name: ZIP
+    number: '27'
+    value: VA
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '22210'
+  - name: Signed
+    number: 29-
+    value: GEORGE W BUSH AND RICHARD B CHENEY
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20040520'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: AND RICHARD B CHENEY
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: GEORGE W BUSH
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: F2,P00003335,,"1600 PENNSYLVANIA AVENUE NW",,"WASHINGTON",DC,20500,REP,P,,,2004,C00386987,"Bush-Cheney
+    '04 Inc","PO Box 10648",,"Arlington",VA,22210,,"Bush-Cheney '04 Compliance Committee,
+    Inc.","PO Box 10477",,"Arlington",VA,22210,"GEORGE W BUSH AND RICHARD B CHENEY",20040520,0.00,0.00,"AND
+    RICHARD B CHENEY","GEORGE W BUSH",,,
+  input_count: 37
+  record: <fec.version.v5_1.F2.Records instance at 0x1845e290>
+  result: []
+sourceurl: !!python/unicode 20040520
+type: single

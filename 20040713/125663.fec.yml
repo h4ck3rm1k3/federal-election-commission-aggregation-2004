@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 125663.fec
+header: {}
+rows:
+- input: F6N,C00373233,SAM DAVIS FOR CONGRESS,POST OFFICE BOX 710,,ELIZABETH CITY,NC,27907,H2NC01149,DAVIS^SAMUEL^^III,H,NC,01,20040713
+  record: <fec.version.v5_1.F6.Records instance at 0x1cb7a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373233
+  - name: COMMITTEE NAME
+    number: '3'
+    value: SAM DAVIS FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: POST OFFICE BOX 710
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: ELIZABETH CITY
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '27907'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NC01149
+  - name: CANDIDATE NAME
+    number: '10'
+    value: DAVIS^SAMUEL^^III
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NC
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20040713'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00373233
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SMITH^E^JR
+  - name: STREET 1
+    number: '5'
+    value: P O BOX 1527
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: GREENVILLE
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27835'
+  - name: INDEMP
+    number: '10'
+    value: GRADY WHITE BOATS
+  - name: INDOCC
+    number: '11'
+    value: ' INC'
+  - name: Of Contribution
+    number: 12-
+    value: BOAT MANUFACTURER
+  - name: AMOUNT
+    number: '13'
+    value: '20040712'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00373233,IND,SMITH^E^JR,P O BOX 1527,,GREENVILLE,NC,27835,"GRADY WHITE
+    BOATS, INC",BOAT MANUFACTURER,20040712,1000.00,,,,,,,,,,,,,,F65.00000
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x1cb7b48>
+  result: []
+sourceurl: !!python/unicode 20040713
+type: single
