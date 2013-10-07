@@ -1,0 +1,836 @@
+countraw: 18
+countrows: 16
+filename: 126382.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F7N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '4'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 700
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: ORGANIZATION TYPE
+    number: '9'
+    value: '20005'
+  - name: RPTCODE
+    number: '10'
+    value: M
+  - name: Of Election
+    number: 11-
+    value: Q2
+  - name: STATE (Of Election)
+    number: '12'
+    value: ''
+  - name: Coverage From
+    number: 13-
+    value: ''
+  - name: Coverage To
+    number: 14-
+    value: '20040101'
+  - name: TOTAL COSTS
+    number: '15'
+    value: '20040630'
+  - name: NAME/FILER (as signed)
+    number: '16'
+    value: '91.12'
+  - name: Signed
+    number: 17-
+    value: John Botts
+  - name: TITLE
+    number: '18'
+    value: '20040714'
+  - value: Treasurer
+  expected_count: 18
+  input: F7N,"C70002761","NARAL Pro-Choice America","1156 15th Street, NW","Suite
+    700","Washington","DC","20005","M","Q2","","","20040101","20040630",91.12,"John
+    Botts","20040714","Treasurer"
+  input_count: 19
+  record: <fec.version.v5_1.F7.Records instance at 0xdf4a70>
+  result: []
+- input: F76,"C70002761","O","Email","M","20040305","S","H4TX10028","Lloyd Doggett","H","TX","25","P2004",.89,"","D1"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040305'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: H4TX10028
+  - name: CANDIDATE NAME
+    number: '9'
+    value: Lloyd Doggett
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '25'
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D1
+- input: F76,"C70002761","O","Email","M","20040305","S","H2TX25178","Chris Bell","H","TX","25","P2004",.89,"","D2"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040305'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: H2TX25178
+  - name: CANDIDATE NAME
+    number: '9'
+    value: Chris Bell
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '25'
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D2
+- input: F76,"C70002761","O","Email","M","20040305","S","H8TX06035","Chet Edwards","H","TX","17","P2004",.89,"","D3"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040305'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: H8TX06035
+  - name: CANDIDATE NAME
+    number: '9'
+    value: Chet Edwards
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '17'
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D3
+- input: F76,"C70002761","O","Email","M","20040305","S","H8TX28013","Ciro Rodriguez","H","TX","28","P2004",.89,"","D4"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040305'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: H8TX28013
+  - name: CANDIDATE NAME
+    number: '9'
+    value: Ciro Rodriguez
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '28'
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D4
+- input: F76,"C70002761","O","Email","M","20040305","S","H2TX29030","Raymond Eugene
+    Green","H","TX","29","P2004",.89,"","D5"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040305'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: H2TX29030
+  - name: CANDIDATE NAME
+    number: '9'
+    value: Raymond Eugene Green
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '29'
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D5
+- input: F76,"C70002761","O","Email","M","20040305","S","H6TX24057","Martin Frost","H","TX","32","P2004",.89,"","D6"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040305'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: H6TX24057
+  - name: CANDIDATE NAME
+    number: '9'
+    value: Martin Frost
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '32'
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D6
+- input: F76,"C70002761","O","Email","M","20040305","S","H6TX09033","Nicholas Lampson","H","TX","09","P2004",.89,"","D7"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040305'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: H6TX09033
+  - name: CANDIDATE NAME
+    number: '9'
+    value: Nicholas Lampson
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: 09
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D7
+- input: F76,"C70002761","O","Email","M","20040406","S","P80000235","John F. Kerry","P",,,"P2004",7.59,"","D8"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040406'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '7.59'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D8
+- input: F76,"C70002761","O","Email","M","20040420","S","P80000235","John F. Kerry","P",,,"P2004",3.14,"","D9"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040420'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '3.14'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D9
+- input: F76,"C70002761","O","Email","M","20040422","S","P80000235","John F. Kerry","P",,,"P2004",3.17,"","D10"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040422'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '3.17'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D10
+- input: F76,"C70002761","O","Email","M","20040514","S","P80000235","John F. Kerry","P",,,"P2004",2.89,"","D11"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040514'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '2.89'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D11
+- input: F76,"C70002761","O","Email","M","20040525","S","P80000235","John F. Kerry","P",,,"P2004",2.49,"","D13"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040525'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '2.49'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D13
+- input: F76,"C70002761","O","Email","M","20040525","S","P80000235","John F. Kerry","P",,,"P2004",2.61,"","D14"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040525'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '2.61'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D14
+- input: F76,"C70002761","O","Email","M","20040610","O","P00003335","George W. Bush",,,,"P2004",61.66,"","D17"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4a70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040610'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: O
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P00003335
+  - name: CANDIDATE NAME
+    number: '9'
+    value: George W. Bush
+  - name: CAN/OFFICE
+    number: '10'
+    value: ''
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '61.66'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D17
+- input: F76,"C70002761","O","Email","M","20040621","S","P80000235","John F. Kerry","P",,,"P2004",1.34,"","D18"
+  record: <fec.version.v5_1.F76.Records instance at 0xdf4e60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20040621'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: ''
+  - name: CAN/DIST
+    number: '12'
+    value: ''
+  - name: RPTPGI
+    number: '13'
+    value: P2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '1.34'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D18
+sourceurl: !!python/unicode 20040714
+type: single
