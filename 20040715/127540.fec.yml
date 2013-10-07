@@ -1,0 +1,315 @@
+countraw: 6
+countrows: 4
+filename: 127540.fec
+header: {}
+rows:
+- input: '"F6","C00386755","Price for Congress","P.O. Box 425","","Roswell","GA","30077   ","H4GA06087","Thomas
+    E. Price","H","GA","6 ",20040715'
+  record: <fec.version.v5_1.F6.Records instance at 0xe6fbd8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Price for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 425
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Roswell
+  - name: STATE
+    number: '7'
+    value: GA
+  - name: ZIP
+    number: '8'
+    value: '30077   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4GA06087
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Thomas E. Price
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: GA
+  - name: CAN/DIST
+    number: '13'
+    value: '6 '
+  - name: Signed
+    number: 14-
+    value: '20040715'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Fackler
+  - name: STREET 1
+    number: '5'
+    value: ' MD^Carl'
+  - name: STREET 2
+    number: '6'
+    value: 80 Palisades Road NE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30309    '
+  - name: INDOCC
+    number: '11'
+    value: Peachtree Orthopaedics
+  - name: Of Contribution
+    number: 12-
+    value: Physician
+  - name: AMOUNT
+    number: '13'
+    value: '20040715'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0715200424C3017
+  expected_count: 27
+  input: '"F65","C00386755","IND","Fackler, MD^Carl","80 Palisades Road NE","","Atlanta","GA","30309    ","Peachtree
+    Orthopaedics","Physician",20040715,1000.00,"","","","","",,"","","","","","","","0715200424C3017"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xe6f680>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Knautz
+  - name: STREET 1
+    number: '5'
+    value: ' MD^Mark'
+  - name: STREET 2
+    number: '6'
+    value: 900 Campbell Hill Street
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Marietta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30060    '
+  - name: INDOCC
+    number: '11'
+    value: Marietta Dermatology
+  - name: Of Contribution
+    number: 12-
+    value: Physician
+  - name: AMOUNT
+    number: '13'
+    value: '20040715'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0715200424C3016
+  expected_count: 27
+  input: '"F65","C00386755","IND","Knautz, MD^Mark","900 Campbell Hill Street","","Marietta","GA","30060    ","Marietta
+    Dermatology","Physician",20040715,1000.00,"","","","","",,"","","","","","","","0715200424C3016"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xe6fbd8>
+  result: []
+- input: '"F65","C00386755","PAC","Regions Financial Corporation PAC","P.O. Box 10247","","Birmingham","AL","35202    ","","",20040715,1000.00,"","","","","",,"","","","","","","","0715200424C3020"'
+  record: <fec.version.v5_1.F65.Records instance at 0xe6f248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Regions Financial Corporation PAC
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 10247
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Birmingham
+  - name: STATE
+    number: '8'
+    value: AL
+  - name: ZIP
+    number: '9'
+    value: '35202    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040715'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0715200424C3020
+sourceurl: !!python/unicode 20040715
+type: single
