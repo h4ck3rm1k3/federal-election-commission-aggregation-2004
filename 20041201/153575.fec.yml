@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 153575.fec
+header: {}
+rows:
+- input: '"F24N","C00029447","INTERNATIONAL ASSOCIATION OF FIREFIGHTERS INTERESTED
+    IN REGISTRATION AND EDUCATION PAC","1750 New York Ave NW","","Washington","DC","20006","Bollon^Vincent
+    J^^",20041201,"48"'
+  record: <fec.version.v5_1.F24.Records instance at 0x23dec20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: COMMITTEE NAME
+    number: '3'
+    value: INTERNATIONAL ASSOCIATION OF FIREFIGHTERS INTERESTED IN REGISTRATION AND
+      EDUCATION PAC
+  - name: STREET 1
+    number: '4'
+    value: 1750 New York Ave NW
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20006'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Bollon^Vincent J^^
+  - name: Signed
+    number: 10-
+    value: '20041201'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Journeyman Press
+  - name: STREET 1
+    number: '5'
+    value: ' Incl'
+  - name: STREET 2
+    number: '6'
+    value: P.O. Box 914
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Newburyport
+  - name: ZIP
+    number: '9'
+    value: MA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 01950
+  - name: DATE
+    number: '11'
+    value: Door Hangers
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040123'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1903.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: SUP
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Kerry^John^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: NH
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00383653
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Bollon^Vincent J^^
+  - name: Notarized
+    number: 33-
+    value: '20041201'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: '20654845'
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '43892.00'
+  expected_count: 46
+  input: '"SE24","C00029447","","Journeyman Press, Incl","P.O. Box 914","","Newburyport","MA","01950","Door
+    Hangers",20040123,1903.00,"SUP","","Kerry^John^^","P","NH","","C00383653","","","","","","","","","","","","Bollon^Vincent
+    J^^",20041201,,,"","","20654845","","","","","P2004","","004","",43892.00'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23de0e0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: December 1
+  - name: AMENDED CD
+    number: '5'
+    value: ' 2004'
+  - value: ' Dear Ms. Hodgson'
+  - value: ' Attached is a 48-hour independent expenditure report filed in response
+      to your letter dated November 24.  This action should illustrate our intent
+      to fully comply with the letter and spirit of the law.  Should you require further
+      information'
+  - value: ' please do not hesitate to contact Jennifer Berigan at (202) 737-8484.   Sincerely'
+  - value: ' Vincent J. Bollon'
+  - value: ' Treasurer'
+  expected_count: 5
+  input: '"TEXT","F24N","","December 1, 2004, Dear Ms. Hodgson, Attached is a 48-hour
+    independent expenditure report filed in response to your letter dated November
+    24.  This action should illustrate our intent to fully comply with the letter
+    and spirit of the law.  Should you require further information, please do not
+    hesitate to contact Jennifer Berigan at (202) 737-8484.   Sincerely, Vincent J.
+    Bollon, Treasurer"'
+  input_count: 10
+  record: <fec.version.v5_1.TEXT.Records instance at 0x23dec20>
+  result: []
+sourceurl: !!python/unicode 20041201
+type: single
