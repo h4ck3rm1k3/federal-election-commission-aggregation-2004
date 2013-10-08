@@ -1,0 +1,562 @@
+countraw: 9
+countrows: 7
+filename: 148585.fec
+header: {}
+rows:
+- input: F6,C00316307,HOOLEY FOR CONGRESS,PO BOX 2050,,SALEM,OR,97308,H6OR05069,HOOLEY^DARLENE^^,H,OR,05,20041027
+  record: <fec.version.v5_1.F6.Records instance at 0x21fee60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316307
+  - name: COMMITTEE NAME
+    number: '3'
+    value: HOOLEY FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 2050
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: SALEM
+  - name: STATE
+    number: '7'
+    value: OR
+  - name: ZIP
+    number: '8'
+    value: '97308'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6OR05069
+  - name: CANDIDATE NAME
+    number: '10'
+    value: HOOLEY^DARLENE^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OR
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20041027'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316307
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Doerr^L. John^^III
+  - name: STREET 1
+    number: '5'
+    value: 2995 Woodside Road
+  - name: STREET 2
+    number: '6'
+    value: ' #400-2'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Woodside
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '94062'
+  - name: INDOCC
+    number: '11'
+    value: Kleiner Perkins Caufield Byer
+  - name: Of Contribution
+    number: 12-
+    value: Venture Capitalist
+  - name: AMOUNT
+    number: '13'
+    value: '20041027'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00316307
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H6OR05069
+  - name: CAN/OFFICE
+    number: '17'
+    value: HOOLEY^DARLENE^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OR
+  - name: CONDUIT NAME
+    number: '20'
+    value: '05'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.11880
+  expected_count: 27
+  input: 'F65,C00316307,IND,Doerr^L. John^^III,"2995 Woodside Road, #400-2",,Woodside,CA,94062,Kleiner
+    Perkins Caufield Byer,Venture Capitalist,20041027,1000.00,C00316307,H6OR05069,HOOLEY^DARLENE^^,H,OR,05,,,,,,,,F6.11880'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x21fed88>
+  result: []
+- input: F65,C00316307,PAC,J.P. Morgan Companies PAC,60 Wall Street,,New York,NY,10260,,,20041027,3000.00,C00316307,H6OR05069,HOOLEY^DARLENE^^,H,OR,05,,,,,,,,F6.11872
+  record: <fec.version.v5_1.F65.Records instance at 0x21fee60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316307
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: J.P. Morgan Companies PAC
+  - name: STREET 1
+    number: '5'
+    value: 60 Wall Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10260'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041027'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00316307
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6OR05069
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOOLEY^DARLENE^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11872
+- input: F65,C00316307,PAC,Metropolitan Life Insurance (Met Life) PPF,One Madison
+    Avenue,,New York,NY,10010,,,20041027,1000.00,C00316307,H6OR05069,HOOLEY^DARLENE^^,H,OR,05,,,,,,,,F6.11870
+  record: <fec.version.v5_1.F65.Records instance at 0x21fed88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316307
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Metropolitan Life Insurance (Met Life) PPF
+  - name: STREET 1
+    number: '5'
+    value: One Madison Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10010'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041027'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00316307
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6OR05069
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOOLEY^DARLENE^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11870
+- input: F65,C00316307,PAC,PAC FOR DEMOCRACY,PO BOX 583,,BURLINGAME,CA,94011,,,20041027,1000.00,C00316307,H6OR05069,HOOLEY^DARLENE^^,H,OR,05,,,,,,,,F6.11875
+  record: <fec.version.v5_1.F65.Records instance at 0x21fee60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316307
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PAC FOR DEMOCRACY
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 583
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: BURLINGAME
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94011'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041027'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00316307
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6OR05069
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOOLEY^DARLENE^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11875
+- input: F65,C00316307,CCM,SHEILA JACKSON LEE FOR CONGRESS,4412 ALMEDA,,HOUSTON,TX,77044,,,20041027,1000.00,C00316307,H6OR05069,HOOLEY^DARLENE^^,H,OR,05,,,,,,,,F6.11868
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfcf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316307
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SHEILA JACKSON LEE FOR CONGRESS
+  - name: STREET 1
+    number: '5'
+    value: 4412 ALMEDA
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: HOUSTON
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77044'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041027'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00316307
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6OR05069
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOOLEY^DARLENE^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11868
+- input: F65,C00316307,PAC,Washington Mutual PAC (WMPAC),1201 Third Avenue,,Seattle,WA,98101,,,20041027,3000.00,C00316307,H6OR05069,HOOLEY^DARLENE^^,H,OR,05,,,,,,,,F6.11877
+  record: <fec.version.v5_1.F65.Records instance at 0x23df680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00316307
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Washington Mutual PAC (WMPAC)
+  - name: STREET 1
+    number: '5'
+    value: 1201 Third Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98101'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041027'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00316307
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H6OR05069
+  - name: CANDIDATE NAME
+    number: '16'
+    value: HOOLEY^DARLENE^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11877
+sourceurl: !!python/unicode 20041028
+type: single
