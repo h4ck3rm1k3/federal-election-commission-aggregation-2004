@@ -1,0 +1,743 @@
+countraw: 11
+countrows: 9
+filename: 147797.fec
+header: {}
+rows:
+- input: F6,C00251918,PASTOR FOR ARIZONA,PO BOX 6554,,PHOENIX,AZ,85005,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,20041026
+  record: <fec.version.v5_1.F6.Records instance at 0x1c2451b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: COMMITTEE NAME
+    number: '3'
+    value: PASTOR FOR ARIZONA
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 6554
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: PHOENIX
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85005'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '10'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '04'
+  - name: Signed
+    number: 14-
+    value: '20041026'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bailey^Scott A^^
+  - name: STREET 1
+    number: '5'
+    value: 7220 Brandon Court
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Riverside
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92506'
+  - name: INDEMP
+    number: '10'
+    value: Stronghold Engineering
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: V-P/COO
+  - name: AMOUNT
+    number: '13'
+    value: '20041025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00251918
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2AZ02055
+  - name: CAN/OFFICE
+    number: '17'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: AZ
+  - name: CONDUIT NAME
+    number: '20'
+    value: '04'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.7790
+  expected_count: 27
+  input: F65,C00251918,IND,Bailey^Scott A^^,7220 Brandon Court,,Riverside,CA,92506,"Stronghold
+    Engineering, Inc.",V-P/COO,20041025,2000.00,C00251918,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,,,,,,,,F6.7790
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result: []
+- input: F65,C00251918,IND,Scheel^Bill H^^,301 W Lynwood St,,Phoenix,AZ,85003,Office
+    of the Mayor,Senior Assistant,20041025,1000.00,C00251918,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,,,,,,,,F6.7796
+  record: <fec.version.v5_1.F65.Records instance at 0x1c2451b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Scheel^Bill H^^
+  - name: STREET 1
+    number: '5'
+    value: 301 W Lynwood St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Phoenix
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85003'
+  - name: INDEMP
+    number: '10'
+    value: Office of the Mayor
+  - name: INDOCC
+    number: '11'
+    value: Senior Assistant
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00251918
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '16'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AZ
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7796
+- input: F65,C00251918,IND,Weisz^George E^^,7752 E Via Del Futuro,,Scottsdale,AZ,85258,City
+    of Phoenix,Senior Assistant,20041025,1500.00,C00251918,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,,,,,,,,F6.7798
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Weisz^George E^^
+  - name: STREET 1
+    number: '5'
+    value: 7752 E Via Del Futuro
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Scottsdale
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85258'
+  - name: INDEMP
+    number: '10'
+    value: City of Phoenix
+  - name: INDOCC
+    number: '11'
+    value: Senior Assistant
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00251918
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '16'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AZ
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7798
+- input: F65,C00251918,IND,Weisz^George E^^,7752 E Via Del Futuro,,Scottsdale,AZ,85258,City
+    of Phoenix,Senior Assistant,20041025,500.00,C00251918,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,,,,,,,,F6.7800
+  record: <fec.version.v5_1.F65.Records instance at 0x1c2451b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Weisz^George E^^
+  - name: STREET 1
+    number: '5'
+    value: 7752 E Via Del Futuro
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Scottsdale
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85258'
+  - name: INDEMP
+    number: '10'
+    value: City of Phoenix
+  - name: INDOCC
+    number: '11'
+    value: Senior Assistant
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00251918
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '16'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AZ
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7800
+- input: F65,C00251918,PAC,AMERICA WEST AIRLINES INC FEDERAL PAC,4000 E SKY HARBOR
+    BLVD,,PHOENIX,AZ,85034,,,20041025,1500.00,C00251918,H2AZ02055,PASTOR^EDWARD L^^,H,AZ,04,,,,,,,,F6.7792
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICA WEST AIRLINES INC FEDERAL PAC
+  - name: STREET 1
+    number: '5'
+    value: 4000 E SKY HARBOR BLVD
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PHOENIX
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85034'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00251918
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '16'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AZ
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7792
+- input: F65,C00251918,PAC,EMPLOYEES OF NORTHROP GRUMMAN CORPORATION PAC,520 S. GRAND
+    AVE. STE. 700,.,LOS ANGELES,CA,90071,,,20041025,1000.00,C00251918,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,,,,,,,,F6.7770
+  record: <fec.version.v5_1.F65.Records instance at 0x1c2451b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: EMPLOYEES OF NORTHROP GRUMMAN CORPORATION PAC
+  - name: STREET 1
+    number: '5'
+    value: 520 S. GRAND AVE. STE. 700
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: LOS ANGELES
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90071'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00251918
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '16'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AZ
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7770
+- input: F65,C00251918,PAC,PARSONS BRINCKERHOFF INC PAC,ONE PENN PLAZA,,NEW YORK,NY,10119,,,20041025,2000.00,C00251918,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,,,,,,,,F6.7793
+  record: <fec.version.v5_1.F65.Records instance at 0x23de170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PARSONS BRINCKERHOFF INC PAC
+  - name: STREET 1
+    number: '5'
+    value: ONE PENN PLAZA
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: NEW YORK
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10119'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00251918
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '16'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AZ
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7793
+- input: F65,C00251918,PAC,SOUTHWEST GAS CORPORATION POLITICAL ACTION COMMITTEE,5241
+    SPRING MOUNTAIN ROAD,.,LAS VEGAS,NV,89102,,,20041025,1000.00,C00251918,H2AZ02055,PASTOR^EDWARD
+    L^^,H,AZ,04,,,,,,,,F6.7794
+  record: <fec.version.v5_1.F65.Records instance at 0x1c2451b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00251918
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SOUTHWEST GAS CORPORATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 5241 SPRING MOUNTAIN ROAD
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: LAS VEGAS
+  - name: STATE
+    number: '8'
+    value: NV
+  - name: ZIP
+    number: '9'
+    value: '89102'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00251918
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2AZ02055
+  - name: CANDIDATE NAME
+    number: '16'
+    value: PASTOR^EDWARD L^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: AZ
+  - name: CAN/DIST
+    number: '19'
+    value: '04'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7794
+sourceurl: !!python/unicode 20041026
+type: single
