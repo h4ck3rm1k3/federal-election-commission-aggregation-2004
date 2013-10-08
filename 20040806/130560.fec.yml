@@ -1,0 +1,96 @@
+countraw: 4
+countrows: 2
+filename: 130560.fec
+header: {}
+rows:
+- input: '"F10","C00386755","Thomas E. Price","H4GA06087","H","GA",6,"Price for Congress","P.O.
+    Box 425","","Roswell","GA","30077   ",349000.00,150000.00,499000.00,"Thomas E.
+    Price",20040806'
+  record: <fec.version.v5_1.F10.Records instance at 0xe6c830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F10
+  - name: FILER FEC COMMITTEE ID
+    number: '2'
+    value: C00386755
+  - name: CANDIDATE NAME
+    number: '3'
+    value: Thomas E. Price
+  - name: CANDIDATE ID
+    number: '4'
+    value: H4GA06087
+  - name: CAN/OFFICE
+    number: '5'
+    value: H
+  - name: CANDIDATE STATE
+    number: '6'
+    value: GA
+  - name: CANDIDATE DISTRICT
+    number: '7'
+    value: '6'
+  - name: COMMITTEE NAME
+    number: '8'
+    value: Price for Congress
+  - name: STREET 1
+    number: '9'
+    value: P.O. Box 425
+  - name: STREET 2
+    number: '10'
+    value: ''
+  - name: CITY
+    number: '11'
+    value: Roswell
+  - name: STATE
+    number: '12'
+    value: GA
+  - name: ZIP
+    number: '13'
+    value: '30077   '
+  - name: PREVIOUS EXPENDITURE AGGREGATE
+    number: '14'
+    value: '349000.00'
+  - name: EXP TOTAL THIS REPORT
+    number: '15'
+    value: '150000.00'
+  - name: EXP TOTAL CYCLE-TO-DATE
+    number: '16'
+    value: '499000.00'
+  - name: as signed
+    number: 17-NAME/CANDI
+    value: Thomas E. Price
+  - name: Signed
+    number: 18-
+    value: '20040806'
+- input: '"F105","C00386755",20040806,"O    ","Primary Run-Off",150000.00,"","","0806200434C3759"'
+  record: <fec.version.v5_1.F105.Records instance at 0xe6c7e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F105
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: DATE OF EXPENDITURE
+    number: '3'
+    value: '20040806'
+  - name: ITEM ELECT CD
+    number: '4'
+    value: 'O    '
+  - name: ITEM ELECT OTHER
+    number: '5'
+    value: Primary Run-Off
+  - name: AMOUNT
+    number: '6'
+    value: '150000.00'
+  - name: LOAN CHECK
+    number: '7'
+    value: ''
+  - name: AMENDED CD
+    number: '8'
+    value: ''
+  - name: TRAN ID
+    number: '9'
+    value: 0806200434C3759
+sourceurl: !!python/unicode 20040806
+type: single
