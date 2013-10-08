@@ -1,0 +1,340 @@
+countraw: 5
+countrows: 3
+filename: 130418.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00399824
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Americans for Honest Politics
+  - name: STREET 1
+    number: '4'
+    value: 1101 30th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 220
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20007'
+  - name: Signed
+    number: 10-
+    value: Snyder^Craig^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20040805'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00399824,Americans for Honest Politics,"1101 30th Street, NW",Suite
+    220,Washington,DC,20007,Snyder^Craig^^,20040805,24
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0xe6cdd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00399824
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Ikon Holdings
+  - name: STREET 1
+    number: '5'
+    value: 1101 30th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: Radio Advertising Commission
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040804'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1525.77'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H4CO04041
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Faust^Bobby Earl^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: CO
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '04'
+  - name: Unused field
+    number: '20'
+    value: C00399824
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4151
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '10171.80'
+  expected_count: 46
+  input: SE24,C00399824,ORG,Ikon Holdings,"1101 30th Street, NW",,Washington,DC,20007,Radio
+    Advertising Commission,20040804,1525.77,S,H4CO04041,Faust^Bobby Earl^^,H,CO,04,C00399824,,,,,,,,,,,,,,,,,,SE24.4151,,,,,P2004,,004,,10171.80
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0xe6cf38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00399824
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Ikon Media Services
+  - name: STREET 1
+    number: '5'
+    value: 1101 30th Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20007'
+  - name: DATE
+    number: '11'
+    value: Radio Advertising Aired 8/5/04
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040804'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '8646.03'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H4CO04041
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Faust^Bobby Earl^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: CO
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '04'
+  - name: Unused field
+    number: '20'
+    value: C00399824
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4150
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: P2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '8646.03'
+  expected_count: 46
+  input: SE24,C00399824,ORG,Ikon Media Services,"1101 30th Street, NW",,Washington,DC,20007,Radio
+    Advertising Aired 8/5/04,20040804,8646.03,S,H4CO04041,Faust^Bobby Earl^^,H,CO,04,C00399824,,,,,,,,,,,,,,,,,,SE24.4150,,,,,P2004,,004,,8646.03
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0xe6cbd8>
+  result: []
+sourceurl: !!python/unicode 20040805
+type: single
