@@ -1,0 +1,716 @@
+countraw: 10
+countrows: 8
+filename: 128595.fec
+header: {}
+rows:
+- input: '"F6","C00304758","Friends of Roy Blunt","PO Box 50100","","Springfield","MO","65805   ","H6MO07128","Roy
+    Blunt","H","MO","7 ",20040719'
+  record: <fec.version.v5_1.F6.Records instance at 0x28482d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Roy Blunt
+  - name: STREET 1
+    number: '4'
+    value: PO Box 50100
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Springfield
+  - name: STATE
+    number: '7'
+    value: MO
+  - name: ZIP
+    number: '8'
+    value: '65805   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6MO07128
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Roy Blunt
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: MO
+  - name: CAN/DIST
+    number: '13'
+    value: '7 '
+  - name: Signed
+    number: 14-
+    value: '20040719'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lockheed Martin Employees PAC
+  - name: STREET 1
+    number: '5'
+    value: 1725 Jefferson Davis Highway
+  - name: STREET 2
+    number: '6'
+    value: Crystal Square Two
+  - name: CITY
+    number: '7'
+    value: ' Suite 300 '
+  - name: STATE
+    number: '8'
+    value: Arlington
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22202    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040719'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00303024
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0719200428C20675
+  expected_count: 27
+  input: '"F65","C00304758","PAC","Lockheed Martin Employees PAC","1725 Jefferson
+    Davis Highway","Crystal Square Two, Suite 300 ","Arlington","VA","22202    ","","",20040719,1500.00,"C00303024","","","","",,"","","","","","","","0719200428C20675"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2848488>
+  result: []
+- input: '"F65","C00304758","PAC","BASF Corporation Employees PAC","(BASF EMPAC)","3000
+    Continental Drive North ","Mount Olive","NJ","07828    ","","",20040719,1000.00,"C00340075","","","","",,"","","","","","","","0719200428C20674"'
+  record: <fec.version.v5_1.F65.Records instance at 0x2848518>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BASF Corporation Employees PAC
+  - name: STREET 1
+    number: '5'
+    value: (BASF EMPAC)
+  - name: STREET 2
+    number: '6'
+    value: '3000 Continental Drive North '
+  - name: CITY
+    number: '7'
+    value: Mount Olive
+  - name: STATE
+    number: '8'
+    value: NJ
+  - name: ZIP
+    number: '9'
+    value: '07828    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040719'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00340075
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0719200428C20674
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Accenture PAC
+  - name: STREET 1
+    number: '5'
+    value: 800 Connecticute Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: 'Suite 600 '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20006    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040719'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00300707
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0719200439C20662
+  expected_count: 27
+  input: '"F65","C00304758","PAC","Accenture PAC","800 Connecticute Ave., NW","Suite
+    600 ","Washington","DC","20006    ","","",20040719,1000.00,"C00300707","","","","",,"","","","","","","","0719200439C20662"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2848248>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bachmann^John
+  - name: STREET 1
+    number: '5'
+    value: 801 South Skinker
+  - name: STREET 2
+    number: '6'
+    value: ' Apt. 16A'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Saint Louis
+  - name: ZIP
+    number: '9'
+    value: MO
+  - name: INDEMP
+    number: '10'
+    value: '63105    '
+  - name: INDOCC
+    number: '11'
+    value: Edward D. Jones & Co.
+  - name: Of Contribution
+    number: 12-
+    value: Managing Partner
+  - name: AMOUNT
+    number: '13'
+    value: '20040719'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0719200428C20678
+  expected_count: 27
+  input: '"F65","C00304758","IND","Bachmann^John","801 South Skinker, Apt. 16A","","Saint
+    Louis","MO","63105    ","Edward D. Jones & Co.","Managing Partner",20040719,2000.00,"","","","","",,"","","","","","","","0719200428C20678"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2848518>
+  result: []
+- input: '"F65","C00304758","IND","Ciapciak^Bob","12555 Manchester","","Saint Louis","MO","63131    ","Edward
+    D. Jones & Co.","Principal",20040719,2000.00,"","","","","",,"","","","","","","","0719200428C20677"'
+  record: <fec.version.v5_1.F65.Records instance at 0x2848248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ciapciak^Bob
+  - name: STREET 1
+    number: '5'
+    value: 12555 Manchester
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Saint Louis
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '63131    '
+  - name: INDEMP
+    number: '10'
+    value: Edward D. Jones & Co.
+  - name: INDOCC
+    number: '11'
+    value: Principal
+  - name: Of Contribution
+    number: 12-
+    value: '20040719'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0719200428C20677
+- input: '"F65","C00304758","IND","Henry^Brenda","5932 Lawrence 2240","","Monett","MO","65708    ","Not
+    Applicable","housewife",20040719,1000.00,"","","","","",,"","","","","","","","0719200428C20673"'
+  record: <fec.version.v5_1.F65.Records instance at 0x2848518>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Henry^Brenda
+  - name: STREET 1
+    number: '5'
+    value: 5932 Lawrence 2240
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Monett
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '65708    '
+  - name: INDEMP
+    number: '10'
+    value: Not Applicable
+  - name: INDOCC
+    number: '11'
+    value: housewife
+  - name: Of Contribution
+    number: 12-
+    value: '20040719'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0719200428C20673
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SA15
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00304758
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: CONTRIBUTOR NAME
+    number: '4'
+    value: ''
+  - name: STREET 1
+    number: '5'
+    value: 2600 Tiburon Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Naples
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '34109    '
+  - name: ITEM ELECT CD
+    number: '10'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '11'
+    value: ''
+  - name: INDEMP
+    number: '12'
+    value: ''
+  - name: INDOCC
+    number: '13'
+    value: ''
+  - name: AGGREGATE AMT Y-T-D
+    number: '14'
+    value: '1580.00'
+  - name: DATE RECEIVED
+    number: '15'
+    value: '20040719'
+  - name: AMOUNT RECEIVED
+    number: '16'
+    value: '1580.00'
+  - name: TRANS CODE
+    number: '17'
+    value: 17R
+  - name: TRANS DESCRIP
+    number: '18'
+    value: Other Receipt
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '20'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '21'
+    value: ''
+  - name: CAN/OFFICE
+    number: '22'
+    value: ''
+  - name: CAN/STATE
+    number: '23'
+    value: ''
+  - name: CAN/DIST
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: MEMO CODE
+    number: '31'
+    value: ''
+  - name: MEMO TEXT
+    number: '32'
+    value: 'NOTE: Refund of Payment'
+  - name: AMENDED CD
+    number: '33'
+    value: ''
+  - name: TRAN ID
+    number: '34'
+    value: 0719200428C20676
+  - name: BACK REF TRAN ID
+    number: '35'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '36'
+    value: ''
+  - name: Reference to SI or SL system code that identifies the Account
+    number: '37'
+    value: ''
+  - name: INCREASED LIMIT
+    number: '38'
+    value: ''
+  - name: CONTRIB ORGANIZATION NAME
+    number: '39'
+    value: The Ritz Carleton Golf Resort
+  - name: CONTRIBUTOR LAST NAME
+    number: '40'
+    value: ' Naples'
+  - name: CONTRIBUTOR FIRST NAME
+    number: '41'
+    value: ''
+  - name: CONTRIBUTOR MIDDLE NAME
+    number: '42'
+    value: ''
+  - name: CONTRIBUTOR PREFIX
+    number: '43'
+    value: ''
+  - name: CONTRIBUTOR SUFFIX
+    number: '44'
+    value: ''
+  - value: ''
+  expected_count: 44
+  input: '"SA15","C00304758","ORG","","2600 Tiburon Drive","","Naples","FL","34109    ","P2004","","","",1580.00,20040719,1580.00,"17R","Other
+    Receipt","","","","","","","","","","","","","","NOTE: Refund of Payment","","0719200428C20676","","","","","The
+    Ritz Carleton Golf Resort, Naples","","","","",""'
+  input_count: 45
+  record: <fec.version.v5_1.SA.Records instance at 0x2848488>
+  result: []
+sourceurl: !!python/unicode 20040719
+type: single
