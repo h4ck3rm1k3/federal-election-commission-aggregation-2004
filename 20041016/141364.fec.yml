@@ -1,0 +1,396 @@
+countraw: 7
+countrows: 5
+filename: 141364.fec
+header: {}
+rows:
+- input: F6N,C00318931,FRIENDS OF CAROLYN MCCARTHY,151 Linden Road,,Mineola,NY,11501,H6NY04112,McCarthy^Carolyn^^,H,NY,04,20041016
+  record: <fec.version.v5_1.F6.Records instance at 0x137fcb90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00318931
+  - name: COMMITTEE NAME
+    number: '3'
+    value: FRIENDS OF CAROLYN MCCARTHY
+  - name: STREET 1
+    number: '4'
+    value: 151 Linden Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Mineola
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11501'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6NY04112
+  - name: CANDIDATE NAME
+    number: '10'
+    value: McCarthy^Carolyn^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NY
+  - name: CAN/DIST
+    number: '13'
+    value: '04'
+  - name: Signed
+    number: 14-
+    value: '20041016'
+- input: F65,C00318931,IND,Hecht^William,3111 Aurelia Ct,,Brooklyn,NY,11210,None,Retired
+    Accountant,20041015,1000.00,,,,,,,,,,,,,,F65.00000
+  record: <fec.version.v5_1.F65.Records instance at 0x13803488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00318931
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hecht^William
+  - name: STREET 1
+    number: '5'
+    value: 3111 Aurelia Ct
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Brooklyn
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11210'
+  - name: INDEMP
+    number: '10'
+    value: None
+  - name: INDOCC
+    number: '11'
+    value: Retired Accountant
+  - name: Of Contribution
+    number: 12-
+    value: '20041015'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00000
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00318931
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: UBS Americas Fund for Better Government
+  - name: STREET 1
+    number: '5'
+    value: 1285 Avenue of the Americas
+  - name: STREET 2
+    number: '6'
+    value: ' 14 FL'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: New York
+  - name: ZIP
+    number: '9'
+    value: NY
+  - name: INDEMP
+    number: '10'
+    value: '10019'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041014'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65.00001
+  expected_count: 27
+  input: F65,C00318931,PAC,UBS Americas Fund for Better Government,"1285 Avenue of
+    the Americas, 14 FL",,New York,NY,10019,,,20041014,2000.00,,,,,,,,,,,,,,F65.00001
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x30ffa9e0>
+  result: []
+- input: F65,C00318931,PAC,Action Fund of Lehman Brothers Holdings Inc,800 Connecticut
+    Ave NW ste 1200,,Washington,DC,1000.00,,,20041015,1000.00,,,,,,,,,,,,,,F65.00002
+  record: <fec.version.v5_1.F65.Records instance at 0x13803488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00318931
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Action Fund of Lehman Brothers Holdings Inc
+  - name: STREET 1
+    number: '5'
+    value: 800 Connecticut Ave NW ste 1200
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '1000.00'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041015'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00002
+- input: F65,C00318931,IND,Nassau County Lesbian & Gay Democrats,P.O. Box 334,,Long
+    Beach,NY,11561,,,20041015,1000.00,,,,,,,,,,,,,,F65.00003
+  record: <fec.version.v5_1.F65.Records instance at 0x30ffa9e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00318931
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Nassau County Lesbian & Gay Democrats
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 334
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Long Beach
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '11561'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041015'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00003
+sourceurl: !!python/unicode 20041016
+type: single
