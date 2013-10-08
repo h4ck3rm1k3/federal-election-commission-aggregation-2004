@@ -1,0 +1,428 @@
+countraw: 8
+countrows: 6
+filename: 141448.fec
+header: {}
+rows:
+- input: F6,"C00371211","Brad Miller for United States Congress","P.O. Box 10322","","Raleigh","NC","27605","H2NC13029","Brad
+    Miller","H","NC","13",20041016
+  record: <fec.version.v5_1.F6.Records instance at 0x409fd6c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Brad Miller for United States Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 10322
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Raleigh
+  - name: STATE
+    number: '7'
+    value: NC
+  - name: ZIP
+    number: '8'
+    value: '27605'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2NC13029
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Brad Miller
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NC
+  - name: CAN/DIST
+    number: '13'
+    value: '13'
+  - name: Signed
+    number: 14-
+    value: '20041016'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F6
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: ALL LOANS TO THE CAMPAIGN WERE MADE BY THE CANDIDATE USING THE CANDIDATE'S
+      OWN PERSONAL FUNDS
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: TEXT,"F6","","ALL LOANS TO THE CAMPAIGN WERE MADE BY THE CANDIDATE USING
+    THE CANDIDATE'S OWN PERSONAL FUNDS"
+  input_count: 4
+  record: <fec.version.v5_1.TEXT.Records instance at 0x409fd5a8>
+  result: []
+- input: F65,"C00371211","PAC","CNA Financial Corporation Citizens for Good Government","CNA
+    Plaza 43S","","Chicago","IL","60685","","",20041015,"1000","C00078287","","","","","","","","","","","","","C31351"
+  record: <fec.version.v5_1.F65.Records instance at 0x409fd6c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CNA Financial Corporation Citizens for Good Government
+  - name: STREET 1
+    number: '5'
+    value: CNA Plaza 43S
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chicago
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60685'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041015'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00078287
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C31351
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: United Food and Commercial Workers Int'l. Union
+  - name: STREET 1
+    number: '5'
+    value: 1775 K Street
+  - name: STREET 2
+    number: '6'
+    value: ' N.W.'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200061598'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041015'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00002766
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C31357
+  expected_count: 27
+  input: F65,"C00371211","PAC","United Food and Commercial Workers Int'l. Union","1775
+    K Street, N.W.","","Washington","DC","200061598","","",20041015,"2500","C00002766","","","","","","","","","","","","","C31357"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x409fd5a8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Association of Mortgage Brokers PAC
+  - name: STREET 1
+    number: '5'
+    value: 5185 MacArthur Blvd
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ' Suite 250'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20016'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041015'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00254201
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: C31359
+  expected_count: 27
+  input: F65,"C00371211","PAC","National Association of Mortgage Brokers PAC","5185
+    MacArthur Blvd, NW, Suite 250","","Washington","DC","20016","","",20041015,"1000","C00254201","","","","","","","","","","","","","C31359"
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x409fd6c8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371211
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ABA BankPAC
+  - name: STREET 1
+    number: '5'
+    value: 1120 Connecticut Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' N.W.'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041015'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00004275
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C31372
+  expected_count: 27
+  input: F65,"C00371211","PAC","ABA BankPAC","1120 Connecticut Avenue, N.W.","","Washington","DC","20036","","",20041015,"1000","C00004275","","","","","","","","","","","","","C31372"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x409fd5a8>
+  result: []
+sourceurl: !!python/unicode 20041016
+type: single
