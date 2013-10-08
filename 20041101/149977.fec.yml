@@ -1,0 +1,189 @@
+countraw: 4
+countrows: 2
+filename: 149977.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402628
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Alexandria Democratic Committee
+  - name: STREET 1
+    number: '4'
+    value: 618 N Washington St
+  - name: STREET 2
+    number: '5'
+    value: Ground floor
+  - name: CITY
+    number: '6'
+    value: ' Suite 2'
+  - name: STATE
+    number: '7'
+    value: Alexandria
+  - name: ZIP
+    number: '8'
+    value: VA
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '22314'
+  - name: Signed
+    number: 10-
+    value: Elisabeth R. Campbell^^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041101'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00402628,Alexandria Democratic Committee,618 N Washington St,"Ground
+    floor, Suite 2",Alexandria,VA,22314,Elisabeth R. Campbell^^^,20041101,24
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x23e21b8>
+  result: []
+- input: SE24,C00402628,ORG,USPS,Wythe Street,,Alexandria,VA,22314,postage ,20041027,9880.52,S,,,,,,C00402628,,,,,,,,,,,,,,,,,,SE24.5551,,,,,G2004,,,,19761.04
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402628
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: USPS
+  - name: STREET 1
+    number: '5'
+    value: Wythe Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: 'postage '
+  - name: DATE
+    number: '11'
+    value: '20041027'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '9880.52'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00402628
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.5551
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '19761.04'
+sourceurl: !!python/unicode 20041101
+type: single
