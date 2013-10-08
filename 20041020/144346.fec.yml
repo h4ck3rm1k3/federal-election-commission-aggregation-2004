@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 144346.fec
+header: {}
+rows:
+- input: F6,"C00165241","Committee to Elect Gary Ackerman","100 Jericho Quadrangle","Suite
+    233","Jericho","NY","11753","H4NY07011","Gary L. Ackerman","H","NY","5",20041020
+  record: <fec.version.v5_1.F6.Records instance at 0x409fdb90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00165241
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Committee to Elect Gary Ackerman
+  - name: STREET 1
+    number: '4'
+    value: 100 Jericho Quadrangle
+  - name: STREET 2
+    number: '5'
+    value: Suite 233
+  - name: CITY
+    number: '6'
+    value: Jericho
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '11753'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4NY07011
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Gary L. Ackerman
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NY
+  - name: CAN/DIST
+    number: '13'
+    value: '5'
+  - name: Signed
+    number: 14-
+    value: '20041020'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00165241
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bank of America Corp. State & Federal
+  - name: STREET 1
+    number: '5'
+    value: Political Action Committee
+  - name: STREET 2
+    number: '6'
+    value: 600 Peachtree St.
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '303083615'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041020'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00043489
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C20431
+  expected_count: 27
+  input: F65,"C00165241","PAC","Bank of America Corp. State & Federal","Political
+    Action Committee","600 Peachtree St., NE","Atlanta","GA","303083615","","",20041020,"1000","C00043489","","","","","","","","","","","","","C20431"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x21fee18>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00165241
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Federation of Teachers
+  - name: STREET 1
+    number: '5'
+    value: Committee on Political Education
+  - name: STREET 2
+    number: '6'
+    value: 555 New Jersey Ave.
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200012029'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041020'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00028860
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C20432
+  expected_count: 27
+  input: F65,"C00165241","PAC","American Federation of Teachers","Committee on Political
+    Education","555 New Jersey Ave., NW","Washington","DC","200012029","","",20041020,"1000","C00028860","","","","","","","","","","","","","C20432"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x21fecb0>
+  result: []
+sourceurl: !!python/unicode 20041020
+type: single
