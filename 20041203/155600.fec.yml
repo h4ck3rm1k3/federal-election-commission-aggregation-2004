@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 155600.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H0ID01139
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 1009 STAR RD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: STAR
+  - name: STATE
+    number: '7'
+    value: ID
+  - name: ZIP
+    number: '8'
+    value: '83669    '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: ID
+  - name: CAN/DIST
+    number: '12'
+    value: '01'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00345967
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: OTTER FOR IDAHO
+  - name: STREET 1
+    number: '16'
+    value: 1087 W. RIVER ST.
+  - name: STREET 2
+    number: '17'
+    value: ' STE 310'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: BOISE
+  - name: ZIP
+    number: '20'
+    value: ID
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '83702'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: C.L. BUTCH OTTER
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20041202'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: OTTER
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: C.L. BUTCH
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: F2,H0ID01139,,1009 STAR RD,,STAR,ID,83669    ,REP,H,ID,01,2006,C00345967,OTTER
+    FOR IDAHO,"1087 W. RIVER ST., STE 310",,BOISE,ID,83702,,,,,,,,C.L. BUTCH OTTER,20041202,0.00,0.00,OTTER,C.L.
+    "BUTCH",,,
+  input_count: 37
+  record: <fec.version.v5_1.F2.Records instance at 0x407492d8>
+  result: []
+sourceurl: !!python/unicode 20041203
+type: single
