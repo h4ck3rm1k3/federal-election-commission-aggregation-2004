@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 134077.fec
+header: {}
+rows:
+- input: '"F6","C00336065","Reynolds For Congress","PO Box 15388","","Rochester","NY","14615   ","H8NY27077","Thomas
+    M. Reynolds","H","NY","26",20040909'
+  record: <fec.version.v5_1.F6.Records instance at 0xe6b290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00336065
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Reynolds For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 15388
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Rochester
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '14615   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8NY27077
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Thomas M. Reynolds
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NY
+  - name: CAN/DIST
+    number: '13'
+    value: '26'
+  - name: Signed
+    number: 14-
+    value: '20040909'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00336065
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Allianz Firemans Fund Insurance Co. PAC
+  - name: STREET 1
+    number: '5'
+    value: Mr. Peter Lefkin
+  - name: STREET 2
+    number: '6'
+    value: 1101 Connecticut Ave
+  - name: CITY
+    number: '7'
+    value: ' NW  Ste 950 '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040909'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00095109
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0909200411C17052
+  expected_count: 27
+  input: '"F65","C00336065","PAC","Allianz Firemans Fund Insurance Co. PAC","Mr. Peter
+    Lefkin","1101 Connecticut Ave, NW  Ste 950 ","Washington","DC","20036    ","","",20040909,1000.00,"C00095109","","","","",,"","","","","","","","0909200411C17052"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xe6b3b0>
+  result: []
+sourceurl: !!python/unicode 20040909
+type: single
