@@ -1,0 +1,403 @@
+countraw: 7
+countrows: 5
+filename: 143502.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386433
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ZUPANCIC FOR CONGRESS 2004
+  - name: STREET 1
+    number: '4'
+    value: ' INC'
+  - name: STREET 2
+    number: '5'
+    value: 1300 SW FIFTH AVE SUITE 2300
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: PORTLAND
+  - name: ZIP
+    number: '8'
+    value: OR
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '97201'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4OR05163
+  - name: CAN/OFFICE
+    number: '11'
+    value: ZUPANCIC^JAMES D^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: OR
+  - name: Signed
+    number: 14-
+    value: '05'
+  - value: '20041019'
+  expected_count: 14
+  input: F6,C00386433,"ZUPANCIC FOR CONGRESS 2004, INC",1300 SW FIFTH AVE SUITE 2300,,PORTLAND,OR,97201,H4OR05163,ZUPANCIC^JAMES
+    D^^,H,OR,05,20041019
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23e23b0>
+  result: []
+- input: F65,C00386433,IND,Stoller^Bill^^,7401 SW Washo,,Tualatin,OR,97062,Express
+    Personnell,CEO,20041019,1000.00,C00386433,H4OR05163,ZUPANCIC^JAMES D^^,H,OR,05,,,,,,,,F6.7138
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2560>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386433
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Stoller^Bill^^
+  - name: STREET 1
+    number: '5'
+    value: 7401 SW Washo
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tualatin
+  - name: STATE
+    number: '8'
+    value: OR
+  - name: ZIP
+    number: '9'
+    value: '97062'
+  - name: INDEMP
+    number: '10'
+    value: Express Personnell
+  - name: INDOCC
+    number: '11'
+    value: CEO
+  - name: Of Contribution
+    number: 12-
+    value: '20041019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00386433
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OR05163
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ZUPANCIC^JAMES D^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7138
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386433
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ASSOCIATED GENERAL CONTRACTORS OF AMERICA POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 333 HON CARLYLE STREET
+  - name: STREET 2
+    number: '6'
+    value: ' SUITE 200'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ALEXANDRIA
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22314'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041019'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00386433
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4OR05163
+  - name: CAN/OFFICE
+    number: '17'
+    value: ZUPANCIC^JAMES D^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: OR
+  - name: CONDUIT NAME
+    number: '20'
+    value: '05'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.7139
+  expected_count: 27
+  input: F65,C00386433,PAC,ASSOCIATED GENERAL CONTRACTORS OF AMERICA POLITICAL ACTION
+    COMMITTEE,"333 HON CARLYLE STREET, SUITE 200",,ALEXANDRIA,VA,22314,,,20041019,3500.00,C00386433,H4OR05163,ZUPANCIC^JAMES
+    D^^,H,OR,05,,,,,,,,F6.7139
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23e23b0>
+  result: []
+- input: F65,C00386433,PAC,ASSOCIATED OREGON LOGGERS INC FEDERAL PAC (AOL FED PAC),1127
+    25TH ST SE,,SALEM,OR,97301,,,20041019,1000.00,C00386433,H4OR05163,ZUPANCIC^JAMES
+    D^^,H,OR,05,,,,,,,,F6.7134
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2560>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386433
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ASSOCIATED OREGON LOGGERS INC FEDERAL PAC (AOL FED PAC)
+  - name: STREET 1
+    number: '5'
+    value: 1127 25TH ST SE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: SALEM
+  - name: STATE
+    number: '8'
+    value: OR
+  - name: ZIP
+    number: '9'
+    value: '97301'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00386433
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OR05163
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ZUPANCIC^JAMES D^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7134
+- input: F65,C00386433,PAC,NEW PAC,P.O. BOX 7480,,VISALIA,CA,93290,,,20041019,2000.00,C00386433,H4OR05163,ZUPANCIC^JAMES
+    D^^,H,OR,05,,,,,,,,F6.7140
+  record: <fec.version.v5_1.F65.Records instance at 0x23e23b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386433
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NEW PAC
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 7480
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: VISALIA
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '93290'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041019'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00386433
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4OR05163
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ZUPANCIC^JAMES D^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: OR
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.7140
+sourceurl: !!python/unicode 20041020
+type: single
