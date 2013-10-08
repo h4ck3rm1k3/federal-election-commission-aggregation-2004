@@ -1,0 +1,987 @@
+countraw: 13
+countrows: 11
+filename: 133146.fec
+header: {}
+rows:
+- input: '"F5N","C90005471","Planned Parenthood Action Fund Inc.","434 West 33rd Street",,"New
+    York","NY","10001",,"Y",,,12P,,,,"20040729","20040829","0.00","11199.00","David
+    Williams","20040830",,,,48'
+  record: <fec.version.v5_1.F5.Records instance at 0x1c49c68>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F5N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Planned Parenthood Action Fund Inc.
+  - name: STREET 1
+    number: '4'
+    value: 434 West 33rd Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: New York
+  - name: STATE
+    number: '7'
+    value: NY
+  - name: ZIP
+    number: '8'
+    value: '10001'
+  - name: CHG OF ADDRESS
+    number: '9'
+    value: ''
+  - name: Qual/Non Q
+    number: 10-
+    value: Y
+  - name: INDEMP
+    number: '11'
+    value: ''
+  - name: INDOCC
+    number: '12'
+    value: ''
+  - name: RPTCODE
+    number: '13'
+    value: 12P
+  - name: RPTPGI
+    number: '14'
+    value: ''
+  - name: Of Election
+    number: 15-
+    value: ''
+  - name: STATE (Of Election)
+    number: '16'
+    value: ''
+  - name: Coverage From
+    number: 17-
+    value: '20040729'
+  - name: Coverage To
+    number: 18-
+    value: '20040829'
+  - name: TOTAL CONTRIBUTION
+    number: '19'
+    value: '0.00'
+  - name: TOTAL INDEP. EXPEND
+    number: '20'
+    value: '11199.00'
+  - name: Person Completing Form
+    number: 21-
+    value: David Williams
+  - name: Signed
+    number: 22-
+    value: '20040830'
+  - name: Notarized
+    number: 23-
+    value: ''
+  - name: Notary Commission Expires
+    number: 24-
+    value: ''
+  - name: Notary
+    number: 25-
+    value: ''
+  - name: HOUR 48HOUR CODE
+    number: 26-24
+    value: '48'
+- input: TEXT,F5N,,"With this filing, the Fund fulfills its requirement to electronically
+    file any Form 5.  Portions of this filing may only appear to viewers using Netscape
+    to browse the FEC web site.  We have been assured by the Reports Analysis Division
+    (RAD) that reports we have filed are available to the Commission staff.  Please
+    contact RAD with any questions."
+  record: <fec.version.v5_1.TEXT.Records instance at 0x1c49248>
+  result:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F5N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: With this filing
+  - name: AMENDED CD
+    number: '5'
+    value: ' the Fund fulfills its requirement to electronically file any Form 5.  Portions
+      of this filing may only appear to viewers using Netscape to browse the FEC web
+      site.  We have been assured by the Reports Analysis Division (RAD) that reports
+      we have filed are available to the Commission staff.  Please contact RAD with
+      any questions.'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F5N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: This 48 hour report is not tied to any Pre-Primary reporting period.  However
+  - name: AMENDED CD
+    number: '5'
+    value: ' in order to e-file this report'
+  - value: ' we have been advised by the FEC Electronic Filing Division that we will
+      have to add such a notation to each report until electronic specifications are
+      changed to accommodate 48 hour reports by independent expenditure filers.  Additionally
+      we must use an ending coverage date for a current Pre-Primary Period (August
+      29) in order to successfully e-file the report.'
+  expected_count: 5
+  input: TEXT,F5N,,"This 48 hour report is not tied to any Pre-Primary reporting period.  However,
+    in order to e-file this report, we have been advised by the FEC Electronic Filing
+    Division that we will have to add such a notation to each report until electronic
+    specifications are changed to accommodate 48 hour reports by independent expenditure
+    filers.  Additionally we must use an ending coverage date for a current Pre-Primary
+    Period (August 29) in order to successfully e-file the report."
+  input_count: 6
+  record: <fec.version.v5_1.TEXT.Records instance at 0x1c49dd0>
+  result: []
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F5N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: The August 17th and August 23rd payments for independent expenditures in
+      support of Senator Kerry were for the final invoices from both of these vendors
+      for a communication reported as an independent expenditure on 7/21/04.  PPAF
+      was not aware of these additional costs at the time of reporting the original
+      expenditure.
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: TEXT,F5N,,"The August 17th and August 23rd payments for independent expenditures
+    in support of Senator Kerry were for the final invoices from both of these vendors
+    for a communication reported as an independent expenditure on 7/21/04.  PPAF was
+    not aware of these additional costs at the time of reporting the original expenditure."
+  input_count: 4
+  record: <fec.version.v5_1.TEXT.Records instance at 0x1c49248>
+  result: []
+- input: F57,C90005471,CAN,Planned Parenthood Federation of America,434 West 33rd
+    Street,,New York,NY,10001,Political Electronic Mail,20040813,168.00,S,P80000235,John
+    F. Kerry,P,,,C00383653,,,,,,,,,,,,,8,,24E,168.00,G2004,
+  record: <fec.version.v5_1.F57.Records instance at 0x1c49dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Planned Parenthood Federation of America
+  - name: STREET 1
+    number: '5'
+    value: 434 West 33rd Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10001'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Political Electronic Mail
+  - name: Of Expenditure
+    number: 11-
+    value: '20040813'
+  - name: AMOUNT
+    number: '12'
+    value: '168.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: John F. Kerry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00383653
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '8'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24E
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '168.00'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,C90005471,CAN,Bachurski & Associates,303 7th Street S.E.,,Washington,DC,20003,Political
+    Mail,20040817,85.00,S,P80000235,John F. Kerry,P,,,C00383653,,,,,,,,,,,,,9,,24E,128152.65,P2004,
+  record: <fec.version.v5_1.F57.Records instance at 0x1c49248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Bachurski & Associates
+  - name: STREET 1
+    number: '5'
+    value: 303 7th Street S.E.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Political Mail
+  - name: Of Expenditure
+    number: 11-
+    value: '20040817'
+  - name: AMOUNT
+    number: '12'
+    value: '85.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: John F. Kerry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00383653
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '9'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24E
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '128152.65'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,C90005471,CAN,T/C Mailing,809 Keith Lane,,Owings,MD,20736,Political Mail,20040823,123.00,S,P80000235,John
+    F. Kerry,P,,,C00383653,,,,,,,,,,,,,10,,24E,128275.65,P2004,
+  record: <fec.version.v5_1.F57.Records instance at 0x1c49dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: T/C Mailing
+  - name: STREET 1
+    number: '5'
+    value: 809 Keith Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Owings
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20736'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Political Mail
+  - name: Of Expenditure
+    number: 11-
+    value: '20040823'
+  - name: AMOUNT
+    number: '12'
+    value: '123.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: John F. Kerry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00383653
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '10'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24E
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '128275.65'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Terris
+  - name: STREET 1
+    number: '5'
+    value: ' Barnes & Walters'
+  - name: STREET 2
+    number: '6'
+    value: 400 Montgomery Street
+  - name: CITY
+    number: '7'
+    value: Suite 900
+  - name: STATE
+    number: '8'
+    value: San Francisco
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '94104'
+  - name: Of Expenditure
+    number: 11-
+    value: Political Mail
+  - name: AMOUNT
+    number: '12'
+    value: '20040825'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '3573.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P00003335
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: George W. Bush
+  - name: S/O CAN/STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00386987
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: ''
+  - name: CATEGORY CODE
+    number: '33'
+    value: '11'
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: ''
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: 24A
+  - name: ITEM ELECT CD
+    number: '36'
+    value: '44290.92'
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: P2004
+  - value: ''
+  expected_count: 37
+  input: F57,C90005471,CAN,"Terris, Barnes & Walters",400 Montgomery Street,Suite
+    900,San Francisco,CA,94104,Political Mail,20040825,3573.00,O,P00003335,George
+    W. Bush,P,,,C00386987,,,,,,,,,,,,,11,,24A,44290.92,P2004,
+  input_count: 38
+  record: <fec.version.v5_1.F57.Records instance at 0x1c49248>
+  result: []
+- input: F57,C90005471,CAN,Bachurski & Associates,303 7th Street S.E.,,Washington,DC,20003,Political
+    Mail,20040828,984.00,O,P00003335,George W. Bush,P,,,C00386987,,,,,,,,,,,,,12,,24A,45274.92,P2004,
+  record: <fec.version.v5_1.F57.Records instance at 0x1c49dd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Bachurski & Associates
+  - name: STREET 1
+    number: '5'
+    value: 303 7th Street S.E.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Political Mail
+  - name: Of Expenditure
+    number: 11-
+    value: '20040828'
+  - name: AMOUNT
+    number: '12'
+    value: '984.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: George W. Bush
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00386987
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '12'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24A
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '45274.92'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,C90005471,CAN,T/C Mailing,809 Keith Lane,,Owings,MD,20736,Political Mail,20040828,2016.00,O,P00003335,George
+    W. Bush,P,,,C00386987,,,,,,,,,,,,,13,,24A,47290.92,P2004,
+  record: <fec.version.v5_1.F57.Records instance at 0x1c49248>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: T/C Mailing
+  - name: STREET 1
+    number: '5'
+    value: 809 Keith Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Owings
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20736'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Political Mail
+  - name: Of Expenditure
+    number: 11-
+    value: '20040828'
+  - name: AMOUNT
+    number: '12'
+    value: '2016.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: George W. Bush
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00386987
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '13'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24A
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '47290.92'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+- input: F57,C90005471,CAN,Carol/Trevelyan Strategy Group,605 Market Street,Suite
+    750,San Francisco,CA,94105,Political Website,20040828,4250.00,O,P00003335,George
+    W. Bush,P,,,C00386987,,,,,,,,,,,,,14,,24A,51540.92,P2004,
+  record: <fec.version.v5_1.F57.Records instance at 0x1c49e18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F57
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C90005471
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Payee)
+    number: '4'
+    value: Carol/Trevelyan Strategy Group
+  - name: STREET 1
+    number: '5'
+    value: 605 Market Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 750
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Political Website
+  - name: Of Expenditure
+    number: 11-
+    value: '20040828'
+  - name: AMOUNT
+    number: '12'
+    value: '4250.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: George W. Bush
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O CAN/STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00386987
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: AMENDED CD
+    number: '31'
+    value: ''
+  - name: TRAN ID
+    number: '32'
+    value: '14'
+  - name: CATEGORY CODE
+    number: '33'
+    value: ''
+  - name: TRANS Purpose CODE
+    number: '34'
+    value: 24A
+  - name: Calendar YTD for election/office sought
+    number: '35'
+    value: '51540.92'
+  - name: ITEM ELECT CD
+    number: '36'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '37'
+    value: ''
+sourceurl: !!python/unicode 20040830
+type: single
