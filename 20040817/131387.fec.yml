@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 131387.fec
+header: {}
+rows:
+- input: F6,C00367680,BROWN-WAITE FOR CONGRESS,704 PONCE DE LEON BLVD,,BROOKSVILLE,FL,34601,H2FL05127,Brown-Waite^Virginia^^,H,FL,05,20040817
+  record: <fec.version.v5_1.F6.Records instance at 0x432066c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367680
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BROWN-WAITE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 704 PONCE DE LEON BLVD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BROOKSVILLE
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '34601'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2FL05127
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Brown-Waite^Virginia^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: FL
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20040817'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367680
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ASSOCIATED GENERAL CONTRACTORS OF AMERICA POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 333 JOHN CARLYLE STREET
+  - name: STREET 2
+    number: '6'
+    value: ' SUITE 200'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ALEXANDRIA
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22314'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040816'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00367680
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H2FL05127
+  - name: CAN/OFFICE
+    number: '17'
+    value: Brown-Waite^Virginia^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: FL
+  - name: CONDUIT NAME
+    number: '20'
+    value: '05'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.11185
+  expected_count: 27
+  input: F65,C00367680,PAC,ASSOCIATED GENERAL CONTRACTORS OF AMERICA POLITICAL ACTION
+    COMMITTEE,"333 JOHN CARLYLE STREET, SUITE 200",,ALEXANDRIA,VA,22314,,,20040816,1000.00,C00367680,H2FL05127,Brown-Waite^Virginia^^,H,FL,05,,,,,,,,F6.11185
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x43206a28>
+  result: []
+sourceurl: !!python/unicode 20040817
+type: single
