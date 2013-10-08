@@ -1,0 +1,663 @@
+countraw: 10
+countrows: 8
+filename: 149229.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Knollenberg for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 30701 Woodward Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' #300'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Royal Oak
+  - name: ZIP
+    number: '8'
+    value: MI
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '48073   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2MI11042
+  - name: CAN/OFFICE
+    number: '11'
+    value: Joseph K. Knollenberg
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MI
+  - name: Signed
+    number: 14-
+    value: '9 '
+  - value: '20041029'
+  expected_count: 14
+  input: '"F6","C00266767","Knollenberg for Congress Committee","30701 Woodward Avenue,
+    #300","","Royal Oak","MI","48073   ","H2MI11042","Joseph K. Knollenberg","H","MI","9
+    ",20041029'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23dbea8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Garabed K.  Armenian
+  - name: STREET 1
+    number: '5'
+    value: Siemens Corporation PAC
+  - name: STREET 2
+    number: '6'
+    value: 701 Pennsylvania Ave.
+  - name: CITY
+    number: '7'
+    value: ' NW '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20004    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: Director
+  - name: AMOUNT
+    number: '13'
+    value: '20041029'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 41029.C29089
+  expected_count: 27
+  input: '"F65","C00266767","PAC","Garabed K.  Armenian","Siemens Corporation PAC","701
+    Pennsylvania Ave., NW ","Washington","DC","20004    ","","Director",20041029,3000.00,"","","","","",,"","","","","","","","41029.C29089"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23e21b8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bahadur^B.N.
+  - name: STREET 1
+    number: '5'
+    value: 3222 Middlebelt Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: West Bloomfield
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '483231938'
+  - name: INDEMP
+    number: '10'
+    value: Bahadur
+  - name: INDOCC
+    number: '11'
+    value: ' Balan & Kazerski'
+  - name: Of Contribution
+    number: 12-
+    value: ' Ltd'
+  - name: AMOUNT
+    number: '13'
+    value: Consultant
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ' Mgt. & Fin.'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20041028'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '2000.00'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: 41029.C29081
+  expected_count: 27
+  input: '"F65","C00266767","IND","Bahadur^B.N.","3222 Middlebelt Rd.","","West Bloomfield","MI","483231938","Bahadur,
+    Balan & Kazerski, Ltd","Consultant, Mgt. & Fin.",20041028,2000.00,"","","","","",,"","","","","","","","41029.C29081"'
+  input_count: 30
+  record: <fec.version.v5_1.F65.Records instance at 0x23dbea8>
+  result: []
+- input: '"F65","C00266767","IND","Diehl^Judith","30261 Rosebriar","","Saint Clair
+    Shores","MI","48082    ","St. Isaac Joques Parish","Tuition Bookkeeper",20041028,1000.00,"","","","","",,"","","","","","","","41029.C29078"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e21b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Diehl^Judith
+  - name: STREET 1
+    number: '5'
+    value: 30261 Rosebriar
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Saint Clair Shores
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48082    '
+  - name: INDEMP
+    number: '10'
+    value: St. Isaac Joques Parish
+  - name: INDOCC
+    number: '11'
+    value: Tuition Bookkeeper
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41029.C29078
+- input: '"F65","C00266767","IND","Jacob^Joel","P.O. Box 250250","70001 Orchard Lake
+    Road ","West Bloomfield","MI","483250250","M. Jacob & Sons","President",20041028,1000.00,"","","","","",,"","","","","","","","41029.C29083"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dbea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Jacob^Joel
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 250250
+  - name: STREET 2
+    number: '6'
+    value: '70001 Orchard Lake Road '
+  - name: CITY
+    number: '7'
+    value: West Bloomfield
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '483250250'
+  - name: INDEMP
+    number: '10'
+    value: M. Jacob & Sons
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41029.C29083
+- input: '"F65","C00266767","IND","Masse^Alicia","5500 Putnam Dr.","","West Bloomfield","MI","483233720","Information
+    Requested","",20041028,1000.00,"","","","","",,"","","","","","","","41029.C29082"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e21b8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Masse^Alicia
+  - name: STREET 1
+    number: '5'
+    value: 5500 Putnam Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: West Bloomfield
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '483233720'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41029.C29082
+- input: '"F65","C00266767","PTY","Keep McDade in Congress Com.","1117 Bank Towers","321
+    Spruce Street ","Scranton","PA","18503    ","","",20041029,2000.00,"","","","","",,"","","","","","","","41029.C29086"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: PTY
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Keep McDade in Congress Com.
+  - name: STREET 1
+    number: '5'
+    value: 1117 Bank Towers
+  - name: STREET 2
+    number: '6'
+    value: '321 Spruce Street '
+  - name: CITY
+    number: '7'
+    value: Scranton
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '18503    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041029'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41029.C29086
+- input: '"F65","C00266767","IND","Thomas^Michael","24 S. Edgewood Drive","","Grosse
+    Pointe Shor","MI","48236    ","Information Requested","",20041028,1000.00,"","","","","",,"","","","","","","","41029.C29079"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dbea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Thomas^Michael
+  - name: STREET 1
+    number: '5'
+    value: 24 S. Edgewood Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Grosse Pointe Shor
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48236    '
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41029.C29079
+sourceurl: !!python/unicode 20041029
+type: single
