@@ -1,0 +1,842 @@
+countraw: 12
+countrows: 10
+filename: 149421.fec
+header: {}
+rows:
+- input: '"F6","C00386755","Price for Congress","P.O. Box 425","","Roswell","GA","30077   ","H4GA06087","Thomas
+    Edmunds Price","H","GA","6 ",20041029'
+  record: <fec.version.v5_1.F6.Records instance at 0x23deef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Price for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 425
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Roswell
+  - name: STATE
+    number: '7'
+    value: GA
+  - name: ZIP
+    number: '8'
+    value: '30077   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4GA06087
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Thomas Edmunds Price
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: GA
+  - name: CAN/DIST
+    number: '13'
+    value: '6 '
+  - name: Signed
+    number: 14-
+    value: '20041029'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Success PAC
+  - name: STREET 1
+    number: '5'
+    value: David Dreier
+  - name: STREET 2
+    number: '6'
+    value: ' Honorary Chairman'
+  - name: CITY
+    number: '7'
+    value: 1155 21st Street
+  - name: STATE
+    number: '8'
+    value: ' NW Suite 300'
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20036    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041028'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 41028.C4018
+  expected_count: 27
+  input: '"F65","C00386755","PAC","American Success PAC","David Dreier, Honorary Chairman","1155
+    21st Street, NW Suite 300","Washington","DC","20036    ","","",20041028,1000.00,"","","","","",,"","","","","","","","41028.C4018"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x23dedd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: BellSouth Corp. Employees Federal
+  - name: STREET 1
+    number: '5'
+    value: Political Action Committee
+  - name: STREET 2
+    number: '6'
+    value: 1025 Lenox Park Blvd.
+  - name: CITY
+    number: '7'
+    value: ' 6B648 Attn:'
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30319    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041029'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 41029.C4030
+  expected_count: 27
+  input: '"F65","C00386755","PAC","BellSouth Corp. Employees Federal","Political Action
+    Committee","1025 Lenox Park Blvd., 6B648 Attn:","Atlanta","GA","30319    ","","",20041029,2000.00,"","","","","",,"","","","","","","","41029.C4030"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dec20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dr. Jack M. Chapman
+  - name: STREET 1
+    number: '5'
+    value: ' Jr.'
+  - name: STREET 2
+    number: '6'
+    value: 4567 Crooked Creek Road
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Gainesville
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30501    '
+  - name: INDOCC
+    number: '11'
+    value: Self
+  - name: Of Contribution
+    number: 12-
+    value: Physician
+  - name: AMOUNT
+    number: '13'
+    value: '20041029'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 41029.C4027
+  expected_count: 27
+  input: '"F65","C00386755","IND","Dr. Jack M. Chapman, Jr.","4567 Crooked Creek Road","","Gainesville","GA","30501    ","Self","Physician",20041029,1000.00,"","","","","",,"","","","","","","","41029.C4027"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dr. S.W. Clark
+  - name: STREET 1
+    number: '5'
+    value: ' III'
+  - name: STREET 2
+    number: '6'
+    value: PO Box 2009
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Waycross
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '31502    '
+  - name: INDOCC
+    number: '11'
+    value: The Clark Eye Clinic
+  - name: Of Contribution
+    number: 12-
+    value: Ophthamologist
+  - name: AMOUNT
+    number: '13'
+    value: '20041029'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 41029.C4026
+  expected_count: 27
+  input: '"F65","C00386755","IND","Dr. S.W. Clark, III","PO Box 2009","","Waycross","GA","31502    ","The
+    Clark Eye Clinic","Ophthamologist",20041029,1000.00,"","","","","",,"","","","","","","","41029.C4026"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dec20>
+  result: []
+- input: '"F65","C00386755","PAC","GlaxoSmithKline PAC","Five Moore Drive","Attn:
+    Megan L. Brier ","Durham","NC","27709    ","","",20041028,1000.00,"","","","","",,"","","","","","","","41028.C4017"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: GlaxoSmithKline PAC
+  - name: STREET 1
+    number: '5'
+    value: Five Moore Drive
+  - name: STREET 2
+    number: '6'
+    value: 'Attn: Megan L. Brier '
+  - name: CITY
+    number: '7'
+    value: Durham
+  - name: STATE
+    number: '8'
+    value: NC
+  - name: ZIP
+    number: '9'
+    value: '27709    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41028.C4017
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Dr. Daniel Hanks
+  - name: STREET 1
+    number: '5'
+    value: ' Jr.'
+  - name: STREET 2
+    number: '6'
+    value: 39 Huntington Rd. SW
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Rome
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30165    '
+  - name: INDOCC
+    number: '11'
+    value: Rome Radiology Group
+  - name: Of Contribution
+    number: 12-
+    value: Physician
+  - name: AMOUNT
+    number: '13'
+    value: '20041029'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 41029.C4025
+  expected_count: 27
+  input: '"F65","C00386755","IND","Dr. Daniel Hanks, Jr.","39 Huntington Rd. SW","","Rome","GA","30165    ","Rome
+    Radiology Group","Physician",20041029,1000.00,"","","","","",,"","","","","","","","41029.C4025"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dec20>
+  result: []
+- input: '"F65","C00386755","IND","Jeanne E. Lipsitt","1265 Stuart Ridge","","Alpharetta","GA","30022    ","Information
+    Requested","Homemaker",20041029,1000.00,"","","","","",,"","","","","","","","41029.C4028"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Jeanne E. Lipsitt
+  - name: STREET 1
+    number: '5'
+    value: 1265 Stuart Ridge
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alpharetta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30022    '
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20041029'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41029.C4028
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Deborah Martin
+  - name: STREET 1
+    number: '5'
+    value: ' MD'
+  - name: STREET 2
+    number: '6'
+    value: 310 South Satinwood Place
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Roswell
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30076    '
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: Of Contribution
+    number: 12-
+    value: Information Requested
+  - name: AMOUNT
+    number: '13'
+    value: '20041029'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 41029.C4029
+  expected_count: 27
+  input: '"F65","C00386755","IND","Deborah Martin, MD","310 South Satinwood Place","","Roswell","GA","30076    ","Information
+    Requested","Information Requested",20041029,1000.00,"","","","","",,"","","","","","","","41029.C4029"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dec20>
+  result: []
+- input: '"F65","C00386755","IND","Mr. John W. McCann","1010 Forrest Hills Pt","","Bogart","GA","306222470","McCann
+    Aerospace","President",20041028,2000.00,"","","","","",,"","","","","","","","41028.C4024"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386755
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Mr. John W. McCann
+  - name: STREET 1
+    number: '5'
+    value: 1010 Forrest Hills Pt
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bogart
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '306222470'
+  - name: INDEMP
+    number: '10'
+    value: McCann Aerospace
+  - name: INDOCC
+    number: '11'
+    value: President
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41028.C4024
+sourceurl: !!python/unicode 20041029
+type: single
