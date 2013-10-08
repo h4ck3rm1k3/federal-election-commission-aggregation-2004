@@ -1,0 +1,402 @@
+countraw: 7
+countrows: 5
+filename: 132110.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00310607
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Boyd For Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 15703
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tallahassee
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '32317   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6FL00046
+  - name: CANDIDATE NAME
+    number: '10'
+    value: F. Allen Boyd
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' Jr.'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: FL
+  - name: Signed
+    number: 14-
+    value: '02'
+  - value: '20040820'
+  expected_count: 14
+  input: '"F6","C00310607","Boyd For Congress","P.O. Box 15703","","Tallahassee","FL","32317   ","H6FL00046","F.
+    Allen Boyd, Jr.","H","FL","02",20040820'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0xe6cfc8>
+  result: []
+- input: '"F65","C00310607","IND","Cash^Traci","271 Chelsea Drive","","Crawfordville","FL","32327    ","Self","CPA",20040819,1000.00,"","","","","",,"","","","","","","","0820200450C9651"'
+  record: <fec.version.v5_1.F65.Records instance at 0xe6cf38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00310607
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Cash^Traci
+  - name: STREET 1
+    number: '5'
+    value: 271 Chelsea Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Crawfordville
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '32327    '
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: CPA
+  - name: Of Contribution
+    number: 12-
+    value: '20040819'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0820200450C9651
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00310607
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Jim Davis For Congress
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: P.O. Box 18143
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Tampa
+  - name: ZIP
+    number: '9'
+    value: FL
+  - name: INDEMP
+    number: '10'
+    value: '33679    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040819'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0820200450C9653
+  expected_count: 27
+  input: '"F65","C00310607","CCM","Jim Davis For Congress, Inc","P.O. Box 18143","","Tampa","FL","33679    ","","",20040819,1000.00,"","","","","",,"","","","","","","","0820200450C9653"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xe6cfc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00310607
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Jim Davis For Congress
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: P.O. Box 18143
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Tampa
+  - name: ZIP
+    number: '9'
+    value: FL
+  - name: INDEMP
+    number: '10'
+    value: '33679    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20040819'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0820200450C9652
+  expected_count: 27
+  input: '"F65","C00310607","CCM","Jim Davis For Congress, Inc","P.O. Box 18143","","Tampa","FL","33679    ","","",20040819,1000.00,"","","","","",,"","","","","","","","0820200450C9652"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xe6cf38>
+  result: []
+- input: '"F65","C00310607","PAC","American College of Radiology","Assoc. PAC","1891
+    Preston White Drive ","Reston","VA","20191    ","","",20040820,3000.00,"","","","","",,"","","","","","","","0820200450C9658"'
+  record: <fec.version.v5_1.F65.Records instance at 0xe6c6c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00310607
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American College of Radiology
+  - name: STREET 1
+    number: '5'
+    value: Assoc. PAC
+  - name: STREET 2
+    number: '6'
+    value: '1891 Preston White Drive '
+  - name: CITY
+    number: '7'
+    value: Reston
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '20191    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040820'
+  - name: AMOUNT
+    number: '13'
+    value: '3000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0820200450C9658
+sourceurl: !!python/unicode 20040820
+type: single
