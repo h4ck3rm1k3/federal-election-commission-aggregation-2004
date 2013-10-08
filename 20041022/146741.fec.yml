@@ -1,0 +1,489 @@
+countraw: 8
+countrows: 6
+filename: 146741.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JOHN SULLIVAN FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: Post Office Box 470840
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Tulsa
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: OK
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '74147   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2OK01093
+  - name: CAN/OFFICE
+    number: '11'
+    value: John Sullivan
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: '01'
+  - value: '20041022'
+  expected_count: 14
+  input: '"F6","C00366773","JOHN SULLIVAN FOR CONGRESS","Post Office Box 470840","","Tulsa,","OK","74147   ","H2OK01093","John
+    Sullivan","H","","01",20041022'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23de170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Biolchini^Robert
+  - name: STREET 1
+    number: '5'
+    value: 1744 E 29th St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tulsa
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '741145402'
+  - name: INDEMP
+    number: '10'
+    value: Stuart
+  - name: INDOCC
+    number: '11'
+    value: ' Biolchini'
+  - name: Of Contribution
+    number: 12-
+    value: ' Turner & Gi'
+  - name: AMOUNT
+    number: '13'
+    value: Attorney
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041022'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1022200445C5775
+  expected_count: 27
+  input: '"F65","C00366773","IND","Biolchini^Robert","1744 E 29th St","","Tulsa","OK","741145402","Stuart,
+    Biolchini, Turner & Gi","Attorney",20041022,1000.00,"","","","","",,"","","","","","","","1022200445C5775"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x23de0e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lackey
+  - name: STREET 1
+    number: '5'
+    value: ' Jr.^Paul'
+  - name: STREET 2
+    number: '6'
+    value: 1219 E 21st Pl
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Tulsa
+  - name: ZIP
+    number: '9'
+    value: OK
+  - name: INDEMP
+    number: '10'
+    value: '741141215'
+  - name: INDOCC
+    number: '11'
+    value: Nordam Group
+  - name: Of Contribution
+    number: 12-
+    value: Executive
+  - name: AMOUNT
+    number: '13'
+    value: '20041022'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1022200445C5777
+  expected_count: 27
+  input: '"F65","C00366773","IND","Lackey, Jr.^Paul","1219 E 21st Pl","","Tulsa","OK","741141215","Nordam
+    Group","Executive",20041022,1000.00,"","","","","",,"","","","","","","","1022200445C5777"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23de170>
+  result: []
+- input: '"F65","C00366773","PAC","Oklahoma Bankers PAC","643 NE 41st St","","Oklahoma
+    City","OK","731057231","","",20041022,1000.00,"C00139477","","","","",,"","","","","","","","1022200445C5774"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23de0e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Oklahoma Bankers PAC
+  - name: STREET 1
+    number: '5'
+    value: 643 NE 41st St
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Oklahoma City
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '731057231'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041022'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00139477
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1022200445C5774
+- input: '"F65","C00366773","IND","Patterson^Robert","PO Box 52610","","Tulsa","OK","741520610","Retired","Retired",20041022,2000.00,"","","","","",,"","","","","","","","1022200445C5779"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23de170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Patterson^Robert
+  - name: STREET 1
+    number: '5'
+    value: PO Box 52610
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tulsa
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '741520610'
+  - name: INDEMP
+    number: '10'
+    value: Retired
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20041022'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1022200445C5779
+- input: '"F65","C00366773","IND","Poe^Jacqueline","4880 S. Lewis","","Tulsa","OK","741055100","requested","requested",20041022,2000.00,"","","","","",,"","","","","","","","1022200445C5776"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23de0e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00366773
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Poe^Jacqueline
+  - name: STREET 1
+    number: '5'
+    value: 4880 S. Lewis
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tulsa
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '741055100'
+  - name: INDEMP
+    number: '10'
+    value: requested
+  - name: INDOCC
+    number: '11'
+    value: requested
+  - name: Of Contribution
+    number: 12-
+    value: '20041022'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1022200445C5776
+sourceurl: !!python/unicode 20041022
+type: single
