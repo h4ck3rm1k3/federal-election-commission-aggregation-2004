@@ -1,0 +1,338 @@
+countraw: 5
+countrows: 3
+filename: 130758.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00032979
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Drive - Democrat
+  - name: STREET 1
+    number: '4'
+    value: ' Republican'
+  - name: STREET 2
+    number: '5'
+    value: ' Independent Voter Education - PAC for Int''l Brotherhood of T'
+  - name: CITY
+    number: '6'
+    value: 25 Louisiana Ave.
+  - name: STATE
+    number: '7'
+    value: ' NW'
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Washington
+  - name: Signed
+    number: 10-
+    value: DC
+  - name: REPORT TYPE
+    number: '11'
+    value: '20001'
+  - value: Keegel^C. Thomas^^
+  - value: '20040811'
+  - value: '48'
+  expected_count: 11
+  input: '"F24N","C00032979","Drive - Democrat, Republican, Independent Voter Education
+    - PAC for Int''l Brotherhood of T","25 Louisiana Ave., NW","","Washington","DC","20001","Keegel^C.
+    Thomas^^",20040811,"48"'
+  input_count: 14
+  record: <fec.version.v5_1.F24.Records instance at 0xdf4cf8>
+  result: []
+- input: '"SE24","C00032979","","UNION MARKETING IDEAS","300 NW 70TH AVENUE #106","","PLANTATION","FL","33317","SUPPORT
+    FOR RICHARD GEPHARDT",20040107,43.00,"SUP","","GEPHARDT^RICHARD^MR^","P","FL","","C00032979","","","","","","","","","","","","Keegel^C.
+    Thomas^^",20040811,,,"","","5568618","X","T-SHIRTS WITH  TEAMSTERS FOR GEHARDT
+    2004 WRITTEN ON THEM","","","P2004","","004","",43.00'
+  record: <fec.version.v5_1.SE.Records instance at 0xe6cc20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00032979
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: UNION MARKETING IDEAS
+  - name: STREET 1
+    number: '5'
+    value: '300 NW 70TH AVENUE #106'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PLANTATION
+  - name: STATE
+    number: '8'
+    value: FL
+  - name: ZIP
+    number: '9'
+    value: '33317'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: SUPPORT FOR RICHARD GEPHARDT
+  - name: DATE
+    number: '11'
+    value: '20040107'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '43.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: GEPHARDT^RICHARD^MR^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: FL
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00032979
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Keegel^C. Thomas^^
+  - name: Signed
+    number: 32-
+    value: '20040811'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '5568618'
+  - name: MEMO CODE
+    number: '38'
+    value: X
+  - name: MEMO TEXT
+    number: '39'
+    value: T-SHIRTS WITH  TEAMSTERS FOR GEHARDT 2004 WRITTEN ON THEM
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '43.00'
+- input: '"SE24","C00032979","","AMERICAN PRODUCTS","1600 NORTH CLINTON","","ROCHESTER","NY","14621","SUPPORT
+    FOR RICHARD GEPHARDT",20040107,23250.00,"SUP","","GEPHARDT^RICHARD^MR^","P","NY","","C00032979","","","","","","","","","","","","Keegel^C.
+    Thomas^^",20040811,,,"","","5568619","X","VESTS WITH TEAMSTERS FOR GEPHARDT 2004","","","P2004","","004","",23250.00'
+  record: <fec.version.v5_1.SE.Records instance at 0xe6c7a0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00032979
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: AMERICAN PRODUCTS
+  - name: STREET 1
+    number: '5'
+    value: 1600 NORTH CLINTON
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ROCHESTER
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '14621'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: SUPPORT FOR RICHARD GEPHARDT
+  - name: DATE
+    number: '11'
+    value: '20040107'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '23250.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: GEPHARDT^RICHARD^MR^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: NY
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00032979
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Keegel^C. Thomas^^
+  - name: Signed
+    number: 32-
+    value: '20040811'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '5568619'
+  - name: MEMO CODE
+    number: '38'
+    value: X
+  - name: MEMO TEXT
+    number: '39'
+    value: VESTS WITH TEAMSTERS FOR GEPHARDT 2004
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: P2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '23250.00'
+sourceurl: !!python/unicode 20040811
+type: single
