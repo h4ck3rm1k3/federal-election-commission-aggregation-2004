@@ -1,0 +1,144 @@
+countraw: 4
+countrows: 2
+filename: 148305.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00394684
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Friends of Richard Meyer
+  - name: STREET 1
+    number: '4'
+    value: 24907 Sunnymead Blvd
+  - name: STREET 2
+    number: '5'
+    value: ' Suite A'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Moreno Valley
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '92553'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4CA45071
+  - name: CAN/OFFICE
+    number: '11'
+    value: Meyer
+  - name: CAN/STATE
+    number: '12'
+    value: ' Richard John'
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: CA
+  - value: '45'
+  - value: '20041026'
+  expected_count: 14
+  input: '"F6","C00394684","Friends of Richard Meyer","24907 Sunnymead Blvd, Suite
+    A","","Moreno Valley","CA","92553","H4CA45071","Meyer, Richard John","H","CA","45","20041026"'
+  input_count: 16
+  record: <fec.version.v5_1.F6.Records instance at 0x23dfb48>
+  result: []
+- input: '"F65","C00394684","CAN","Richard J. Meyer","79421 42nd Street","","Bermuda
+    Dunes","CA","92203","Self employed","Real Estate Investments","20041026","5000.00","","H4CA45071","Richard
+    J. Meyer","H","CA","45","","","","","","","","C3256900"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfd88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00394684
+  - name: ENTITY TYPE
+    number: '3'
+    value: CAN
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Richard J. Meyer
+  - name: STREET 1
+    number: '5'
+    value: 79421 42nd Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bermuda Dunes
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92203'
+  - name: INDEMP
+    number: '10'
+    value: Self employed
+  - name: INDOCC
+    number: '11'
+    value: Real Estate Investments
+  - name: Of Contribution
+    number: 12-
+    value: '20041026'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4CA45071
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Richard J. Meyer
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: CA
+  - name: CAN/DIST
+    number: '19'
+    value: '45'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C3256900
+sourceurl: !!python/unicode 20041027
+type: single
