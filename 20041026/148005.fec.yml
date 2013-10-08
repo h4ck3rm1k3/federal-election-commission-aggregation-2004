@@ -1,0 +1,149 @@
+countraw: 4
+countrows: 2
+filename: 148005.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cooper for Congress Committee c/o Davidson
+  - name: STREET 1
+    number: '4'
+    value: ' Golden & Lundy'
+  - name: STREET 2
+    number: '5'
+    value: ' P.C.'
+  - name: CITY
+    number: '6'
+    value: P.O. Box 927
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Brentwood
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: TN
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '37024   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: H2TN05131
+  - name: CAN/STATE
+    number: '12'
+    value: Jim Cooper
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: TN
+  - value: '5 '
+  - value: '20041026'
+  expected_count: 14
+  input: '"F6","C00376665","Cooper for Congress Committee c/o Davidson, Golden & Lundy,
+    P.C.","P.O. Box 927","","Brentwood","TN","37024   ","H2TN05131","Jim Cooper","H","TN","5
+    ",20041026'
+  input_count: 16
+  record: <fec.version.v5_1.F6.Records instance at 0x21fef38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Postal Workers Union PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Attn:  William Burrus'
+  - name: STREET 2
+    number: '6'
+    value: ' President'
+  - name: CITY
+    number: '7'
+    value: 1300 L Street
+  - name: STATE
+    number: '8'
+    value: ' NW '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041026'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2500.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C70003322
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1026200435C3262
+  expected_count: 27
+  input: '"F65","C00376665","PAC","American Postal Workers Union PAC","Attn:  William
+    Burrus, President","1300 L Street, NW ","Washington","DC","20005    ","","",20041026,2500.00,"C70003322","","","","",,"","","","","","","","1026200435C3262"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x23dffc8>
+  result: []
+sourceurl: !!python/unicode 20041026
+type: single
