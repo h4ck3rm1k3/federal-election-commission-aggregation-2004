@@ -1,0 +1,321 @@
+countraw: 6
+countrows: 4
+filename: 143281.fec
+header: {}
+rows:
+- input: '"F6","C00329292","Dave Wu for US Congress","818 SW 3rd Ave. #1182","","Portland","OR","97204","H8OR01072","David
+    Wu","H","OR","1","20041018"'
+  record: <fec.version.v5_1.F6.Records instance at 0x23de488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Dave Wu for US Congress
+  - name: STREET 1
+    number: '4'
+    value: '818 SW 3rd Ave. #1182'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Portland
+  - name: STATE
+    number: '7'
+    value: OR
+  - name: ZIP
+    number: '8'
+    value: '97204'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H8OR01072
+  - name: CANDIDATE NAME
+    number: '10'
+    value: David Wu
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OR
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20041018'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: United Food & Commercial Workers
+  - name: STREET 1
+    number: '5'
+    value: 1775 K Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20006'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041019'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '5000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00002766
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C244305
+  expected_count: 27
+  input: '"F65","C00329292","PAC","United Food & Commercial Workers","1775 K Street,
+    NW","","Washington","DC","20006","","","20041019","5000.00","C00002766","","","","","","","","","","","","","C244305"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23de170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Katcher^Richard D.
+  - name: STREET 1
+    number: '5'
+    value: 20 Fairway Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mamaroneck
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10543'
+  - name: INDEMP
+    number: '10'
+    value: Wachtell
+  - name: INDOCC
+    number: '11'
+    value: ' Lipton'
+  - name: Of Contribution
+    number: 12-
+    value: ' Rosen & Katz'
+  - name: AMOUNT
+    number: '13'
+    value: Attorney
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041019'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: C244346
+  expected_count: 27
+  input: '"F65","C00329292","IND","Katcher^Richard D.","20 Fairway Dr.","","Mamaroneck","NY","10543","Wachtell,
+    Lipton, Rosen & Katz","Attorney","20041019","1000.00","","","","","","","","","","","","","","C244346"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x23de3f8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00329292
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lockheed Martin - Employees' PAC
+  - name: STREET 1
+    number: '5'
+    value: 1550 Crystal Drive
+  - name: STREET 2
+    number: '6'
+    value: Crystal Square Two
+  - name: CITY
+    number: '7'
+    value: ' Suite 300'
+  - name: STATE
+    number: '8'
+    value: Arlington
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22202'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041019'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00303024
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C244302
+  expected_count: 27
+  input: '"F65","C00329292","PAC","Lockheed Martin - Employees'' PAC","1550 Crystal
+    Drive","Crystal Square Two, Suite 300","Arlington","VA","22202","","","20041019","1000.00","C00303024","","","","","","","","","","","","","C244302"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dee18>
+  result: []
+sourceurl: !!python/unicode 20041019
+type: single
