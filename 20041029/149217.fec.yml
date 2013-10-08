@@ -1,0 +1,488 @@
+countraw: 6
+countrows: 4
+filename: 149217.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: COMMITTEE NAME
+    number: '3'
+    value: National Right to Life Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 512 10th Street
+  - name: STREET 2
+    number: '5'
+    value: ' N.W.'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20004   '
+  - name: Signed
+    number: 10-
+    value: Amarie C. Natividad
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041029'
+  - value: '24'
+  expected_count: 11
+  input: '"F24","C00111278","National Right to Life Political Action Committee","512
+    10th Street, N.W.","","Washington","DC","20004   ","Amarie C. Natividad",20041029,"24"'
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x21fea28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Don Parker^
+  - name: STREET 1
+    number: '5'
+    value: 512 10th Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: P00 335 Van
+  - name: DATE
+    number: '11'
+    value: Lodging
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Gas
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041028'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '2565.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P00003335
+  - name: S/O STATE
+    number: '17'
+    value: BUSH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ' GEORGE W'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: P
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: '03'
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: 1028200441E11486
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: G2002
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '003'
+  - value: 24E
+  - value: '1884740.31'
+  expected_count: 46
+  input: '"SE24","C00111278","IND","Don Parker^","512 10th Street","","Washington","DC","20004    ","P00
+    335 Van,Lodging,Gas",20041028,2565.00,"S","P00003335","BUSH, GEORGE W","P","00",03,"","","","","","","","","","","","","","","","","","","1028200441E11486","","","","","G2002","","003","24E",1884740.31'
+  input_count: 49
+  record: <fec.version.v5_1.SE.Records instance at 0x21fef38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Federal Express
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 371461
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Pittsburgh
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '152507461'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: P00 335 Postage
+  - name: DATE
+    number: '11'
+    value: '20041028'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '14.67'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BUSH
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' GEORGE W'
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 1028200441E11471
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2002
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '003'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '1884740.31'
+  expected_count: 46
+  input: '"SE24","C00111278","ORG","Federal Express","P.O. Box 371461","","Pittsburgh","PA","152507461","P00
+    335 Postage",20041028,14.67,"S","P00003335","BUSH, GEORGE W","P","00",03,"","","","","","","","","","","","","","","","","","","1028200441E11471","","","","","G2002","","003","24E",1884740.31'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x21fea28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Wmpo
+  - name: STREET 1
+    number: '5'
+    value: 39540 Bradbury
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Middleport
+  - name: STATE
+    number: '8'
+    value: OH
+  - name: ZIP
+    number: '9'
+    value: '45760    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: P00 335 Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20041028'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '280.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BUSH
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ' GEORGE W'
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 1028200441E11472
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2002
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '003'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '1884740.31'
+  expected_count: 46
+  input: '"SE24","C00111278","ORG","Wmpo","39540 Bradbury","","Middleport","OH","45760    ","P00
+    335 Radio Ad",20041028,280.00,"S","P00003335","BUSH, GEORGE W","P","00",03,"","","","","","","","","","","","","","","","","","","1028200441E11472","","","","","G2002","","003","24E",1884740.31'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x21fef38>
+  result: []
+sourceurl: !!python/unicode 20041029
+type: single
