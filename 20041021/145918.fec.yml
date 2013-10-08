@@ -1,0 +1,274 @@
+countraw: 7
+countrows: 5
+filename: 145918.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F7N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NARAL Pro-Choice America
+  - name: STREET 1
+    number: '4'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 700
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: ORGANIZATION TYPE
+    number: '9'
+    value: '20005'
+  - name: RPTCODE
+    number: '10'
+    value: M
+  - name: Of Election
+    number: 11-
+    value: 12G
+  - name: STATE (Of Election)
+    number: '12'
+    value: '20041102'
+  - name: Coverage From
+    number: 13-
+    value: DC
+  - name: Coverage To
+    number: 14-
+    value: '20041001'
+  - name: TOTAL COSTS
+    number: '15'
+    value: '20041013'
+  - name: NAME/FILER (as signed)
+    number: '16'
+    value: '229.5'
+  - name: Signed
+    number: 17-
+    value: John Botts
+  - name: TITLE
+    number: '18'
+    value: '20041021'
+  - value: Treasurer
+  expected_count: 18
+  input: F7N,"C70002761","NARAL Pro-Choice America","1156 15th Street, NW","Suite
+    700","Washington","DC","20005","M","12G","20041102","DC","20041001","20041013",229.5,"John
+    Botts","20041021","Treasurer"
+  input_count: 19
+  record: <fec.version.v5_1.F7.Records instance at 0x27f5830>
+  result: []
+- input: F76,"C70002761","O","Email","M","20041001","O","P00003335","George W. Bush","P","DC","00","G2004",128.56,"","D59"
+  record: <fec.version.v5_1.F76.Records instance at 0x27f5998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20041001'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: O
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P00003335
+  - name: CANDIDATE NAME
+    number: '9'
+    value: George W. Bush
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: DC
+  - name: CAN/DIST
+    number: '12'
+    value: '00'
+  - name: RPTPGI
+    number: '13'
+    value: G2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '128.56'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D59
+- input: F76,"C70002761","O","Email","M","20041007","S","P80000235","John F. Kerry","P","DC","00","G2004",88.79,"","D60"
+  record: <fec.version.v5_1.F76.Records instance at 0x27f5830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20041007'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: DC
+  - name: CAN/DIST
+    number: '12'
+    value: '00'
+  - name: RPTPGI
+    number: '13'
+    value: G2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '88.79'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D60
+- input: F76,"C70002761","O","Email","M","20041001","S","P80000235","John F. Kerry","P","DC","00","G2004",5.17,"","D61"
+  record: <fec.version.v5_1.F76.Records instance at 0x27f5998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20041001'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: S
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P80000235
+  - name: CANDIDATE NAME
+    number: '9'
+    value: John F. Kerry
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: DC
+  - name: CAN/DIST
+    number: '12'
+    value: '00'
+  - name: RPTPGI
+    number: '13'
+    value: G2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '5.17'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D61
+- input: F76,"C70002761","O","Email","M","20041001","O","P00003335","George W. Bush","P","DC","00","G2004",6.98,"","D62"
+  record: <fec.version.v5_1.F76.Records instance at 0x27f5830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F76
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C70002761
+  - name: COMMUNICATION TYPE
+    number: '3'
+    value: O
+  - name: Comm. Descrip
+    number: 4-TRANS
+    value: Email
+  - name: COMMUNICATION CLASS
+    number: '5'
+    value: M
+  - name: Of Communication
+    number: 6-
+    value: '20041001'
+  - name: SUPPORT/OPPOSE
+    number: '7'
+    value: O
+  - name: FEC CANDIDATE ID NUMBER
+    number: '8'
+    value: P00003335
+  - name: CANDIDATE NAME
+    number: '9'
+    value: George W. Bush
+  - name: CAN/OFFICE
+    number: '10'
+    value: P
+  - name: CAN/STATE
+    number: '11'
+    value: DC
+  - name: CAN/DIST
+    number: '12'
+    value: '00'
+  - name: RPTPGI
+    number: '13'
+    value: G2004
+  - name: COST OF COMMUNICATION
+    number: '14'
+    value: '6.98'
+  - name: AMENDED CD
+    number: '15'
+    value: ''
+  - name: TRAN ID
+    number: '16'
+    value: D62
+sourceurl: !!python/unicode 20041021
+type: single
