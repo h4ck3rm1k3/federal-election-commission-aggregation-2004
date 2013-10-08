@@ -1,0 +1,782 @@
+countraw: 8
+countrows: 6
+filename: 138046.fec
+header: {}
+rows:
+- input: '"F24N","C00029447","INTERNATIONAL ASSOCIATION OF FIREFIGHTERS INTERESTED
+    IN REGISTRATION AND EDUCATION PAC","1750 New York Ave NW","","Washington","DC","20006","Bollon^Vincent
+    J^^",20041012,"48"'
+  record: <fec.version.v5_1.F24.Records instance at 0x23e2680>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: COMMITTEE NAME
+    number: '3'
+    value: INTERNATIONAL ASSOCIATION OF FIREFIGHTERS INTERESTED IN REGISTRATION AND
+      EDUCATION PAC
+  - name: STREET 1
+    number: '4'
+    value: 1750 New York Ave NW
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20006'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Bollon^Vincent J^^
+  - name: Signed
+    number: 10-
+    value: '20041012'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Vervos
+  - name: STREET 1
+    number: '5'
+    value: 1420 N Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 102
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20005'
+  - name: DATE
+    number: '11'
+    value: Website expenses
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041012'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '5100.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: SUP
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: Kerry^John^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00383653
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Bollon^Vincent J^^
+  - name: Notarized
+    number: 33-
+    value: '20041012'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: '20355836'
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '177406.73'
+  expected_count: 46
+  input: '"SE24","C00029447","","Vervos","1420 N Street, NW","Suite 102","Washington","DC","20005","Website
+    expenses",20041012,5100.00,"SUP","","Kerry^John^^","P","","00","C00383653","","","","","","","","","","","","Bollon^Vincent
+    J^^",20041012,,,"","","20355836","","","","","G2004","","004","",177406.73'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2368>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Financial Innovations
+  - name: STREET 1
+    number: '5'
+    value: One Weingeroff Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cranston
+  - name: STATE
+    number: '8'
+    value: RI
+  - name: ZIP
+    number: '9'
+    value: 02910
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Advertising-Banner
+  - name: DATE
+    number: '11'
+    value: ' rally signs'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: ' shirts'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041012'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1659.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Salazar^Ken^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: CO
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00397679
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Bollon^Vincent J^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041012'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '20355837'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: X
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: $609 for a banner $434 for rally signs $616 for T-shirts
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '1659.00'
+  expected_count: 46
+  input: '"SE24","C00029447","","Financial Innovations","One Weingeroff Blvd","","Cranston","RI","02910","Advertising-Banner,
+    rally signs, shirts",20041012,1659.00,"SUP","","Salazar^Ken^^","S","CO","00","C00397679","","","","","","","","","","","","Bollon^Vincent
+    J^^",20041012,,,"","","20355837","X","$609 for a banner $434 for rally signs $616
+    for T-shirts","","","G2004","","004","",1659.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2680>
+  result: []
+- input: '"SE24","C00029447","","Financial Innovations","One Weingeroff Blvd","","Cranston","RI","02910","T-shirts",20041012,224.00,"SUP","","Isakson^John^^","S","GA","00","C00384693","","","","","","","","","","","","Bollon^Vincent
+    J^^",20041012,,,"","","20355838","X","","","","G2004","","004","",224.00'
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2368>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Financial Innovations
+  - name: STREET 1
+    number: '5'
+    value: One Weingeroff Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cranston
+  - name: STATE
+    number: '8'
+    value: RI
+  - name: ZIP
+    number: '9'
+    value: 02910
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: T-shirts
+  - name: DATE
+    number: '11'
+    value: '20041012'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '224.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Isakson^John^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: GA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00384693
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Bollon^Vincent J^^
+  - name: Signed
+    number: 32-
+    value: '20041012'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '20355838'
+  - name: MEMO CODE
+    number: '38'
+    value: X
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '224.00'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Financial Innovations
+  - name: STREET 1
+    number: '5'
+    value: One Weingeroff Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cranston
+  - name: STATE
+    number: '8'
+    value: RI
+  - name: ZIP
+    number: '9'
+    value: 02910
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Jackets
+  - name: DATE
+    number: '11'
+    value: ' shirts'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: ' stickers'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: ' signs'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ' 4x8''s'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '20041012'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: '157665.63'
+  - name: S/O STATE
+    number: '17'
+    value: SUP
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: Kerry^John^^
+  - name: Unused field
+    number: '20'
+    value: P
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: '00'
+  - name: Unused field
+    number: '23'
+    value: C00383653
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: Bollon^Vincent J^^
+  - name: AMENDED CD
+    number: '36'
+    value: '20041012'
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: '20355839'
+  - name: ITEM ELECT CD
+    number: '42'
+    value: X
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: $14
+  - name: CATEGORY CODE
+    number: '44'
+    value: 145 jackets $96
+  - name: TRANS CODE
+    number: '45'
+    value: 885.40 T-shirts $1
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 554.64 bumper stickers $27
+  - value: 830.74 yard signs $17
+  - value: 249.85 4x8's
+  - value: ''
+  - value: ''
+  - value: G2004
+  - value: ''
+  - value: '004'
+  - value: ''
+  - value: '335072.36'
+  expected_count: 46
+  input: '"SE24","C00029447","","Financial Innovations","One Weingeroff Blvd","","Cranston","RI","02910","Jackets,
+    shirts, stickers, signs, 4x8''s",20041012,157665.63,"SUP","","Kerry^John^^","P","","00","C00383653","","","","","","","","","","","","Bollon^Vincent
+    J^^",20041012,,,"","","20355839","X","$14,145 jackets $96,885.40 T-shirts $1,554.64
+    bumper stickers $27,830.74 yard signs $17,249.85 4x8''s","","","G2004","","004","",335072.36'
+  input_count: 55
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2680>
+  result: []
+- input: '"SE24","C00029447","","Financial Innovations","One Weingeroff Blvd","","Cranston","RI","02910","See
+    memo entries",20041012,159548.63,"OPP","","^^^","","","","","","","","","","","","","","","","",,,,"","","20355840","","","","","","","","",0.00'
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2368>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00029447
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Financial Innovations
+  - name: STREET 1
+    number: '5'
+    value: One Weingeroff Blvd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Cranston
+  - name: STATE
+    number: '8'
+    value: RI
+  - name: ZIP
+    number: '9'
+    value: 02910
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: See memo entries
+  - name: DATE
+    number: '11'
+    value: '20041012'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '159548.63'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: OPP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '20355840'
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '0.00'
+sourceurl: !!python/unicode 20041012
+type: single
