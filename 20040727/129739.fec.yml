@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 129739.fec
+header: {}
+rows:
+- input: F6,C00389775,Lightner for Congress,P.O. Box 15625,,Lenexa,KS,662855625,,,H,KS,03,20040726
+  record: <fec.version.v5_1.F6.Records instance at 0xdf4d40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00389775
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lightner for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 15625
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lenexa
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '662855625'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: KS
+  - name: CAN/DIST
+    number: '13'
+    value: '03'
+  - name: Signed
+    number: 14-
+    value: '20040726'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00389775
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hallak^Leo^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 27 T. Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lee's Summit
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '64063'
+  - name: INDEMP
+    number: '10'
+    value: Hallak Consulting
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: Business consultant
+  - name: AMOUNT
+    number: '13'
+    value: '20040726'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00389775
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: KS
+  - name: CONDUIT NAME
+    number: '20'
+    value: '03'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4494
+  expected_count: 27
+  input: F65,C00389775,IND,Hallak^Leo^Mr.^,27 T. Street,,Lee's Summit,MO,64063,"Hallak
+    Consulting, Inc.",Business consultant,20040726,1000.00,C00389775,,,H,KS,03,,,,,,,,F6.4494
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xdf4e60>
+  result: []
+sourceurl: !!python/unicode 20040727
+type: single
