@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 147684.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4TX17064
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: P. O. Box 878
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Burleson
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '76097    '
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '17'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2004'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00392217
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: Wohlgemuth for Congress
+  - name: STREET 1
+    number: '16'
+    value: P. O. Box 878
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Burleson
+  - name: STATE
+    number: '19'
+    value: TX
+  - name: ZIP
+    number: '20'
+    value: '76097'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: 2004 Joint Candidate Committee II
+  - name: STREET 1
+    number: '23'
+    value: 228 S. Washington St.
+  - name: STREET 2
+    number: '24'
+    value: ' Ste. 115'
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Alexandria
+  - name: ZIP
+    number: '27'
+    value: VA
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '22314'
+  - name: Signed
+    number: 29-
+    value: Arlene Wohlgemuth
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20041025'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Wohlgemuth
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Arlene
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Mrs
+  - value: ''
+  expected_count: 36
+  input: F2,H4TX17064,,P. O. Box 878,,Burleson,TX,76097    ,REP,H,TX,17,2004,C00392217,Wohlgemuth
+    for Congress,P. O. Box 878,,Burleson,TX,76097,,2004 Joint Candidate Committee
+    II,"228 S. Washington St., Ste. 115",,Alexandria,VA,22314,Arlene Wohlgemuth,20041025,0.00,0.00,Wohlgemuth,Arlene,,Mrs,
+  input_count: 37
+  record: <fec.version.v5_1.F2.Records instance at 0x23de488>
+  result: []
+sourceurl: !!python/unicode 20041026
+type: single
