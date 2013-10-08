@@ -1,0 +1,226 @@
+countraw: 5
+countrows: 3
+filename: 144175.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00334011
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Tancredo for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: PO Box 3756
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Littleton
+  - name: ZIP
+    number: '8'
+    value: CO
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '80161   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H8CO06054
+  - name: CAN/OFFICE
+    number: '11'
+    value: Tom Tancredo
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CO
+  - name: Signed
+    number: 14-
+    value: '06'
+  - value: '20041020'
+  expected_count: 14
+  input: '"F6","C00334011","Tancredo for Congress Committee, Inc.","PO Box 3756","","Littleton","CO","80161   ","H8CO06054","Tom
+    Tancredo","H","CO","06",20041020'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23df7e8>
+  result: []
+- input: '"F65","C00334011","PAC","OPPAC","Oppenheimer Funds PAC","Two Financial Center
+    ","New York","NY","10080    ","","",20041019,1000.00,"","","","","",,"","","","","","","","1020200435C34877"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfb48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00334011
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: OPPAC
+  - name: STREET 1
+    number: '5'
+    value: Oppenheimer Funds PAC
+  - name: STREET 2
+    number: '6'
+    value: 'Two Financial Center '
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10080    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1020200435C34877
+- input: '"F65","C00334011","IND","Korpan^Richard","31483 Morning Star","","Evergreen","CO","80439    ","Retired","Retired",20041019,1000.00,"","","","","",,"","","","","","","","1020200435C34878"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23df7e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00334011
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Korpan^Richard
+  - name: STREET 1
+    number: '5'
+    value: 31483 Morning Star
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Evergreen
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '80439    '
+  - name: INDEMP
+    number: '10'
+    value: Retired
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20041019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1020200435C34878
+sourceurl: !!python/unicode 20041020
+type: single
