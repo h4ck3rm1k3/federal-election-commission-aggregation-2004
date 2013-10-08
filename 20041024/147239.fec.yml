@@ -1,0 +1,327 @@
+countraw: 6
+countrows: 4
+filename: 147239.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391334
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Virginia Johnson for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: PO Box 9284
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Greensboro
+  - name: ZIP
+    number: '8'
+    value: NC
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '27429'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4NC13017
+  - name: CAN/OFFICE
+    number: '11'
+    value: Johnson^Virginia Hurt^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: NC
+  - name: Signed
+    number: 14-
+    value: '13'
+  - value: '20041024'
+  expected_count: 14
+  input: F6,C00391334,"Virginia Johnson for Congress Committee, Inc.",PO Box 9284,,Greensboro,NC,27429,H4NC13017,Johnson^Virginia
+    Hurt^^,H,NC,13,20041024
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x3e9f4488>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391334
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ortiz^Javier^Mr^
+  - name: STREET 1
+    number: '5'
+    value: C/O Networked Results
+  - name: STREET 2
+    number: '6'
+    value: ' LLC'
+  - name: CITY
+    number: '7'
+    value: 2870 Peachtree Rd. Suite 135
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30305'
+  - name: INDOCC
+    number: '11'
+    value: Networked Results
+  - name: Of Contribution
+    number: 12-
+    value: ' LLC'
+  - name: AMOUNT
+    number: '13'
+    value: Chairman
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041022'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '500.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: '0001140'
+  - value: ''
+  expected_count: 27
+  input: F65,C00391334,IND,Ortiz^Javier^Mr^,"C/O Networked Results, LLC",2870 Peachtree
+    Rd. Suite 135,Atlanta,GA,30305,"Networked Results, LLC",Chairman,20041022,500.00,,,,,,,,,,,,,,0001140,
+  input_count: 30
+  record: <fec.version.v5_1.F65.Records instance at 0x3e9f4fc8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391334
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ortiz^Javier^Mr^
+  - name: STREET 1
+    number: '5'
+    value: C/O Networked Results
+  - name: STREET 2
+    number: '6'
+    value: ' LLC'
+  - name: CITY
+    number: '7'
+    value: 2870 Peachtree Rd. Suite 135
+  - name: STATE
+    number: '8'
+    value: Atlanta
+  - name: ZIP
+    number: '9'
+    value: GA
+  - name: INDEMP
+    number: '10'
+    value: '30305'
+  - name: INDOCC
+    number: '11'
+    value: Networked Results
+  - name: Of Contribution
+    number: 12-
+    value: ' LLC'
+  - name: AMOUNT
+    number: '13'
+    value: Chairman
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041022'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: '0001141'
+  - value: ''
+  expected_count: 27
+  input: F65,C00391334,IND,Ortiz^Javier^Mr^,"C/O Networked Results, LLC",2870 Peachtree
+    Rd. Suite 135,Atlanta,GA,30305,"Networked Results, LLC",Chairman,20041022,1000.00,,,,,,,,,,,,,,0001141,
+  input_count: 30
+  record: <fec.version.v5_1.F65.Records instance at 0x3e9f4a28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391334
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Associated General Contractors PAC
+  - name: STREET 1
+    number: '5'
+    value: 333 John Carlyle Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041022'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0001139
+  - value: ''
+  expected_count: 27
+  input: F65,C00391334,ORG,Associated General Contractors PAC,333 John Carlyle Street,,Alexandria,VA,22314,,,20041022,1000.00,,,,,,,,,,,,,,0001139,
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x3e9f4128>
+  result: []
+sourceurl: !!python/unicode 20041024
+type: single
