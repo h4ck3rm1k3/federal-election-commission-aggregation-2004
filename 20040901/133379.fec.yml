@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 133379.fec
+header: {}
+rows:
+- input: 'F6N,C00287987,JD HAYWORTH FOR CONGRESS,14300 N. Northsight Blvd. #105,,Scottsdale,AZ,85260,H4AZ06052,Hayworth^J.D.^^,H,AZ,05,20040901'
+  record: <fec.version.v5_1.F6.Records instance at 0xe6bcb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00287987
+  - name: COMMITTEE NAME
+    number: '3'
+    value: JD HAYWORTH FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: '14300 N. Northsight Blvd. #105'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Scottsdale
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85260'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4AZ06052
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Hayworth^J.D.^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20040901'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00287987
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Butler^Walker
+  - name: STREET 1
+    number: '5'
+    value: 8900 E. Chaparral Road
+  - name: STREET 2
+    number: '6'
+    value: ' #1000'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Scottsdale
+  - name: ZIP
+    number: '9'
+    value: AZ
+  - name: INDEMP
+    number: '10'
+    value: '85250'
+  - name: INDOCC
+    number: '11'
+    value: Sensor Technologies Systems
+  - name: Of Contribution
+    number: 12-
+    value: Engineer
+  - name: AMOUNT
+    number: '13'
+    value: '20040901'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65.00000
+  expected_count: 27
+  input: 'F65,C00287987,IND,Butler^Walker,"8900 E. Chaparral Road, #1000",,Scottsdale,AZ,85250,Sensor
+    Technologies Systems,Engineer,20040901,1000.00,,,,,,,,,,,,,,F65.00000'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xe6b170>
+  result: []
+sourceurl: !!python/unicode 20040901
+type: single
