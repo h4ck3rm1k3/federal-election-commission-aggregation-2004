@@ -1,0 +1,338 @@
+countraw: 5
+countrows: 3
+filename: 130868.fec
+header: {}
+rows:
+- input: F24,C00199802,ENGLISH LANGUAGE POLITICAL ACTION COMMITTEE (ELPAC),P.O. Box
+    9558,,Washington,DC,20016,Zall^Barnaby^^,20040812,24
+  record: <fec.version.v5_1.F24.Records instance at 0x65af5a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199802
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ENGLISH LANGUAGE POLITICAL ACTION COMMITTEE (ELPAC)
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 9558
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20016'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Zall^Barnaby^^
+  - name: Signed
+    number: 10-
+    value: '20040812'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199802
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: ABR Services
+  - name: STREET 1
+    number: '5'
+    value: 7400 Lockport Pl.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lorton
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22079'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Mailing Services and prepaid postage
+  - name: DATE
+    number: '11'
+    value: '20040812'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '9300.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Robinson
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ^Vernon^L.
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: NC
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '5'
+  - name: Unused field
+    number: '20'
+    value: C00199802
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Zall^Barnaby
+  - name: Notarized
+    number: 33-
+    value: '20040812'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00000
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: O2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff Primary
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '0.00'
+  expected_count: 46
+  input: SE24,C00199802,ORG,ABR Services,7400 Lockport Pl.,,Lorton,VA,22079,Mailing
+    Services and prepaid postage,20040812,9300.00,S,,"Robinson,^Vernon^L.",H,NC,5,C00199802,,,,,,,,,,,,Zall^Barnaby,20040812,,,,,SE.00000,,,,,O2004,Runoff
+    Primary,,24E,0.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x65afb90>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00199802
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Heritage Printing
+  - name: STREET 1
+    number: '5'
+    value: 7351-B Lockport Pl
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lorton
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22079'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Printing voter contact materials
+  - name: DATE
+    number: '11'
+    value: '20040812'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2400.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Robinson
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ^Vernon^L
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: NC
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '5'
+  - name: Unused field
+    number: '20'
+    value: C00199802
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Zall^Barnaby
+  - name: Notarized
+    number: 33-
+    value: '20040812'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00001
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: O2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: Runoff Primary
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '11400.00'
+  expected_count: 46
+  input: SE24,C00199802,ORG,Heritage Printing,7351-B Lockport Pl,,Lorton,VA,22079,Printing
+    voter contact materials,20040812,2400.00,S,,"Robinson,^Vernon^L",H,NC,5,C00199802,,,,,,,,,,,,Zall^Barnaby,20040812,,,,,SE.00001,,,,,O2004,Runoff
+    Primary,,24E,11400.00
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x65afc68>
+  result: []
+sourceurl: !!python/unicode 20040812
+type: single
