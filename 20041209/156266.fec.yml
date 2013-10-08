@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 156266.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4TX19102
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 8200-C Nashville Avenue
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: LUBBOCK
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '79413'
+  - name: PTY/CODE
+    number: '9'
+    value: REP
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TX
+  - name: CAN/DIST
+    number: '12'
+    value: '19'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00384016
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: NEUGEBAUER CONGRESSIONAL COMMITTEE
+  - name: STREET 1
+    number: '16'
+    value: '3305 66th Street  Suite # 1'
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: Lubbock
+  - name: STATE
+    number: '19'
+    value: TX
+  - name: ZIP
+    number: '20'
+    value: '79413'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: C00400861
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: 2004 Joint Candidate Committee
+  - name: STREET 1
+    number: '23'
+    value: 228 S. Washington St.
+  - name: STREET 2
+    number: '24'
+    value: '  Ste. 340'
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: Alexandria
+  - name: ZIP
+    number: '27'
+    value: VA
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: '22314'
+  - name: Signed
+    number: 29-
+    value: Neugebauer^Randy^^
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20041209'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Neugebauer
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Randy
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  expected_count: 36
+  input: 'F2N,H4TX19102,,8200-C Nashville Avenue,,LUBBOCK,TX,79413,REP,H,TX,19,2006,C00384016,NEUGEBAUER
+    CONGRESSIONAL COMMITTEE,3305 66th Street  Suite # 1,,Lubbock,TX,79413,C00400861,2004
+    Joint Candidate Committee,"228 S. Washington St.,  Ste. 340",,Alexandria,VA,22314,Neugebauer^Randy^^,20041209,0.00,0.00,Neugebauer,Randy,,,'
+  input_count: 37
+  record: <fec.version.v5_1.F2.Records instance at 0x403c25a8>
+  result: []
+sourceurl: !!python/unicode 20041209
+type: single
