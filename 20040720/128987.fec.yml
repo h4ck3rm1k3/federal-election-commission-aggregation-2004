@@ -1,0 +1,314 @@
+countraw: 6
+countrows: 4
+filename: 128987.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00372524
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Kalyn Free For Congress
+  - name: STREET 1
+    number: '4'
+    value: 200 East Carl Albert Parkway
+  - name: STREET 2
+    number: '5'
+    value: ' #4'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: McAlester
+  - name: ZIP
+    number: '8'
+    value: OK
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '74501'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2OK03057
+  - name: CAN/OFFICE
+    number: '11'
+    value: Kalyn Cherie Free
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: OK
+  - name: Signed
+    number: 14-
+    value: '2'
+  - value: '20040720'
+  expected_count: 14
+  input: 'F6,"C00372524","Kalyn Free For Congress","200 East Carl Albert Parkway,
+    #4","","McAlester","OK","74501","H2OK03057","Kalyn Cherie Free","H","OK","2",20040720'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x62e0ab8>
+  result: []
+- input: 'F65,"C00372524","PAC","PROGRESSIVE MAJORITY","1025 Connecticut Ave. NW #205","","WASHINGTON","DC","20036","","",20040720,"2500","C00351486","","","","","","","","","","","","","C7463"'
+  record: <fec.version.v5_1.F65.Records instance at 0x62e06c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00372524
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PROGRESSIVE MAJORITY
+  - name: STREET 1
+    number: '5'
+    value: '1025 Connecticut Ave. NW #205'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040720'
+  - name: AMOUNT
+    number: '13'
+    value: '2500'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00351486
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C7463
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00372524
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Powers^Vincent
+  - name: STREET 1
+    number: '5'
+    value: 411 S. 13th Street
+  - name: STREET 2
+    number: '6'
+    value: ' #300'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Lincoln
+  - name: ZIP
+    number: '9'
+    value: NE
+  - name: INDEMP
+    number: '10'
+    value: '68508'
+  - name: INDOCC
+    number: '11'
+    value: Self-Employed
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20040720'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C7464
+  expected_count: 27
+  input: 'F65,"C00372524","IND","Powers^Vincent","411 S. 13th Street, #300","","Lincoln","NE","68508","Self-Employed","Attorney",20040720,"1000","","","","","","","","","","","","","","C7464"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x62e0c20>
+  result: []
+- input: F65,"C00372524","PAC","UNITED STEELWORKERS OF AMERICA PAF","FIVE GATEWAY
+    CENTER","","PITTSBURGH","PA","15222","","",20040720,"3000","C00003590","","","","","","","","","","","","","C7465"
+  record: <fec.version.v5_1.F65.Records instance at 0x62e0ab8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00372524
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: UNITED STEELWORKERS OF AMERICA PAF
+  - name: STREET 1
+    number: '5'
+    value: FIVE GATEWAY CENTER
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: PITTSBURGH
+  - name: STATE
+    number: '8'
+    value: PA
+  - name: ZIP
+    number: '9'
+    value: '15222'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040720'
+  - name: AMOUNT
+    number: '13'
+    value: '3000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00003590
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C7465
+sourceurl: !!python/unicode 20040720
+type: single
