@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 148505.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331496
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Gary Miller for Congress
+  - name: STREET 1
+    number: '4'
+    value: 721 S. Brea Canyon Road
+  - name: STREET 2
+    number: '5'
+    value: ' Suite 7'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Diamond Bar
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '91789'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H8CA41063
+  - name: CAN/OFFICE
+    number: '11'
+    value: Miller^Gary G.
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: CA
+  - name: Signed
+    number: 14-
+    value: '42'
+  - value: '20041027'
+  expected_count: 14
+  input: '"F6N","C00331496","Gary Miller for Congress","721 S. Brea Canyon Road, Suite
+    7",,"Diamond Bar","CA","91789","H8CA41063","Miller^Gary G.","H","CA","42","20041027"'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23de1b8>
+  result: []
+- input: '"F65","C00331496","COM","Build PAC of the National Assn of Home Builders
+    (NAHB)","1201 15th Street N.W.",,"Washington","DC","200055242","","","20041027","2500.00","C00000901",,"","","","",,,,,,,,F653082'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dec20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331496
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Build PAC of the National Assn of Home Builders (NAHB)
+  - name: STREET 1
+    number: '5'
+    value: 1201 15th Street N.W.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200055242'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041027'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00000901
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F653082
+sourceurl: !!python/unicode 20041027
+type: single
