@@ -1,0 +1,226 @@
+countraw: 5
+countrows: 3
+filename: 142778.fec
+header: {}
+rows:
+- input: '"F6","C00400077","Paul Hodes for Congress","26 So. Main St. #253","","Concord","NH","03301","H4NH02175","Paul
+    W. Hodes","H","NH","2","20041019"'
+  record: <fec.version.v5_1.F6.Records instance at 0x21fed40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00400077
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Paul Hodes for Congress
+  - name: STREET 1
+    number: '4'
+    value: '26 So. Main St. #253'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Concord
+  - name: STATE
+    number: '7'
+    value: NH
+  - name: ZIP
+    number: '8'
+    value: '03301'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4NH02175
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Paul W. Hodes
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: NH
+  - name: CAN/DIST
+    number: '13'
+    value: '2'
+  - name: Signed
+    number: 14-
+    value: '20041019'
+- input: '"F65","C00400077","IND","Almy^Susan","266 Poverty Ln","Unit 4B","Lebanon","NH","037662731","Retired","Retired","20041016","2000.00","","","","","","","","","","","","","","C243566"'
+  record: <fec.version.v5_1.F65.Records instance at 0x21fecb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00400077
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Almy^Susan
+  - name: STREET 1
+    number: '5'
+    value: 266 Poverty Ln
+  - name: STREET 2
+    number: '6'
+    value: Unit 4B
+  - name: CITY
+    number: '7'
+    value: Lebanon
+  - name: STATE
+    number: '8'
+    value: NH
+  - name: ZIP
+    number: '9'
+    value: '037662731'
+  - name: INDEMP
+    number: '10'
+    value: Retired
+  - name: INDOCC
+    number: '11'
+    value: Retired
+  - name: Of Contribution
+    number: 12-
+    value: '20041016'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C243566
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00400077
+  - name: ENTITY TYPE
+    number: '3'
+    value: PTY
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Hanover Democratic Town Committee
+  - name: STREET 1
+    number: '5'
+    value: '% Bernie Benn'
+  - name: STREET 2
+    number: '6'
+    value: Chair
+  - name: CITY
+    number: '7'
+    value: 28 1/2 Rip Road
+  - name: STATE
+    number: '8'
+    value: Hanover
+  - name: ZIP
+    number: '9'
+    value: NH
+  - name: INDEMP
+    number: '10'
+    value: '03755'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041017'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C243842
+  expected_count: 27
+  input: '"F65","C00400077","PTY","Hanover Democratic Town Committee","% Bernie Benn,Chair","28
+    1/2 Rip Road","Hanover","NH","03755","","","20041017","1000.00","","","","","","","","","","","","","","C243842"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x21fea28>
+  result: []
+sourceurl: !!python/unicode 20041019
+type: single
