@@ -1,0 +1,3004 @@
+countraw: 23
+countrows: 21
+filename: 150001.fec
+header: {}
+rows:
+- input: '"F24N","C00053553","NRA Political Victory Fund","11250 Waples Mill Road","","Fairfax","VA","22030","Adkins^Mary
+    Rose^^",20041101,"24"'
+  record: <fec.version.v5_1.F24.Records instance at 0x23dfa70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NRA Political Victory Fund
+  - name: STREET 1
+    number: '4'
+    value: 11250 Waples Mill Road
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Fairfax
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '22030'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Adkins^Mary Rose^^
+  - name: Signed
+    number: 10-
+    value: '20041101'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '14681.45'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Bush^George^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484648'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,14681.45,"SUP","","Bush^George^^","P","","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484648","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x23df680>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '25783.20'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Isakson^Johnny^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: GA
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484649'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,25783.20,"SUP","","Isakson^Johnny^^","S","GA","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484649","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x23dfb48>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '2008.01'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Murkowski^Lisa^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: AK
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484650'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,2008.01,"SUP","","Murkowski^Lisa^^","S","AK","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484650","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x23df7a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '8685.10'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Wilson^Heather^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NM
+  - name: Unused field
+    number: '20'
+    value: '1'
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484651'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,8685.10,"SUP","","Wilson^Heather^^","H","NM","1","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484651","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x23dfd40>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '89794.44'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Burr^Richard^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NC
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484652'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,89794.44,"SUP","","Burr^Richard^^","S","NC","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484652","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2290>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '46287.39'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: DeMint^Jim^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: SC
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484653'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,46287.39,"SUP","","DeMint^Jim^^","S","SC","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484653","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2128>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '49305.03'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Bush^George^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484654'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,49305.03,"SUP","","Bush^George^^","P","","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484654","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c20e0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '29480.27'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Coors^Pete^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: CO
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484655'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,29480.27,"SUP","","Coors^Pete^^","S","CO","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484655","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2e18>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '14136.11'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Martinez^Mel^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: FL
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484656'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,14136.11,"SUP","","Martinez^Mel^^","S","FL","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484656","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2680>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '11345.69'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Specter^Arlen^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: PA
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484657'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad",20041031,11345.69,"SUP","","Specter^Arlen^^","S","PA","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484657","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2320>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '48706.50'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Bush^George^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484658'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,48706.50,"SUP","","Bush^George^^","P","","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484658","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c27a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '1466.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Murkowski^Lisa^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: AK
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484659'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,1466.00,"SUP","","Murkowski^Lisa^^","S","AK","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484659","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c24d0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '25489.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Coors^Pete^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: CO
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484660'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,25489.00,"SUP","","Coors^Pete^^","S","CO","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484660","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2f80>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '18400.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Martinez^Mel^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: FL
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484661'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,18400.00,"SUP","","Martinez^Mel^^","S","FL","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484661","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2b48>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20617.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Isakson^Johnny^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: GA
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484662'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,20617.00,"SUP","","Isakson^Johnny^^","S","GA","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484662","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2200>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '57792.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Burr^Richard^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NC
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484663'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,57792.00,"SUP","","Burr^Richard^^","S","NC","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484663","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2a28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '5132.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Wilson^Heather^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: NM
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484664'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,5132.00,"SUP","","Wilson^Heather^^","S","NM","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484664","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2488>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '17607.50'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Specter^Arlen^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: PA
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484665'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,17607.50,"SUP","","Specter^Arlen^^","S","PA","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484665","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2368>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '25593.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: DeMint^Jim^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: SC
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484666'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,25593.00,"SUP","","DeMint^Jim^^","S","SC","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484666","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c2c20>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00053553
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Edmonds - Hackney and Associates
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 900 Second Street
+  - name: CITY
+    number: '7'
+    value: ' NE'
+  - name: STATE
+    number: '8'
+    value: Suite 118
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20002'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Newspaper Ad Production Cost
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041031'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '3280.00'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: SUP
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: Thune^John^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: S
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: SD
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Adkins^Mary Rose^^
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041101'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: '4484667'
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '004'
+  - value: ''
+  - value: '0.00'
+  expected_count: 46
+  input: '"SE24","C00053553","","Edmonds - Hackney and Associates, Inc.","900 Second
+    Street, NE","Suite 118","Washington","DC","20002","Newspaper Ad Production Cost",20041031,3280.00,"SUP","","Thune^John^^","S","SD","","","","","","","","","","","","","","Adkins^Mary
+    Rose^^",20041101,,,"","","4484667","","","","","G2004","","004","",0.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x403c25a8>
+  result: []
+sourceurl: !!python/unicode 20041101
+type: single
