@@ -1,0 +1,406 @@
+countraw: 7
+countrows: 5
+filename: 129650.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Knollenberg for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 30701 Woodward Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' #300'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Royal Oak
+  - name: ZIP
+    number: '8'
+    value: MI
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '48073   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2MI11042
+  - name: CAN/OFFICE
+    number: '11'
+    value: Joseph K. Knollenberg
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MI
+  - name: Signed
+    number: 14-
+    value: '9 '
+  - value: '20040726'
+  expected_count: 14
+  input: '"F6","C00266767","Knollenberg for Congress Committee","30701 Woodward Avenue,
+    #300","","Royal Oak","MI","48073   ","H2MI11042","Joseph K. Knollenberg","H","MI","9
+    ",20040726'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0xe6f710>
+  result: []
+- input: '"F65","C00266767","IND","Chebbani^Michelle","211 Woodcrest Drive","","Dearborn","MI","48124    ","","Homemaker",20040726,1000.00,"","","","","",,"","","","","","","","0726200413C28130"'
+  record: <fec.version.v5_1.F65.Records instance at 0xe6fa70>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Chebbani^Michelle
+  - name: STREET 1
+    number: '5'
+    value: 211 Woodcrest Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Dearborn
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48124    '
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20040726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0726200413C28130
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ghafari^Yousif
+  - name: STREET 1
+    number: '5'
+    value: 411 Goodhue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bloomfield Hills
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48304    '
+  - name: INDEMP
+    number: '10'
+    value: Ghafari Associates
+  - name: INDOCC
+    number: '11'
+    value: ' Inc.'
+  - name: Of Contribution
+    number: 12-
+    value: Chairman
+  - name: AMOUNT
+    number: '13'
+    value: '20040726'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0726200413C28131
+  expected_count: 27
+  input: '"F65","C00266767","IND","Ghafari^Yousif","411 Goodhue","","Bloomfield Hills","MI","48304    ","Ghafari
+    Associates, Inc.","Chairman",20040726,1000.00,"","","","","",,"","","","","","","","0726200413C28131"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0xe6f710>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gottschalk^Barbara
+  - name: STREET 1
+    number: '5'
+    value: 2101 Connecticut Ave.
+  - name: STREET 2
+    number: '6'
+    value: ' NW.'
+  - name: CITY
+    number: '7'
+    value: ' #87'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20008    '
+  - name: Of Contribution
+    number: 12-
+    value: Seeds of Peace
+  - name: AMOUNT
+    number: '13'
+    value: Vice President
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20040726'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 0726200413C28133
+  expected_count: 27
+  input: '"F65","C00266767","IND","Gottschalk^Barbara","2101 Connecticut Ave., NW.,
+    #87","","Washington","DC","20008    ","Seeds of Peace","Vice President",20040726,2000.00,"","","","","",,"","","","","","","","0726200413C28133"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0xe6fa70>
+  result: []
+- input: '"F65","C00266767","IND","Gottschalk^Thomas","22025 Orchard Way","","Beverly
+    Hills","MI","48025    ","General Motors Corp.","Attorney",20040726,1000.00,"","","","","",,"","","","","","","","0726200413C28132"'
+  record: <fec.version.v5_1.F65.Records instance at 0xe6f710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00266767
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gottschalk^Thomas
+  - name: STREET 1
+    number: '5'
+    value: 22025 Orchard Way
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Beverly Hills
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48025    '
+  - name: INDEMP
+    number: '10'
+    value: General Motors Corp.
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20040726'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0726200413C28132
+sourceurl: !!python/unicode 20040726
+type: single
