@@ -1,0 +1,315 @@
+countraw: 6
+countrows: 4
+filename: 144254.fec
+header: {}
+rows:
+- input: '"F6N","C00367680","BROWN-WAITE FOR CONGRESS","704 PONCE DE LEON BLVD","","BROOKSVILLE","FL","34601","H2FL05127","Virginia
+    Brown-Waite","H","FL",5,"20041020"'
+  record: <fec.version.v5_1.F6.Records instance at 0x23df7e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367680
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BROWN-WAITE FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: 704 PONCE DE LEON BLVD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: BROOKSVILLE
+  - name: STATE
+    number: '7'
+    value: FL
+  - name: ZIP
+    number: '8'
+    value: '34601'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2FL05127
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Virginia Brown-Waite
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: FL
+  - name: CAN/DIST
+    number: '13'
+    value: '5'
+  - name: Signed
+    number: 14-
+    value: '20041020'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367680
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMERICAN BANKERS ASSOCIATION BANKPAC
+  - name: STREET 1
+    number: '5'
+    value: 1120 CONN. AVE.
+  - name: STREET 2
+    number: '6'
+    value: ' NW SUITE 851'
+  - name: CITY
+    number: '7'
+    value: .
+  - name: STATE
+    number: '8'
+    value: WASHINGTON
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041019'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00004275
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C00Z709             '
+  expected_count: 27
+  input: '"F65","C00367680","PAC","AMERICAN BANKERS ASSOCIATION BANKPAC","1120 CONN.
+    AVE., NW SUITE 851",".","WASHINGTON","DC","20036","","",20041019,1500.00,"C00004275","","","","",,"","","","","","","","C00Z709             "'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfb48>
+  result: []
+- input: '"F65","C00367680","PAC","Lumber Dealers Pac","40 Ivy St. SE","","Washington","DC","20003","","",20041019,1000.00,"C00039214","","","","",,"","","","","","","","C012Z02             "'
+  record: <fec.version.v5_1.F65.Records instance at 0x23df7e8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367680
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Lumber Dealers Pac
+  - name: STREET 1
+    number: '5'
+    value: 40 Ivy St. SE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20003'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00039214
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 'C012Z02             '
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367680
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Michaels
+  - name: STREET 1
+    number: '5'
+    value: ' J Patrick'
+  - name: STREET 2
+    number: '6'
+    value: PO Box 22558
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Tampa
+  - name: ZIP
+    number: '9'
+    value: FL
+  - name: INDEMP
+    number: '10'
+    value: '33622'
+  - name: INDOCC
+    number: '11'
+    value: Community Equity Assoc.
+  - name: Of Contribution
+    number: 12-
+    value: Consultant
+  - name: AMOUNT
+    number: '13'
+    value: '20041020'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C000S02             '
+  expected_count: 27
+  input: '"F65","C00367680","IND","Michaels, J Patrick","PO Box 22558","","Tampa","FL","33622","Community
+    Equity Assoc.","Consultant",20041020,2000.00,"","","","","",,"","","","","","","","C000S02             "'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfb48>
+  result: []
+sourceurl: !!python/unicode 20041020
+type: single
