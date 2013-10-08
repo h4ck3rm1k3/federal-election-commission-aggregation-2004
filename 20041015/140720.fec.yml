@@ -1,0 +1,311 @@
+countraw: 6
+countrows: 4
+filename: 140720.fec
+header: {}
+rows:
+- input: F6N,C00402685,DOUG DODD FOR CONGRESS COMMITTEE,1646 SOUTH BOULDER AVENUE,,TULSA,OK,74119,H2OK01085,DODD^DOUG^^,H,OK,01,20041015
+  record: <fec.version.v5_1.F6.Records instance at 0x21fed88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402685
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DOUG DODD FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 1646 SOUTH BOULDER AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: TULSA
+  - name: STATE
+    number: '7'
+    value: OK
+  - name: ZIP
+    number: '8'
+    value: '74119'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2OK01085
+  - name: CANDIDATE NAME
+    number: '10'
+    value: DODD^DOUG^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: OK
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20041015'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402685
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: PARKER^JOSEPH
+  - name: STREET 1
+    number: '5'
+    value: 2021 S LEWIS AVE
+  - name: STREET 2
+    number: '6'
+    value: ' STE 470'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: TULSA
+  - name: ZIP
+    number: '9'
+    value: OK
+  - name: INDEMP
+    number: '10'
+    value: '741045722'
+  - name: INDOCC
+    number: '11'
+    value: ANCHOR STONE CO
+  - name: Of Contribution
+    number: 12-
+    value: CHAIRMAN
+  - name: AMOUNT
+    number: '13'
+    value: '20041015'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65.00000
+  expected_count: 27
+  input: F65,C00402685,IND,PARKER^JOSEPH,"2021 S LEWIS AVE, STE 470",,TULSA,OK,741045722,ANCHOR
+    STONE CO,CHAIRMAN,20041015,1000.00,,,,,,,,,,,,,,F65.00000
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x21fee60>
+  result: []
+- input: F65,C00402685,IND,DALRYMPLE^SHELLY L,6947 S OSWEGO AVE,,TULSA,OK,74137,ELDRIDGE
+    COOPER STEIDREN ET AL,ATTORNEY,20041015,1000.00,,,,,,,,,,,,,,F65.00001
+  record: <fec.version.v5_1.F65.Records instance at 0x3454be18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402685
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: DALRYMPLE^SHELLY L
+  - name: STREET 1
+    number: '5'
+    value: 6947 S OSWEGO AVE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: TULSA
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74137'
+  - name: INDEMP
+    number: '10'
+    value: ELDRIDGE COOPER STEIDREN ET AL
+  - name: INDOCC
+    number: '11'
+    value: ATTORNEY
+  - name: Of Contribution
+    number: 12-
+    value: '20041015'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00001
+- input: F65,C00402685,IND,HANGS^GEORGE,PO BOX 52568,,TULSA,OK,74152,HARMON FOUNDATION,EXECUTIVE
+    DIRECTOR,20041015,1000.00,,,,,,,,,,,,,,F65.00002
+  record: <fec.version.v5_1.F65.Records instance at 0x21fee60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402685
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: HANGS^GEORGE
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 52568
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: TULSA
+  - name: STATE
+    number: '8'
+    value: OK
+  - name: ZIP
+    number: '9'
+    value: '74152'
+  - name: INDEMP
+    number: '10'
+    value: HARMON FOUNDATION
+  - name: INDOCC
+    number: '11'
+    value: EXECUTIVE DIRECTOR
+  - name: Of Contribution
+    number: 12-
+    value: '20041015'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F65.00002
+sourceurl: !!python/unicode 20041015
+type: single
