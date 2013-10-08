@@ -1,0 +1,487 @@
+countraw: 8
+countrows: 6
+filename: 146230.fec
+header: {}
+rows:
+- input: '"F6","C00286500","Doggett for US Congress","P.O. Box 5843","","Austin","TX","78763","H4TX10028","Lloyd
+    A Doggett","H","TX","25","20041021"'
+  record: <fec.version.v5_1.F6.Records instance at 0x23dffc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00286500
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Doggett for US Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 5843
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Austin
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '78763'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4TX10028
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Lloyd A Doggett
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '25'
+  - name: Signed
+    number: 14-
+    value: '20041021'
+- input: '"F65","C00286500","IND","Spivey^Ruth","4013 SIERRA DR","","AUSTIN","TX","78731","N/A","Homemaker","20041020","1000.00","","","","","","","","","","","","","","C3004868"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfdd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00286500
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Spivey^Ruth
+  - name: STREET 1
+    number: '5'
+    value: 4013 SIERRA DR
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: AUSTIN
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78731'
+  - name: INDEMP
+    number: '10'
+    value: N/A
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20041020'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C3004868
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00286500
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Flores^Rafael
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 2128
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: MCALLEN
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78505'
+  - name: INDEMP
+    number: '10'
+    value: Flores
+  - name: INDOCC
+    number: '11'
+    value: ' Casso'
+  - name: Of Contribution
+    number: 12-
+    value: ' & Pettitt'
+  - name: AMOUNT
+    number: '13'
+    value: Attorney
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041020'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: C3004873
+  expected_count: 27
+  input: '"F65","C00286500","IND","Flores^Rafael","PO BOX 2128","","MCALLEN","TX","78505","Flores,
+    Casso, & Pettitt","Attorney","20041020","1000.00","","","","","","","","","","","","","","C3004873"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x23dffc8>
+  result: []
+- input: '"F65","C00286500","IND","Spivey^Broadus","4013 Sierra Dr","","Austin","TX","787313913","Spivey
+    & Ainsworth","Attorney","20041020","1000.00","","","","","","","","","","","","","","C3004866"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfdd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00286500
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Spivey^Broadus
+  - name: STREET 1
+    number: '5'
+    value: 4013 Sierra Dr
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Austin
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '787313913'
+  - name: INDEMP
+    number: '10'
+    value: Spivey & Ainsworth
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20041020'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C3004866
+- input: '"F65","C00286500","PAC","AFL-CIO Comm on Political Education","815 16th
+    St. NW","","Washington","DC","20006","Deputy Political Director","","20041020","1000.00","C00003806","","","","","","","","","","","","","C3004874"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfd40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00286500
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AFL-CIO Comm on Political Education
+  - name: STREET 1
+    number: '5'
+    value: 815 16th St. NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20006'
+  - name: INDEMP
+    number: '10'
+    value: Deputy Political Director
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041020'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00003806
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C3004874
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00286500
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Canales^Ana
+  - name: STREET 1
+    number: '5'
+    value: 621 McKee
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Edinburg
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '78539'
+  - name: INDEMP
+    number: '10'
+    value: Linebarger
+  - name: INDOCC
+    number: '11'
+    value: ' Goggan'
+  - name: Of Contribution
+    number: 12-
+    value: ' Blair & Sampson'
+  - name: AMOUNT
+    number: '13'
+    value: Attorney
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041020'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: C3004871
+  expected_count: 27
+  input: '"F65","C00286500","IND","Canales^Ana","621 McKee","","Edinburg","TX","78539","Linebarger,
+    Goggan, Blair & Sampson","Attorney","20041020","1000.00","","","","","","","","","","","","","","C3004871"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfdd0>
+  result: []
+sourceurl: !!python/unicode 20041022
+type: single
