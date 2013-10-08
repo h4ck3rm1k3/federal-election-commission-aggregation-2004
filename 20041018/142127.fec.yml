@@ -1,0 +1,630 @@
+countraw: 7
+countrows: 5
+filename: 142127.fec
+header: {}
+rows:
+- input: F24,C00101212,Right to Life of Michigan Political Action Committee,P O Box
+    901,,Grand Rapids,MI,495090901,Colligan^Susan^Mrs.^,20041018,24
+  record: <fec.version.v5_1.F24.Records instance at 0x2c7bef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Right to Life of Michigan Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: P O Box 901
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Grand Rapids
+  - name: STATE
+    number: '7'
+    value: MI
+  - name: ZIP
+    number: '8'
+    value: '495090901'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Colligan^Susan^Mrs.^
+  - name: Signed
+    number: 10-
+    value: '20041018'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Lemke^Chris^^
+  - name: STREET 1
+    number: '5'
+    value: 2499 Kewadin
+  - name: STREET 2
+    number: '6'
+    value: ' NE'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Grand Rapids
+  - name: ZIP
+    number: '9'
+    value: MI
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '49525'
+  - name: DATE
+    number: '11'
+    value: recording of PAC radio ad
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041018'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '35.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P00003335
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: BUSH^GEORGE W^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: C00101212
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.7971
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '159827.08'
+  expected_count: 46
+  input: SE24,C00101212,IND,Lemke^Chris^^,"2499 Kewadin, NE",,Grand Rapids,MI,49525,recording
+    of PAC radio ad,20041018,35.00,S,P00003335,BUSH^GEORGE W^^,P,,03,C00101212,,,,,,,,,,,,,,,,,,SE24.7971,,,,,G2004,,004,,159827.08
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2c7bdd0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Lemke^Chris^^
+  - name: STREET 1
+    number: '5'
+    value: 2499 Kewadin
+  - name: STREET 2
+    number: '6'
+    value: ' NE'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Grand Rapids
+  - name: ZIP
+    number: '9'
+    value: MI
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '49525'
+  - name: DATE
+    number: '11'
+    value: record PAC radio ad
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041018'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '15.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P80000235
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: KERRY^JOHN F^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00101212
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.7972
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '46704.90'
+  expected_count: 46
+  input: SE24,C00101212,IND,Lemke^Chris^^,"2499 Kewadin, NE",,Grand Rapids,MI,49525,record
+    PAC radio ad,20041018,15.00,S,P80000235,KERRY^JOHN F^^,P,,00,C00101212,,,,,,,,,,,,,,,,,,SE24.7972,,,,,G2004,,004,,46704.90
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2c7bef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Western American  Mailers
+  - name: STREET 1
+    number: '5'
+    value: 720 Monroe Ave
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Grand Rapids
+  - name: ZIP
+    number: '9'
+    value: MI
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '49503'
+  - name: DATE
+    number: '11'
+    value: 'Mail flier #4 - for 24 hr report'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041018'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1039.66'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P00003335
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: BUSH^GEORGE W^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: C00101212
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.7974
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '160866.74'
+  expected_count: 46
+  input: 'SE24,C00101212,ORG,Western American  Mailers,"720 Monroe Ave, NW",,Grand
+    Rapids,MI,49503,Mail flier #4 - for 24 hr report,20041018,1039.66,S,P00003335,BUSH^GEORGE
+    W^^,P,,03,C00101212,,,,,,,,,,,,,,,,,,SE24.7974,,,,,G2004,,004,,160866.74'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2c7bcb0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00101212
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Western American  Mailers
+  - name: STREET 1
+    number: '5'
+    value: 720 Monroe Ave
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Grand Rapids
+  - name: ZIP
+    number: '9'
+    value: MI
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '49503'
+  - name: DATE
+    number: '11'
+    value: 'Mail Flier #4-- for 24 hr report'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041018'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '593.19'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P00003335
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: BUSH^GEORGE W^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '03'
+  - name: Unused field
+    number: '20'
+    value: C00101212
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.7978
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '162053.12'
+  expected_count: 46
+  input: 'SE24,C00101212,ORG,Western American  Mailers,"720 Monroe Ave, NW",,Grand
+    Rapids,MI,49503,Mail Flier #4-- for 24 hr report,20041018,593.19,S,P00003335,BUSH^GEORGE
+    W^^,P,,03,C00101212,,,,,,,,,,,,,,,,,,SE24.7978,,,,,G2004,,004,,162053.12'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2c7bb90>
+  result: []
+sourceurl: !!python/unicode 20041018
+type: single
