@@ -1,0 +1,485 @@
+countraw: 8
+countrows: 6
+filename: 147829.fec
+header: {}
+rows:
+- input: F6,"C00331066","Moore For Congress","PO Box 14631","","Lenexa","KS","66285","","Dennis
+    Moore","H","KS","3",20041026
+  record: <fec.version.v5_1.F6.Records instance at 0x21fef38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Moore For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 14631
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Lenexa
+  - name: STATE
+    number: '7'
+    value: KS
+  - name: ZIP
+    number: '8'
+    value: '66285'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Dennis Moore
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: KS
+  - name: CAN/DIST
+    number: '13'
+    value: '3'
+  - name: Signed
+    number: 14-
+    value: '20041026'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Petersen^John
+  - name: STREET 1
+    number: '5'
+    value: 6201 College Blvd
+  - name: STREET 2
+    number: '6'
+    value: ' #500'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Overland Park
+  - name: ZIP
+    number: '9'
+    value: KS
+  - name: INDEMP
+    number: '10'
+    value: '662112444'
+  - name: INDOCC
+    number: '11'
+    value: Polsinelli
+  - name: Of Contribution
+    number: 12-
+    value: ' Shalton'
+  - name: AMOUNT
+    number: '13'
+    value: ' Welte'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: Attorney
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '20041025'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: '1000'
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: ''
+  - value: C26664
+  expected_count: 27
+  input: 'F65,"C00331066","IND","Petersen^John","6201 College Blvd, #500","","Overland
+    Park","KS","662112444","Polsinelli, Shalton, Welte","Attorney",20041025,"1000","","","","","","","","","","","","","","C26664"'
+  input_count: 30
+  record: <fec.version.v5_1.F65.Records instance at 0x21fee18>
+  result: []
+- input: 'F65,"C00331066","PAC","CITIGROUP INC. POLITICAL ACTION COMMITTEE-FEDERAL","1101
+    Pennsylvania Ave. NW #1000",".","Washington","DC","20004","Citigroup Inc.PAC -
+    Federal","VP Global Government Affairs",20041025,"1000","C00008474","","","","","","","","","","","","","C26697"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfcf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CITIGROUP INC. POLITICAL ACTION COMMITTEE-FEDERAL
+  - name: STREET 1
+    number: '5'
+    value: '1101 Pennsylvania Ave. NW #1000'
+  - name: STREET 2
+    number: '6'
+    value: .
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: INDEMP
+    number: '10'
+    value: Citigroup Inc.PAC - Federal
+  - name: INDOCC
+    number: '11'
+    value: VP Global Government Affairs
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00008474
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C26697
+- input: F65,"C00331066","IND","Allen^Suzanne","6511 Seneca Road","","Mission Hills","KS","662081719","Self","Civic
+    Volunteer",20041025,"1000","","","","","","","","","","","","","","C26710"
+  record: <fec.version.v5_1.F65.Records instance at 0x21fef38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Allen^Suzanne
+  - name: STREET 1
+    number: '5'
+    value: 6511 Seneca Road
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Mission Hills
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '662081719'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Civic Volunteer
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C26710
+- input: F65,"C00331066","ORG","Kickapoo Tribe In Kansas","PO BOX 271","","Horton","KS","664390271","Kickapoo
+    Tribe in Kansas","Attorney",20041026,"1000","","","","","","","","","","","","","","C26733"
+  record: <fec.version.v5_1.F65.Records instance at 0x21fecf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kickapoo Tribe In Kansas
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 271
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Horton
+  - name: STATE
+    number: '8'
+    value: KS
+  - name: ZIP
+    number: '9'
+    value: '664390271'
+  - name: INDEMP
+    number: '10'
+    value: Kickapoo Tribe in Kansas
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20041026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C26733
+- input: 'F65,"C00331066","PAC","SAC PAC","6380 Wilshire Blvd. #1612","","Los Angeles","CA","90048","SAC
+    PAC","Chair",20041026,"5000","C00165548","","","","","","","","","","","","","C26736"'
+  record: <fec.version.v5_1.F65.Records instance at 0x21fef38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00331066
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: SAC PAC
+  - name: STREET 1
+    number: '5'
+    value: '6380 Wilshire Blvd. #1612'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Los Angeles
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '90048'
+  - name: INDEMP
+    number: '10'
+    value: SAC PAC
+  - name: INDOCC
+    number: '11'
+    value: Chair
+  - name: Of Contribution
+    number: 12-
+    value: '20041026'
+  - name: AMOUNT
+    number: '13'
+    value: '5000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00165548
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C26736
+sourceurl: !!python/unicode 20041026
+type: single
