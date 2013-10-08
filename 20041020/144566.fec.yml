@@ -1,0 +1,142 @@
+countraw: 4
+countrows: 2
+filename: 144566.fec
+header: {}
+rows:
+- input: '"F6","C00402826","San Diego County Democratic Party (Fed. Acct.)","8304
+    Clairemont Mesa Boulevard","Suite 108","San Diego","CA","921111315","","  ","","CA","","20041020"'
+  record: <fec.version.v5_1.F6.Records instance at 0x102d6638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402826
+  - name: COMMITTEE NAME
+    number: '3'
+    value: San Diego County Democratic Party (Fed. Acct.)
+  - name: STREET 1
+    number: '4'
+    value: 8304 Clairemont Mesa Boulevard
+  - name: STREET 2
+    number: '5'
+    value: Suite 108
+  - name: CITY
+    number: '6'
+    value: San Diego
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '921111315'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '  '
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: '20041020'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00402826
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Elden^Jeff^^
+  - name: STREET 1
+    number: '5'
+    value: 2120 Jimmy Durante Boulevard
+  - name: STREET 2
+    number: '6'
+    value: Suite 117
+  - name: CITY
+    number: '7'
+    value: Del Mar
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '920142238'
+  - name: INDEMP
+    number: '10'
+    value: Design Build Partners
+  - name: INDOCC
+    number: '11'
+    value: ' Inc'
+  - name: Of Contribution
+    number: 12-
+    value: Builder
+  - name: AMOUNT
+    number: '13'
+    value: '20041018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F65-I-c1431
+  expected_count: 27
+  input: '"F65","C00402826","IND","Elden^Jeff^^","2120 Jimmy Durante Boulevard","Suite
+    117","Del Mar","CA","920142238","Design Build Partners, Inc","Builder","20041018","2500","","","","","","","","","","","","","","F65-I-c1431"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x102d6878>
+  result: []
+sourceurl: !!python/unicode 20041020
+type: single
