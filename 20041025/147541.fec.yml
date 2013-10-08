@@ -1,0 +1,493 @@
+countraw: 6
+countrows: 4
+filename: 147541.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00106146
+  - name: COMMITTEE NAME
+    number: '3'
+    value: American Hospital Association PAC
+  - name: STREET 1
+    number: '4'
+    value: 325 Seventh Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 700
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20004'
+  - name: Signed
+    number: 10-
+    value: Hatton^Melinda^Ms.^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041025'
+  - value: '24'
+  expected_count: 11
+  input: '"F24N","C00106146","American Hospital Association PAC","325 Seventh Street,
+    NW","Suite 700","Washington","DC","20004","Hatton^Melinda^Ms.^",20041025,"24"'
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x21fef38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00106146
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: MacWilliams
+  - name: STREET 1
+    number: '5'
+    value: ' Robinson & Partners'
+  - name: STREET 2
+    number: '6'
+    value: ' Inc.'
+  - name: CITY
+    number: '7'
+    value: 1660 L Street
+  - name: STATE
+    number: '8'
+    value: ' N.W.'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Washington
+  - name: DATE
+    number: '11'
+    value: DC
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20036'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: Radio Advertising
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20041025'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '21250.00'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: SUP
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: Carson^Brad^Rep.^
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: S
+  - name: Unused field
+    number: '20'
+    value: OK
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: C00391854
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: Hatton^Melinda^Ms.^
+  - name: Notary
+    number: 35-
+    value: '20041025'
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: '10310598'
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: G2004
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '004'
+  - value: ''
+  - value: '21250.00'
+  expected_count: 46
+  input: '"SE24","C00106146","","MacWilliams, Robinson & Partners, Inc.","1660 L Street,
+    N.W.","","Washington","DC","20036","Radio Advertising",20041025,21250.00,"SUP","","Carson^Brad^Rep.^","S","OK","","C00391854","","","","","","","","","","","","Hatton^Melinda^Ms.^",20041025,,,"","","10310598","","","","","G2004","","004","",21250.00'
+  input_count: 49
+  record: <fec.version.v5_1.SE.Records instance at 0x21fecf8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00106146
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: MacWilliams
+  - name: STREET 1
+    number: '5'
+    value: ' Robinson & Partners'
+  - name: STREET 2
+    number: '6'
+    value: ' Inc.'
+  - name: CITY
+    number: '7'
+    value: 1660 L Street
+  - name: STATE
+    number: '8'
+    value: ' N.W.'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Washington
+  - name: DATE
+    number: '11'
+    value: DC
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20036'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: Radio Advertising
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20041025'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '23460.00'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: SUP
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: Pomeroy^Earl^Rep.^
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: H
+  - name: Unused field
+    number: '20'
+    value: ND
+  - name: Unused field
+    number: '21'
+    value: '1'
+  - name: Unused field
+    number: '22'
+    value: C00266619
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: Hatton^Melinda^Ms.^
+  - name: Notary
+    number: 35-
+    value: '20041025'
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: '10310599'
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: G2004
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '004'
+  - value: ''
+  - value: '23460.00'
+  expected_count: 46
+  input: '"SE24","C00106146","","MacWilliams, Robinson & Partners, Inc.","1660 L Street,
+    N.W.","","Washington","DC","20036","Radio Advertising",20041025,23460.00,"SUP","","Pomeroy^Earl^Rep.^","H","ND","1","C00266619","","","","","","","","","","","","Hatton^Melinda^Ms.^",20041025,,,"","","10310599","","","","","G2004","","004","",23460.00'
+  input_count: 49
+  record: <fec.version.v5_1.SE.Records instance at 0x21fef38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00106146
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: MacWilliams
+  - name: STREET 1
+    number: '5'
+    value: ' Robinson & Partners'
+  - name: STREET 2
+    number: '6'
+    value: ' Inc.'
+  - name: CITY
+    number: '7'
+    value: 1660 L Street
+  - name: STATE
+    number: '8'
+    value: ' N.W.'
+  - name: ZIP
+    number: '9'
+    value: ''
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Washington
+  - name: DATE
+    number: '11'
+    value: DC
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20036'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: Radio Advertising
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20041025'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '17915.00'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: SUP
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: Lincoln^Blanche Lambert^Sen.^
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: S
+  - name: Unused field
+    number: '20'
+    value: AR
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: C00255463
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: Hatton^Melinda^Ms.^
+  - name: Notary
+    number: 35-
+    value: '20041025'
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: '10310600'
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: G2004
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '004'
+  - value: ''
+  - value: '17915.00'
+  expected_count: 46
+  input: '"SE24","C00106146","","MacWilliams, Robinson & Partners, Inc.","1660 L Street,
+    N.W.","","Washington","DC","20036","Radio Advertising",20041025,17915.00,"SUP","","Lincoln^Blanche
+    Lambert^Sen.^","S","AR","","C00255463","","","","","","","","","","","","Hatton^Melinda^Ms.^",20041025,,,"","","10310600","","","","","G2004","","004","",17915.00'
+  input_count: 49
+  record: <fec.version.v5_1.SE.Records instance at 0x23dfab8>
+  result: []
+sourceurl: !!python/unicode 20041025
+type: single
