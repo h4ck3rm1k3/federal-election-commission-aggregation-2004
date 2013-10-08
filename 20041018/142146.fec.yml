@@ -1,0 +1,322 @@
+countraw: 6
+countrows: 4
+filename: 142146.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cooper for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: c/o Davidson
+  - name: STREET 2
+    number: '5'
+    value: ' Golden & Lundy'
+  - name: CITY
+    number: '6'
+    value: ' P.C.'
+  - name: STATE
+    number: '7'
+    value: P.O. Box 927
+  - name: ZIP
+    number: '8'
+    value: Brentwood
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: TN
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '37024   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: H2TN05131
+  - name: CAN/STATE
+    number: '12'
+    value: Jim Cooper
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: TN
+  - value: '5 '
+  - value: '20041018'
+  expected_count: 14
+  input: '"F6","C00376665","Cooper for Congress Committee","c/o Davidson, Golden &
+    Lundy, P.C.","P.O. Box 927","Brentwood","TN","37024   ","H2TN05131","Jim Cooper","H","TN","5
+    ",20041018'
+  input_count: 16
+  record: <fec.version.v5_1.F6.Records instance at 0x23de170>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Credit Union Leg. Action Council PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Attn: Mica Evans'
+  - name: STREET 2
+    number: '6'
+    value: 601 Pennsylvania Avenue
+  - name: CITY
+    number: '7'
+    value: ' NW '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200042601'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00007880
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1018200423C3250
+  expected_count: 27
+  input: '"F65","C00376665","PAC","Credit Union Leg. Action Council PAC","Attn: Mica
+    Evans","601 Pennsylvania Avenue, NW ","Washington","DC","200042601","","",20041018,1000.00,"C00007880","","","","",,"","","","","","","","1018200423C3250"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23deef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NEA Fund for Children & Public Ed. PAC
+  - name: STREET 1
+    number: '5'
+    value: 'Attn: Mr. Alphonso C. Mance'
+  - name: STREET 2
+    number: '6'
+    value: 1201 16th Street
+  - name: CITY
+    number: '7'
+    value: ' N.W. '
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '200363290'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00003251
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1018200423C3249
+  expected_count: 27
+  input: '"F65","C00376665","PAC","NEA Fund for Children & Public Ed. PAC","Attn:
+    Mr. Alphonso C. Mance","1201 16th Street, N.W. ","Washington","DC","200363290","","",20041018,2000.00,"C00003251","","","","",,"","","","","","","","1018200423C3249"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dec20>
+  result: []
+- input: '"F65","C00376665","PAC","United Food & Commercial Workers","International
+    Union Active Ballot ","1775 K Street NW ","Washington","DC","200061598","","",20041018,2500.00,"C00002766","","","","",,"","","","","","","","1018200423C3251"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23de320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: United Food & Commercial Workers
+  - name: STREET 1
+    number: '5'
+    value: 'International Union Active Ballot '
+  - name: STREET 2
+    number: '6'
+    value: '1775 K Street NW '
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '200061598'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041018'
+  - name: AMOUNT
+    number: '13'
+    value: '2500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00002766
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1018200423C3251
+sourceurl: !!python/unicode 20041018
+type: single
