@@ -1,0 +1,616 @@
+countraw: 7
+countrows: 5
+filename: 154695.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: COMMITTEE NAME
+    number: '3'
+    value: National Right to Life Political Action Committee
+  - name: STREET 1
+    number: '4'
+    value: 512 10th Street
+  - name: STREET 2
+    number: '5'
+    value: ' N.W.'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20004   '
+  - name: Signed
+    number: 10-
+    value: Amarie C. Natividad
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041202'
+  - value: '24'
+  expected_count: 11
+  input: '"F24","C00111278","National Right to Life Political Action Committee","512
+    10th Street, N.W.","","Washington","DC","20004   ","Amarie C. Natividad",20041202,"24"'
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x23dfcf8>
+  result: []
+- input: '"SE24","C00111278","ORG","Kpel Fm","174 Bertand Drive","","Lafayette","LA","70506    ","H4LA03069
+    Radio Ad",20041201,450.00,"S","H4LA03069","","","",,"","","","","","","","","","","","","","","","","","","41202.E11659","","","","","O2002","Runoff","","24E",3930.00'
+  record: <fec.version.v5_1.SE.Records instance at 0x23df638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Kpel Fm
+  - name: STREET 1
+    number: '5'
+    value: 174 Bertand Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Lafayette
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70506    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: H4LA03069 Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20041201'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '450.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4LA03069
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 41202.E11659
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: O2002
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3930.00'
+- input: '"SE24","C00111278","ORG","WWL","1450 Poydras","Suite 440 ","New Orleans","LA","70112    ","H4LA03069
+    Radio Ad",20041201,2280.00,"S","H4LA03069","","","",,"","","","","","","","","","","","","","","","","","","41202.E11660","","","","","O2002","Runoff","","24E",3930.00'
+  record: <fec.version.v5_1.SE.Records instance at 0x23dfcf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: WWL
+  - name: STREET 1
+    number: '5'
+    value: 1450 Poydras
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 440 '
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70112    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: H4LA03069 Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20041201'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '2280.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4LA03069
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 41202.E11660
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: O2002
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: Runoff
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3930.00'
+- input: '"SE24","C00111278","ORG","Wlno","401 Whitney Ave.","Suite 160 ","Gretna","LA","70056    ","H4LA03069
+    Radio Ad",20041201,840.00,"S","H4LA03069","","","",,"","","","","","","","","","","","","","","","","","","1202200413E11664","","","","","G2002","","","24E",3930.00'
+  record: <fec.version.v5_1.SE.Records instance at 0x23df638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Wlno
+  - name: STREET 1
+    number: '5'
+    value: 401 Whitney Ave.
+  - name: STREET 2
+    number: '6'
+    value: 'Suite 160 '
+  - name: CITY
+    number: '7'
+    value: Gretna
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70056    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: H4LA03069 Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20041201'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '840.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4LA03069
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 1202200413E11664
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3930.00'
+- input: '"SE24","C00111278","ORG","Wsho","1001 Howard Ave.","","New Orleans","LA","70113    ","H4LA03069
+    Radio Ad",20041201,360.00,"S","H4LA03069","","","",,"","","","","","","","","","","","","","","","","","","1202200413E11663","","","","","G2002","","","24E",3930.00'
+  record: <fec.version.v5_1.SE.Records instance at 0x23dfcf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00111278
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Wsho
+  - name: STREET 1
+    number: '5'
+    value: 1001 Howard Ave.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70113    '
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: H4LA03069 Radio Ad
+  - name: DATE
+    number: '11'
+    value: '20041201'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '360.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H4LA03069
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: 1202200413E11663
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2002
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: 24E
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '3930.00'
+sourceurl: !!python/unicode 20041202
+type: single
