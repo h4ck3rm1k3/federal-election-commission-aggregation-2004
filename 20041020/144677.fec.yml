@@ -1,0 +1,191 @@
+countraw: 4
+countrows: 2
+filename: 144677.fec
+header: {}
+rows:
+- input: F24,"C00003806","AFL-CIO COPE Political Contributions Committee","815 16th
+    Street","","Washington","DC","20009","Richard L. Trumka",20041020,"24"
+  record: <fec.version.v5_1.F24.Records instance at 0x31022b90>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003806
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AFL-CIO COPE Political Contributions Committee
+  - name: STREET 1
+    number: '4'
+    value: 815 16th Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Washington
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20009'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Richard L. Trumka
+  - name: Signed
+    number: 10-
+    value: '20041020'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00003806
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: AFL-CIO
+  - name: STREET 1
+    number: '5'
+    value: 815 16th Street
+  - name: STREET 2
+    number: '6'
+    value: ' N.W.'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20006'
+  - name: DATE
+    number: '11'
+    value: AFL-CIO Website Expense
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041020'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '4209.14'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P80000235
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: John Kerry
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00383653
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Signing Guy
+  - name: Notarized
+    number: 33-
+    value: '20041020'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20021028'
+  - name: Notary
+    number: 35-
+    value: '20021231'
+  - name: AMENDED CD
+    number: '36'
+    value: Notary Dude
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D4217
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '011'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '55387.7'
+  expected_count: 46
+  input: SE24,"C00003806","ORG","AFL-CIO","815 16th Street, N.W.","","Washington","DC","20006","AFL-CIO
+    Website Expense",20041020,"4209.14","S","P80000235","John Kerry","P","","","C00383653","","","","","","","","","","","","Signing
+    Guy",20041020,20021028,20021231,"Notary Dude","","D4217","","","","","G2004","","011","","55387.7"
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x31022200>
+  result: []
+sourceurl: !!python/unicode 20041020
+type: single
