@@ -1,0 +1,323 @@
+countraw: 6
+countrows: 4
+filename: 148904.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cooper for Congress Committee c/o Davidson
+  - name: STREET 1
+    number: '4'
+    value: ' Golden & Lundy'
+  - name: STREET 2
+    number: '5'
+    value: ' P.C.'
+  - name: CITY
+    number: '6'
+    value: P.O. Box 927
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: Brentwood
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: TN
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '37024   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: H2TN05131
+  - name: CAN/STATE
+    number: '12'
+    value: Jim Cooper
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: TN
+  - value: '5 '
+  - value: '20041028'
+  expected_count: 14
+  input: '"F6","C00376665","Cooper for Congress Committee c/o Davidson, Golden & Lundy,
+    P.C.","P.O. Box 927","","Brentwood","TN","37024   ","H2TN05131","Jim Cooper","H","TN","5
+    ",20041028'
+  input_count: 16
+  record: <fec.version.v5_1.F6.Records instance at 0x21fef38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Employees of Northrup Grumman PAC
+  - name: STREET 1
+    number: '5'
+    value: 520 S. Grand Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 700'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Los Angeles
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '90071    '
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00088591
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 1028200419C3271
+  expected_count: 27
+  input: '"F65","C00376665","PAC","Employees of Northrup Grumman PAC","520 S. Grand
+    Avenue, Suite 700","","Los Angeles","CA","90071    ","","",20041028,1000.00,"C00088591","","","","",,"","","","","","","","1028200419C3271"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23df7a0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American International Group
+  - name: STREET 1
+    number: '5'
+    value: ' PAC'
+  - name: STREET 2
+    number: '6'
+    value: 1399 New York Avenue
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: 'Suite 900 '
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20005    '
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041028'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: 1028200419C3272
+  expected_count: 27
+  input: '"F65","C00376665","PAC","American International Group, PAC","1399 New York
+    Avenue, NW","Suite 900 ","Washington","DC","20005    ","","",20041028,1000.00,"","","","","",,"","","","","","","","1028200419C3272"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x23dfb48>
+  result: []
+- input: '"F65","C00376665","IND","Saint^Anne","369 Lake Valley Drive","","Franklin","TN","370694652","Information
+    Requested","Information Requested",20041028,2000.00,"","","","","",,"","","","","","","","1028200419C3270"'
+  record: <fec.version.v5_1.F65.Records instance at 0x21fed40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00376665
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Saint^Anne
+  - name: STREET 1
+    number: '5'
+    value: 369 Lake Valley Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Franklin
+  - name: STATE
+    number: '8'
+    value: TN
+  - name: ZIP
+    number: '9'
+    value: '370694652'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1028200419C3270
+sourceurl: !!python/unicode 20041028
+type: single
