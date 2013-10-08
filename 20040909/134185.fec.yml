@@ -1,0 +1,398 @@
+countraw: 7
+countrows: 5
+filename: 134185.fec
+header: {}
+rows:
+- input: '"F6","C00247379","Abercrombie for Congress","c/o 1357 Kapiolani Blvd. Ste.
+    1005","","Honolulu","HI","96814   ","H6HI01121","Neil Abercrombie","H","HI","1
+    ",20040909'
+  record: <fec.version.v5_1.F6.Records instance at 0x3cc90638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247379
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Abercrombie for Congress
+  - name: STREET 1
+    number: '4'
+    value: c/o 1357 Kapiolani Blvd. Ste. 1005
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Honolulu
+  - name: STATE
+    number: '7'
+    value: HI
+  - name: ZIP
+    number: '8'
+    value: '96814   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H6HI01121
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Neil Abercrombie
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: HI
+  - name: CAN/DIST
+    number: '13'
+    value: '1 '
+  - name: Signed
+    number: 14-
+    value: '20040909'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247379
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Feuerstein^Nora
+  - name: STREET 1
+    number: '5'
+    value: 808 Ahua Street
+  - name: STREET 2
+    number: '6'
+    value: ' #26'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Honolulu
+  - name: ZIP
+    number: '9'
+    value: HI
+  - name: INDEMP
+    number: '10'
+    value: '96819    '
+  - name: INDOCC
+    number: '11'
+    value: AFCEA - Hawaii Chapter
+  - name: Of Contribution
+    number: 12-
+    value: President
+  - name: AMOUNT
+    number: '13'
+    value: '20040908'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 0909200450C1
+  expected_count: 27
+  input: '"F65","C00247379","IND","Feuerstein^Nora","808 Ahua Street, #26","","Honolulu","HI","96819    ","AFCEA
+    - Hawaii Chapter","President",20040908,1000.00,"","","","","",,"","","","","","","","0909200450C1"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x3cc903b0>
+  result: []
+- input: '"F65","C00247379","IND","Yonemoto^Ronald","94-254 Olua Place","","Waipahu","HI","96797    ","U.S.
+    Veterans Administration","Attorney",20040908,1000.00,"","","","","",,"","","","","","","","0909200450C2"'
+  record: <fec.version.v5_1.F65.Records instance at 0x3cc90f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247379
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Yonemoto^Ronald
+  - name: STREET 1
+    number: '5'
+    value: 94-254 Olua Place
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Waipahu
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96797    '
+  - name: INDEMP
+    number: '10'
+    value: U.S. Veterans Administration
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20040908'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0909200450C2
+- input: '"F65","C00247379","IND","Pickard^Elissa","47-433 Hui io Street","","Kaneohe","HI","96744    ","State
+    of HI - DOE","Teacher",20040908,2000.00,"","","","","",,"","","","","","","","0909200450C4"'
+  record: <fec.version.v5_1.F65.Records instance at 0x3cc90638>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247379
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pickard^Elissa
+  - name: STREET 1
+    number: '5'
+    value: 47-433 Hui io Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kaneohe
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96744    '
+  - name: INDEMP
+    number: '10'
+    value: State of HI - DOE
+  - name: INDOCC
+    number: '11'
+    value: Teacher
+  - name: Of Contribution
+    number: 12-
+    value: '20040908'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0909200450C4
+- input: '"F65","C00247379","IND","Pickard^Elissa","47-433 Hui io Street","","Kaneohe","HI","96744    ","State
+    of HI - DOE","Teacher",20040908,2000.00,"","","","","",,"","","","","","","","0909200450C3"'
+  record: <fec.version.v5_1.F65.Records instance at 0x3cc90f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247379
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Pickard^Elissa
+  - name: STREET 1
+    number: '5'
+    value: 47-433 Hui io Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kaneohe
+  - name: STATE
+    number: '8'
+    value: HI
+  - name: ZIP
+    number: '9'
+    value: '96744    '
+  - name: INDEMP
+    number: '10'
+    value: State of HI - DOE
+  - name: INDOCC
+    number: '11'
+    value: Teacher
+  - name: Of Contribution
+    number: 12-
+    value: '20040908'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0909200450C3
+sourceurl: !!python/unicode 20040909
+type: single
