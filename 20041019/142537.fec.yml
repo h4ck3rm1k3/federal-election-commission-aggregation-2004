@@ -1,0 +1,775 @@
+countraw: 8
+countrows: 6
+filename: 142537.fec
+header: {}
+rows:
+- input: '"F24","C00309567","Lyndon LaRouche PAC","P.O. BOX 6157","","LEESBURG","VA","201786157","Barbara
+    Boyd","20041019","24"'
+  record: <fec.version.v5_1.F24.Records instance at 0x27f5830>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Lyndon LaRouche PAC
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 6157
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: LEESBURG
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '201786157'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Barbara Boyd
+  - name: Signed
+    number: 10-
+    value: '20041019'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: B&G PRINTING
+  - name: STREET 1
+    number: '5'
+    value: 9500 WESTVIEW
+  - name: STREET 2
+    number: '6'
+    value: ' # 109'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: HOUSTON
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '77055'
+  - name: DATE
+    number: '11'
+    value: DELAY BUMPER STICKERS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040811'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '439.67'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: TOM DELAY
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '22'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 01000467401000820602
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '1712.87'
+  expected_count: 46
+  input: '"SE24","C00309567","ORG","B&G PRINTING","9500 WESTVIEW, # 109","","HOUSTON","TX","77055","DELAY
+    BUMPER STICKERS","20040811","439.67","O","","TOM DELAY","H","TX","22","","","","","","","","","","","","","","","","","","","01000467401000820602","","","","","G2004","","006","","1712.87"'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x27f5b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: B&G PRINTING
+  - name: STREET 1
+    number: '5'
+    value: 9500 WESTVIEW
+  - name: STREET 2
+    number: '6'
+    value: ' # 109'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: HOUSTON
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '77055'
+  - name: DATE
+    number: '11'
+    value: PRINT BUMPER STICKERS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040826'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1273.20'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: TOM DELAY
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: TX
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '22'
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 01000480701000855201
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '1712.87'
+  expected_count: 46
+  input: '"SE24","C00309567","ORG","B&G PRINTING","9500 WESTVIEW, # 109","","HOUSTON","TX","77055","PRINT
+    BUMPER STICKERS","20040826","1273.20","O","","TOM DELAY","H","TX","22","","","","","","","","","","","","","","","","","","","01000480701000855201","","","","","G2004","","006","","1712.87"'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x27f5830>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: PMR PRINTING COMPANY
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 45685 OAKBROOK CT
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: STERLING
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '201669298'
+  - name: DATE
+    number: '11'
+    value: 4TH PRINTING
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: ' PLATFORM PAMPHLET'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041018'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '319.60'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: O
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: ''
+  - name: S/O STATE
+    number: '17'
+    value: GEORGE W. BUSH
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: 01000563201000891201
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '006'
+  - value: ''
+  - value: '371944.69'
+  expected_count: 46
+  input: '"SE24","C00309567","ORG","PMR PRINTING COMPANY, INC.","45685 OAKBROOK CT","","STERLING","VA","201669298","4TH
+    PRINTING, PLATFORM PAMPHLET","20041018","319.60","O","","GEORGE W. BUSH","P","","","","","","","","","","","","","","","","","","","","","01000563201000891201","","","","","G2004","","006","","371944.69"'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x27f5b00>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: PMR PRINTING COMPANY
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 45685 OAKBROOK CT
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: STERLING
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '201669298'
+  - name: DATE
+    number: '11'
+    value: PRINT LEAFLET 'VOTE FOR BUSH IS VOTE FOR
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041018'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '5001.89'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: GEORGE W. BUSH
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 01000563201000897501
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '371944.69'
+  expected_count: 46
+  input: '"SE24","C00309567","ORG","PMR PRINTING COMPANY, INC.","45685 OAKBROOK CT","","STERLING","VA","201669298","PRINT
+    LEAFLET ''VOTE FOR BUSH IS VOTE FOR","20041018","5001.89","O","","GEORGE W. BUSH","P","","","","","","","","","","","","","","","","","","","","","01000563201000897501","","","","","G2004","","006","","371944.69"'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x27f5830>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00309567
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: PMR PRINTING COMPANY
+  - name: STREET 1
+    number: '5'
+    value: ' INC.'
+  - name: STREET 2
+    number: '6'
+    value: 45685 OAKBROOK CT
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: STERLING
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '201669298'
+  - name: DATE
+    number: '11'
+    value: PRINT PLATFORM PAMPHLET (SPANISH)
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041018'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '19678.51'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: GEORGE W. BUSH
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: 01000563201000905401
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '371944.69'
+  expected_count: 46
+  input: '"SE24","C00309567","ORG","PMR PRINTING COMPANY, INC.","45685 OAKBROOK CT","","STERLING","VA","201669298","PRINT
+    PLATFORM PAMPHLET (SPANISH)","20041018","19678.51","O","","GEORGE W. BUSH","P","","","","","","","","","","","","","","","","","","","","","01000563201000905401","","","","","G2004","","006","","371944.69"'
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x27f5758>
+  result: []
+sourceurl: !!python/unicode 20041019
+type: single
