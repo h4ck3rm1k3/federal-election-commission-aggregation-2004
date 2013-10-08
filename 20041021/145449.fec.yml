@@ -1,0 +1,190 @@
+countraw: 4
+countrows: 2
+filename: 145449.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000422
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 1101 VERMONT AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: 12TH FLOOR
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20005'
+  - name: Signed
+    number: 10-
+    value: WALKER^KEVIN^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041021'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00000422,AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE,"1101
+    VERMONT AVENUE, NW",12TH FLOOR,WASHINGTON,DC,20005,WALKER^KEVIN^^,20041021,24
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x3570bd88>
+  result: []
+- input: SE24,C00000422,ORG,ADELSTEIN & ASSOCIATES,222 W ONTARIO STREET,,CHICAGO,IL,60610,TV,20041021,74700.00,S,H2ND00057,POMEROY^EARL
+    RALPH^^,H,ND,00,C00000422,,,,,,,,,,,,,,,,,,SE24.14812,,,,,G2004,,004,,91200.00
+  record: <fec.version.v5_1.SE.Records instance at 0x3570b440>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000422
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: ADELSTEIN & ASSOCIATES
+  - name: STREET 1
+    number: '5'
+    value: 222 W ONTARIO STREET
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CHICAGO
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60610'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: TV
+  - name: DATE
+    number: '11'
+    value: '20041021'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '74700.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H2ND00057
+  - name: S/O CAN/NAME
+    number: '15'
+    value: POMEROY^EARL RALPH^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: ND
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00000422
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.14812
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '91200.00'
+sourceurl: !!python/unicode 20041021
+type: single
