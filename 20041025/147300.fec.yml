@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 147300.fec
+header: {}
+rows:
+- input: F6,"C00264101","Becerra for Congress","PO Box 261060","","Los Angeles","CA","90026","H2CA30143","Xavier
+    Becerra","H","CA","31",20041024
+  record: <fec.version.v5_1.F6.Records instance at 0x345669e0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00264101
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Becerra for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 261060
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Los Angeles
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90026'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA30143
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Xavier Becerra
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '31'
+  - name: Signed
+    number: 14-
+    value: '20041024'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00264101
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Haah^Stephan
+  - name: STREET 1
+    number: '5'
+    value: 3530 Wilshire Blvd.
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 1440'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Los Angeles
+  - name: ZIP
+    number: '9'
+    value: CA
+  - name: INDEMP
+    number: '10'
+    value: '90010'
+  - name: INDOCC
+    number: '11'
+    value: Rockingham Asset Management
+  - name: Of Contribution
+    number: 12-
+    value: Managing Director
+  - name: AMOUNT
+    number: '13'
+    value: '20041022'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C6063
+  expected_count: 27
+  input: F65,"C00264101","IND","Haah^Stephan","3530 Wilshire Blvd., Suite 1440","","Los
+    Angeles","CA","90010","Rockingham Asset Management","Managing Director",20041022,"1000","","","","","","","","","","","","","","C6063"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x34566b48>
+  result: []
+- input: F65,"C00264101","IND","Bertsch^Richard","28951 Rockport Dr.","","Laguna Niguel","CA","92677","Ringfree
+    USA Corp.","President / CEO",20041022,"2000","","","","","","","","","","","","","","C6064"
+  record: <fec.version.v5_1.F65.Records instance at 0x345666c8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00264101
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bertsch^Richard
+  - name: STREET 1
+    number: '5'
+    value: 28951 Rockport Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Laguna Niguel
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '92677'
+  - name: INDEMP
+    number: '10'
+    value: Ringfree USA Corp.
+  - name: INDOCC
+    number: '11'
+    value: President / CEO
+  - name: Of Contribution
+    number: 12-
+    value: '20041022'
+  - name: AMOUNT
+    number: '13'
+    value: '2000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C6064
+sourceurl: !!python/unicode 20041025
+type: single
