@@ -1,0 +1,317 @@
+countraw: 6
+countrows: 4
+filename: 142109.fec
+header: {}
+rows:
+- input: F6,C00386532,LOUIE GOHMERT FOR CONGRESS COMMITTEE,PO BOX 8060,,TYLER,TX,75711,H4TX04039,Gohmert^Louis
+    B.^Mr.^Jr.,H,TX,1,20041018
+  record: <fec.version.v5_1.F6.Records instance at 0x2f079f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386532
+  - name: COMMITTEE NAME
+    number: '3'
+    value: LOUIE GOHMERT FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO BOX 8060
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: TYLER
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '75711'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4TX04039
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Gohmert^Louis B.^Mr.^Jr.
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20041018'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386532
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: McKean^Hugh^Mrs.^
+  - name: STREET 1
+    number: '5'
+    value: Rt 3
+  - name: STREET 2
+    number: '6'
+    value: ' Box 100-A'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Rusk
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: INDEMP
+    number: '10'
+    value: '75785'
+  - name: INDOCC
+    number: '11'
+    value: Housewife
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00386532
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4TX04039
+  - name: CAN/OFFICE
+    number: '17'
+    value: Gohmert^Louis B.^Mr.^Jr.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.11480
+  expected_count: 27
+  input: F65,C00386532,IND,McKean^Hugh^Mrs.^,"Rt 3, Box 100-A",,Rusk,TX,75785,Housewife,,20041018,2000.00,C00386532,H4TX04039,Gohmert^Louis
+    B.^Mr.^Jr.,H,TX,1,,,,,,,,F6.11480
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2f079e60>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386532
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: NATIONAL RIGHT TO WORK COMMITTEE PAC
+  - name: STREET 1
+    number: '5'
+    value: ' THE'
+  - name: STREET 2
+    number: '6'
+    value: 8001 Braddock Road
+  - name: CITY
+    number: '7'
+    value: Suite 500
+  - name: STATE
+    number: '8'
+    value: North Springfield
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: INDEMP
+    number: '10'
+    value: '22151'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041018'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00386532
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4TX04039
+  - name: CAN/OFFICE
+    number: '17'
+    value: Gohmert^Louis B.^Mr.^Jr.
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '1'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.11481
+  expected_count: 27
+  input: F65,C00386532,PAC,"NATIONAL RIGHT TO WORK COMMITTEE PAC, THE",8001 Braddock
+    Road,Suite 500,North Springfield,VA,22151,,,20041018,1500.00,C00386532,H4TX04039,Gohmert^Louis
+    B.^Mr.^Jr.,H,TX,1,,,,,,,,F6.11481
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x2f079f80>
+  result: []
+- input: F65,C00386532,CCM,WALLY HERGER FOR CONGRESS COMMITTEE,P.O. Box 1500,,Chico,CA,95927,,,20041018,1000.00,C00386532,H4TX04039,Gohmert^Louis
+    B.^Mr.^Jr.,H,TX,1,,,,,,,,F6.11482
+  record: <fec.version.v5_1.F65.Records instance at 0x2f0795f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00386532
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: WALLY HERGER FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 1500
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Chico
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '95927'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041018'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00386532
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX04039
+  - name: CANDIDATE NAME
+    number: '16'
+    value: Gohmert^Louis B.^Mr.^Jr.
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '1'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.11482
+sourceurl: !!python/unicode 20041018
+type: single
