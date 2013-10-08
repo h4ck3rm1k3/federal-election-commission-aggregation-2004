@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 142904.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247379
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Abecrombie for Congress
+  - name: STREET 1
+    number: '4'
+    value: c/o 1357 Kapiolani Blvd.
+  - name: STREET 2
+    number: '5'
+    value: ' Ste. 100'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Honolulu
+  - name: ZIP
+    number: '8'
+    value: HI
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '96814   '
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H6HI01121
+  - name: CAN/OFFICE
+    number: '11'
+    value: Neil  Abercrombie
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: '1 '
+  - value: '20041019'
+  expected_count: 14
+  input: '"F6","C00247379","Abecrombie for Congress","c/o 1357 Kapiolani Blvd., Ste.
+    100","","Honolulu","HI","96814   ","H6HI01121","Neil  Abercrombie","H","","1 ",20041019'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x34536050>
+  result: []
+- input: '"F65","C00247379","IND","The Mohegan Tribe","5 Crow Hill Rd","","Uncasville","CT","06382    ","N/A","N/A",20041019,1000.00,"","","","","",,"","","","","","","","1019200443C1610"'
+  record: <fec.version.v5_1.F65.Records instance at 0x345367a0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00247379
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: The Mohegan Tribe
+  - name: STREET 1
+    number: '5'
+    value: 5 Crow Hill Rd
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Uncasville
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06382    '
+  - name: INDEMP
+    number: '10'
+    value: N/A
+  - name: INDOCC
+    number: '11'
+    value: N/A
+  - name: Of Contribution
+    number: 12-
+    value: '20041019'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 1019200443C1610
+sourceurl: !!python/unicode 20041019
+type: single
