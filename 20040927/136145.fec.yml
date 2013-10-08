@@ -1,0 +1,314 @@
+countraw: 6
+countrows: 4
+filename: 136145.fec
+header: {}
+rows:
+- input: F6,C00403659,Scott For Congress,PO Box 201,,Alexandria,LA,71309,H4LA05049,SCOTT^JOHN
+    WYETH^^,H,LA,05,20040927
+  record: <fec.version.v5_1.F6.Records instance at 0x21fedd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00403659
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Scott For Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 201
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Alexandria
+  - name: STATE
+    number: '7'
+    value: LA
+  - name: ZIP
+    number: '8'
+    value: '71309'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4LA05049
+  - name: CANDIDATE NAME
+    number: '10'
+    value: SCOTT^JOHN WYETH^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: LA
+  - name: CAN/DIST
+    number: '13'
+    value: '05'
+  - name: Signed
+    number: 14-
+    value: '20040927'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00403659
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Irwin^James^^
+  - name: STREET 1
+    number: '5'
+    value: 400 Poydras Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 2700
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70130'
+  - name: INDEMP
+    number: '10'
+    value: Irwin
+  - name: INDOCC
+    number: '11'
+    value: ' Fritchie Urquahart & Mo'
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20040927'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00403659
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4LA05049
+  - name: CAN/OFFICE
+    number: '17'
+    value: SCOTT^JOHN WYETH^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: LA
+  - name: CONDUIT NAME
+    number: '20'
+    value: '05'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.4212
+  expected_count: 27
+  input: F65,C00403659,IND,Irwin^James^^,400 Poydras Street,Suite 2700,New Orleans,LA,70130,"Irwin,
+    Fritchie Urquahart & Mo",Attorney,20040927,1000.00,C00403659,H4LA05049,SCOTT^JOHN
+    WYETH^^,H,LA,05,,,,,,,,F6.4212
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x21fed88>
+  result: []
+- input: F65,C00403659,IND,Norwood^C.^^,6031 Perrier Street,,New Orleans,LA,70118,McGlinchey
+    Stafford PLLC,Attorney,20040927,1000.00,C00403659,H4LA05049,SCOTT^JOHN WYETH^^,H,LA,05,,,,,,,,F6.4213
+  record: <fec.version.v5_1.F65.Records instance at 0x21fedd0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00403659
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Norwood^C.^^
+  - name: STREET 1
+    number: '5'
+    value: 6031 Perrier Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New Orleans
+  - name: STATE
+    number: '8'
+    value: LA
+  - name: ZIP
+    number: '9'
+    value: '70118'
+  - name: INDEMP
+    number: '10'
+    value: McGlinchey Stafford PLLC
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20040927'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00403659
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4LA05049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SCOTT^JOHN WYETH^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4213
+- input: F65,C00403659,IND,Weigand^Robert^^II,5261 South Quebec,Suite 200,Greenwood
+    Village,CO,801111819,Self Employed,Attorney,20040927,1000.00,C00403659,H4LA05049,SCOTT^JOHN
+    WYETH^^,H,LA,05,,,,,,,,F6.4214
+  record: <fec.version.v5_1.F65.Records instance at 0x21fed88>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00403659
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Weigand^Robert^^II
+  - name: STREET 1
+    number: '5'
+    value: 5261 South Quebec
+  - name: STREET 2
+    number: '6'
+    value: Suite 200
+  - name: CITY
+    number: '7'
+    value: Greenwood Village
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '801111819'
+  - name: INDEMP
+    number: '10'
+    value: Self Employed
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20040927'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00403659
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4LA05049
+  - name: CANDIDATE NAME
+    number: '16'
+    value: SCOTT^JOHN WYETH^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: LA
+  - name: CAN/DIST
+    number: '19'
+    value: '05'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.4214
+sourceurl: !!python/unicode 20040927
+type: single
