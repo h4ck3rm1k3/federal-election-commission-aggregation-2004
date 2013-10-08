@@ -1,0 +1,194 @@
+countraw: 4
+countrows: 2
+filename: 156744.fec
+header: {}
+rows:
+- input: '"F24","C00162818","International Brotherhood of Electrical Workers Local
+    98 Committee on Political Education","1719 Spring Garden Street","","Philadelphia","PA","19130   ","John
+    J. Dougherty",20041218,"48"'
+  record: <fec.version.v5_1.F24.Records instance at 0x3c916440>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00162818
+  - name: COMMITTEE NAME
+    number: '3'
+    value: International Brotherhood of Electrical Workers Local 98 Committee on Political
+      Education
+  - name: STREET 1
+    number: '4'
+    value: 1719 Spring Garden Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Philadelphia
+  - name: STATE
+    number: '7'
+    value: PA
+  - name: ZIP
+    number: '8'
+    value: '19130   '
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: John J. Dougherty
+  - name: Signed
+    number: 10-
+    value: '20041218'
+  - name: REPORT TYPE
+    number: '11'
+    value: '48'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00162818
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Strassheim Printing Company
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: 305 North 15th Street
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Philadelphia
+  - name: ZIP
+    number: '9'
+    value: PA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '19102    '
+  - name: DATE
+    number: '11'
+    value: Signs
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041218'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '303.16'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P80000235
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: KERRY
+  - name: S/O STATE
+    number: '17'
+    value: ' JOHN F'
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: John J. Dougherty
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041218'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: 41218.E805
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: 24E
+  - value: '126630.24'
+  expected_count: 46
+  input: '"SE24","C00162818","ORG","Strassheim Printing Company, Inc","305 North 15th
+    Street","","Philadelphia","PA","19102    ","Signs",20041218,303.16,"S","P80000235","KERRY,
+    JOHN F","P","00",00,"","","","","","","","","","","","","John J. Dougherty",20041218,,,"","","41218.E805","","","","","G2004","","","24E",126630.24'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x1c0d1cb0>
+  result: []
+sourceurl: !!python/unicode 20041218
+type: single
