@@ -1,0 +1,572 @@
+countraw: 9
+countrows: 7
+filename: 141568.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Nadler for Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: Village Station
+  - name: CITY
+    number: '6'
+    value: ' PO Box 40'
+  - name: STATE
+    number: '7'
+    value: ''
+  - name: ZIP
+    number: '8'
+    value: New York
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: NY
+  - name: CANDIDATE NAME
+    number: '10'
+    value: '10014   '
+  - name: CAN/OFFICE
+    number: '11'
+    value: H2NY17071
+  - name: CAN/STATE
+    number: '12'
+    value: Jerrold L. Nadler
+  - name: CAN/DIST
+    number: '13'
+    value: H
+  - name: Signed
+    number: 14-
+    value: NY
+  - value: '8 '
+  - value: '20041017'
+  expected_count: 14
+  input: '"F6","C00290825","Nadler for Congress, Inc.","Village Station, PO Box 40","","New
+    York","NY","10014   ","H2NY17071","Jerrold L. Nadler","H","NY","8 ",20041017'
+  input_count: 16
+  record: <fec.version.v5_1.F6.Records instance at 0x23e2a70>
+  result: []
+- input: '"F65","C00290825","IND","Kruger^Lewis","257 West 86th Street","","New York","NY","10024    ","Stroock
+    & Stroock & Lavan LLP","Attorney",20041016,1000.00,"","","","","",,"","","","","","","","41017.C8786"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Kruger^Lewis
+  - name: STREET 1
+    number: '5'
+    value: 257 West 86th Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10024    '
+  - name: INDEMP
+    number: '10'
+    value: Stroock & Stroock & Lavan LLP
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20041016'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41017.C8786
+- input: '"F65","C00290825","PAC","MATTEL Inc.","Politiacal Acttion Committee","333
+    Continental Blvd ","El Segundo","CA","902455032","","",20041016,1000.00,"C00340224","","","","",,"","","","","","","","41017.C8796"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MATTEL Inc.
+  - name: STREET 1
+    number: '5'
+    value: Politiacal Acttion Committee
+  - name: STREET 2
+    number: '6'
+    value: '333 Continental Blvd '
+  - name: CITY
+    number: '7'
+    value: El Segundo
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '902455032'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041016'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00340224
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41017.C8796
+- input: '"F65","C00290825","IND","Ravitch^Richard","31 East 79th Street","","New
+    York","NY","10021    ","Ravitch Rice & Company LLC","Executive",20041016,1000.00,"","","","","",,"","","","","","","","41017.C8785"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ravitch^Richard
+  - name: STREET 1
+    number: '5'
+    value: 31 East 79th Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10021    '
+  - name: INDEMP
+    number: '10'
+    value: Ravitch Rice & Company LLC
+  - name: INDOCC
+    number: '11'
+    value: Executive
+  - name: Of Contribution
+    number: 12-
+    value: '20041016'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41017.C8785
+- input: '"F65","C00290825","IND","Rubenstein^Howard","993 5th Avenue","","New York","NY","10028    ","H.J.
+    Rubenstein Associates","Public Relations",20041016,1000.00,"","","","","",,"","","","","","","","41017.C8798"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2b48>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Rubenstein^Howard
+  - name: STREET 1
+    number: '5'
+    value: 993 5th Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10028    '
+  - name: INDEMP
+    number: '10'
+    value: H.J. Rubenstein Associates
+  - name: INDOCC
+    number: '11'
+    value: Public Relations
+  - name: Of Contribution
+    number: 12-
+    value: '20041016'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41017.C8798
+- input: '"F65","C00290825","IND","Schell^J. Michael","336 Central Park West","Apartment
+    #4A ","New York","NY","10025    ","Skadden Arps Slate Meagher","Attorney",20041016,1000.00,"","","","","",,"","","","","","","","41017.C8797"'
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Schell^J. Michael
+  - name: STREET 1
+    number: '5'
+    value: 336 Central Park West
+  - name: STREET 2
+    number: '6'
+    value: 'Apartment #4A '
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '10025    '
+  - name: INDEMP
+    number: '10'
+    value: Skadden Arps Slate Meagher
+  - name: INDOCC
+    number: '11'
+    value: Attorney
+  - name: Of Contribution
+    number: 12-
+    value: '20041016'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 41017.C8797
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290825
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Steinberg^Debra
+  - name: STREET 1
+    number: '5'
+    value: 515 E 72nd St
+  - name: STREET 2
+    number: '6'
+    value: 'Apartment #36D '
+  - name: CITY
+    number: '7'
+    value: New York
+  - name: STATE
+    number: '8'
+    value: NY
+  - name: ZIP
+    number: '9'
+    value: '100214074'
+  - name: INDEMP
+    number: '10'
+    value: Cadawalder
+  - name: INDOCC
+    number: '11'
+    value: ' Wickersham & Taft'
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20041016'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 41017.C8784
+  expected_count: 27
+  input: '"F65","C00290825","IND","Steinberg^Debra","515 E 72nd St","Apartment #36D
+    ","New York","NY","100214074","Cadawalder, Wickersham & Taft","Attorney",20041016,1000.00,"","","","","",,"","","","","","","","41017.C8784"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23e21b8>
+  result: []
+sourceurl: !!python/unicode 20041017
+type: single
