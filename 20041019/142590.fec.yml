@@ -1,0 +1,335 @@
+countraw: 5
+countrows: 3
+filename: 142590.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000422
+  - name: COMMITTEE NAME
+    number: '3'
+    value: AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 1101 VERMONT AVENUE
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: 12TH FLOOR
+  - name: STATE
+    number: '7'
+    value: WASHINGTON
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20005'
+  - name: Signed
+    number: 10-
+    value: CYS^MICHAEL^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041019'
+  - value: '24'
+  expected_count: 11
+  input: F24,C00000422,AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE,"1101
+    VERMONT AVENUE, NW",12TH FLOOR,WASHINGTON,DC,20005,CYS^MICHAEL^^,20041019,24
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x23decf8>
+  result: []
+- input: SE24,C00000422,ORG,ADVANCED MAILING,14970 FARM CREEK DRIVE,,WOODBRIDGE,VA,22191,POSTAGE-MAILING,20041018,14423.14,S,H8PA13075,BROWN^MELISSA^^,H,PA,13,C00000422,,,,,,,,,,,,,,,,,,SE24.14684,,,,,G2004,,004,,31323.14
+  record: <fec.version.v5_1.SE.Records instance at 0x23de170>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000422
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: ADVANCED MAILING
+  - name: STREET 1
+    number: '5'
+    value: 14970 FARM CREEK DRIVE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WOODBRIDGE
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22191'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: POSTAGE-MAILING
+  - name: DATE
+    number: '11'
+    value: '20041018'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '14423.14'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: H8PA13075
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BROWN^MELISSA^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: H
+  - name: S/O STATE
+    number: '17'
+    value: PA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '13'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00000422
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.14684
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '31323.14'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00000422
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: ST. CLAIRE COMMUNICATIONS
+  - name: STREET 1
+    number: '5'
+    value: 601 KING STREET
+  - name: STREET 2
+    number: '6'
+    value: ' SUITE 402'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: ALEXANDRIA
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '22314'
+  - name: DATE
+    number: '11'
+    value: PRODUCTION COSTS-MAILING
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041018'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '13980.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H8PA13075
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: BROWN^MELISSA^^
+  - name: S/O STATE
+    number: '17'
+    value: H
+  - name: S/O CAN/DIST
+    number: '18'
+    value: PA
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '13'
+  - name: Unused field
+    number: '20'
+    value: C00000422
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.14685
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '45303.14'
+  expected_count: 46
+  input: SE24,C00000422,ORG,ST. CLAIRE COMMUNICATIONS,"601 KING STREET, SUITE 402",,ALEXANDRIA,VA,22314,PRODUCTION
+    COSTS-MAILING,20041018,13980.00,S,H8PA13075,BROWN^MELISSA^^,H,PA,13,C00000422,,,,,,,,,,,,,,,,,,SE24.14685,,,,,G2004,,004,,45303.14
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23decf8>
+  result: []
+sourceurl: !!python/unicode 20041019
+type: single
