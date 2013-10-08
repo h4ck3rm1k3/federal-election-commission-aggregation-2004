@@ -1,0 +1,627 @@
+countraw: 7
+countrows: 5
+filename: 141566.fec
+header: {}
+rows:
+- input: F24,C00405951,ENVIRONMENTAL ACTION PAC INC,8 HALIFAX STREET,,JAMAICA PLAIN,MA,02130,WHIPPLE^CAROLYN^^,20041017,24
+  record: <fec.version.v5_1.F24.Records instance at 0x23e2290>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00405951
+  - name: COMMITTEE NAME
+    number: '3'
+    value: ENVIRONMENTAL ACTION PAC INC
+  - name: STREET 1
+    number: '4'
+    value: 8 HALIFAX STREET
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: JAMAICA PLAIN
+  - name: STATE
+    number: '7'
+    value: MA
+  - name: ZIP
+    number: '8'
+    value: '02130'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: WHIPPLE^CAROLYN^^
+  - name: Signed
+    number: 10-
+    value: '20041017'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00405951
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: GRASSROOTS VOTER OUTREACH
+  - name: STREET 1
+    number: '5'
+    value: ' INC'
+  - name: STREET 2
+    number: '6'
+    value: 59 TEMPLE PLACE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: BOSTON
+  - name: ZIP
+    number: '9'
+    value: MA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '02111'
+  - name: DATE
+    number: '11'
+    value: CANVASSING STAFF
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041015'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '3712.50'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: GEORGE^W.^BUSH
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00405951
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: WHIPPLE^CAROLYN
+  - name: Notarized
+    number: 33-
+    value: '20041017'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00000
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '007'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '96425.96'
+  expected_count: 46
+  input: SE24,C00405951,ORG,"GRASSROOTS VOTER OUTREACH, INC",59 TEMPLE PLACE,,BOSTON,MA,02111,CANVASSING
+    STAFF,20041015,3712.50,O,,GEORGE^W.^BUSH,P,MN,,C00405951,,,,,,,,,,,,WHIPPLE^CAROLYN,20041017,,,,,SE.00000,,,,,G2004,,007,24A,96425.96
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2998>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00405951
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: GRASSROOTS VOTER OUTREACH
+  - name: STREET 1
+    number: '5'
+    value: ' INC'
+  - name: STREET 2
+    number: '6'
+    value: 59 TEMPLE PLACE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: BOSTON
+  - name: ZIP
+    number: '9'
+    value: MA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '02111'
+  - name: DATE
+    number: '11'
+    value: PRODUCE CAMPAIGN MATERIALS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041015'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '168.75'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: GEORGE^W.^BUSH
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00405951
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: WHIPPLE^CAROLYN
+  - name: Notarized
+    number: 33-
+    value: '20041017'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00001
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24A
+  - value: '96425.96'
+  expected_count: 46
+  input: SE24,C00405951,ORG,"GRASSROOTS VOTER OUTREACH, INC",59 TEMPLE PLACE,,BOSTON,MA,02111,PRODUCE
+    CAMPAIGN MATERIALS,20041015,168.75,O,,GEORGE^W.^BUSH,P,MN,,C00405951,,,,,,,,,,,,WHIPPLE^CAROLYN,20041017,,,,,SE.00001,,,,,G2004,,006,24A,96425.96
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2290>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00405951
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: GRASSROOTS VOTER OUTREACH
+  - name: STREET 1
+    number: '5'
+    value: ' INC'
+  - name: STREET 2
+    number: '6'
+    value: 59 TEMPLE PLACE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: BOSTON
+  - name: ZIP
+    number: '9'
+    value: MA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '02111'
+  - name: DATE
+    number: '11'
+    value: CANVASSING STAFF
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041015'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '1237.50'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: JOHN^F.^KERRY
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00405951
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: WHIPPLE^CAROLYN
+  - name: Notarized
+    number: 33-
+    value: '20041017'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00002
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '007'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '35775.99'
+  expected_count: 46
+  input: SE24,C00405951,ORG,"GRASSROOTS VOTER OUTREACH, INC",59 TEMPLE PLACE,,BOSTON,MA,02111,CANVASSING
+    STAFF,20041015,1237.50,S,,JOHN^F.^KERRY,P,MN,,C00405951,,,,,,,,,,,,WHIPPLE^CAROLYN,20041017,,,,,SE.00002,,,,,G2004,,007,24E,35775.99
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2998>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00405951
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: GRASSROOTS VOTER OUTREACH
+  - name: STREET 1
+    number: '5'
+    value: ' INC'
+  - name: STREET 2
+    number: '6'
+    value: 59 TEMPLE PLACE
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: BOSTON
+  - name: ZIP
+    number: '9'
+    value: MA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '02111'
+  - name: DATE
+    number: '11'
+    value: PRODUCE CAMPAIGN MATERIALS
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041015'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '56.25'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: ''
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: JOHN^F.^KERRY
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: MN
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: ''
+  - name: Unused field
+    number: '20'
+    value: C00405951
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: WHIPPLE^CAROLYN
+  - name: Notarized
+    number: 33-
+    value: '20041017'
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE.00003
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: 24E
+  - value: '35775.99'
+  expected_count: 46
+  input: SE24,C00405951,ORG,"GRASSROOTS VOTER OUTREACH, INC",59 TEMPLE PLACE,,BOSTON,MA,02111,PRODUCE
+    CAMPAIGN MATERIALS,20041015,56.25,S,,JOHN^F.^KERRY,P,MN,,C00405951,,,,,,,,,,,,WHIPPLE^CAROLYN,20041017,,,,,SE.00003,,,,,G2004,,006,24E,35775.99
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23e2290>
+  result: []
+sourceurl: !!python/unicode 20041017
+type: single
