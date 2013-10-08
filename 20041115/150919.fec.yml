@@ -1,0 +1,623 @@
+countraw: 7
+countrows: 5
+filename: 150919.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00005157
+  - name: COMMITTEE NAME
+    number: '3'
+    value: INTERNATIONAL BROTHERHOOD OF BOILERMAKERS
+  - name: STREET 1
+    number: '4'
+    value: ' IN SP BLDRS'
+  - name: STREET 2
+    number: '5'
+    value: ' BKMTHS'
+  - name: CITY
+    number: '6'
+    value: ' FRGRS & HLPRS-LEG ED..FUND'
+  - name: STATE
+    number: '7'
+    value: 753 STATE AVENUE SUITE 565
+  - name: ZIP
+    number: '8'
+    value: ''
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: KANSAS CITY
+  - name: Signed
+    number: 10-
+    value: KS
+  - name: REPORT TYPE
+    number: '11'
+    value: '66101'
+  - value: Willburn^Jerry^^
+  - value: '20041115'
+  - value: '48'
+  expected_count: 11
+  input: F24,C00005157,"INTERNATIONAL BROTHERHOOD OF BOILERMAKERS, IN SP BLDRS, BKMTHS,
+    FRGRS & HLPRS-LEG ED..FUND",753 STATE AVENUE SUITE 565,,KANSAS CITY,KS,66101,Willburn^Jerry^^,20041115,48
+  input_count: 14
+  record: <fec.version.v5_1.F24.Records instance at 0x23de050>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00005157
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Ballons Unlimited
+  - name: STREET 1
+    number: '5'
+    value: ' Inc'
+  - name: STREET 2
+    number: '6'
+    value: 2946- O Chain Bridge Road
+  - name: CITY
+    number: '7'
+    value: Hunter Mill Plaza
+  - name: STATE
+    number: '8'
+    value: Oakton
+  - name: ZIP
+    number: '9'
+    value: VA
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '22124'
+  - name: DATE
+    number: '11'
+    value: Boilermakers For Kerry Blimp
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040928'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '801.92'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P80000235
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: KERRY^JOHN F^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00005157
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.12817
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '006'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '14016.34'
+  expected_count: 46
+  input: SE24,C00005157,ORG,"Ballons Unlimited, Inc",2946- O Chain Bridge Road,Hunter
+    Mill Plaza,Oakton,VA,22124,Boilermakers For Kerry Blimp,20040928,801.92,S,P80000235,KERRY^JOHN
+    F^^,P,,00,C00005157,,,,,,,,,,,,,,,,,,SE24.12817,,,,,G2004,,006,,14016.34
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23dedd0>
+  result: []
+- input: SE24,C00005157,ORG,KELLY PRESS,1701 CABIN BRANCH DRIVE,,CHEVERLY,MD,20785,Boilermakers
+    for Kerry Printing,20040930,12565.00,S,P80000235,KERRY^JOHN F^^,P,,00,C00005157,,,,,,,,,,,,,,,,,,SE24.12818,,,,,G2004,,006,,39146.34
+  record: <fec.version.v5_1.SE.Records instance at 0x23deef0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00005157
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: KELLY PRESS
+  - name: STREET 1
+    number: '5'
+    value: 1701 CABIN BRANCH DRIVE
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CHEVERLY
+  - name: STATE
+    number: '8'
+    value: MD
+  - name: ZIP
+    number: '9'
+    value: '20785'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Boilermakers for Kerry Printing
+  - name: DATE
+    number: '11'
+    value: '20040930'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '12565.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: KERRY^JOHN F^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00005157
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.12818
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '39146.34'
+- input: SE24,C00005157,ORG,The Frank Doolittle Company,1310 Mercer Street,Suite 210,Seattle,WA,98109,Boilermakers
+    For Kerry Stickers,20040914,371.25,S,P80000235,KERRY^JOHN F^^,P,,00,C00005157,,,,,,,,,,,,,,,,,,SE24.12819,,,,,G2004,,006,,742.50
+  record: <fec.version.v5_1.SE.Records instance at 0x23dee18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00005157
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Frank Doolittle Company
+  - name: STREET 1
+    number: '5'
+    value: 1310 Mercer Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 210
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98109'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Boilermakers For Kerry Stickers
+  - name: DATE
+    number: '11'
+    value: '20040914'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '371.25'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: KERRY^JOHN F^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00005157
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.12819
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '742.50'
+- input: SE24,C00005157,ORG,The Union Supplier of America,2728 Ashleigh Lane,,Alpharetta,GA,30004,Boilermakers
+    For Kerry T-Shirts,20040922,5835.00,S,P80000235,KERRY^JOHN F^^,P,,00,C00005157,,,,,,,,,,,,,,,,,,SE24.12820,,,,,G2004,,006,,12412.50
+  record: <fec.version.v5_1.SE.Records instance at 0x23db050>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00005157
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: The Union Supplier of America
+  - name: STREET 1
+    number: '5'
+    value: 2728 Ashleigh Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Alpharetta
+  - name: STATE
+    number: '8'
+    value: GA
+  - name: ZIP
+    number: '9'
+    value: '30004'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Boilermakers For Kerry T-Shirts
+  - name: DATE
+    number: '11'
+    value: '20040922'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '5835.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: KERRY^JOHN F^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00005157
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.12820
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '12412.50'
+sourceurl: !!python/unicode 20041115
+type: single
