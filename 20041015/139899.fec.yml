@@ -1,0 +1,145 @@
+countraw: 4
+countrows: 2
+filename: 139899.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391334
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Virginia Johnson for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: PO Box 9284
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Greensboro
+  - name: ZIP
+    number: '8'
+    value: NC
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '27429'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4NC13017
+  - name: CAN/OFFICE
+    number: '11'
+    value: Johnson^Virginia Hurt^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: NC
+  - name: Signed
+    number: 14-
+    value: '13'
+  - value: '20041015'
+  expected_count: 14
+  input: F6,C00391334,"Virginia Johnson for Congress Committee, Inc.",PO Box 9284,,Greensboro,NC,27429,H4NC13017,Johnson^Virginia
+    Hurt^^,H,NC,13,20041015
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x21fea28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00391334
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: The Leadership PAC
+  - name: STREET 1
+    number: '5'
+    value: 675 N. Washington Street
+  - name: STREET 2
+    number: '6'
+    value: Suite 410
+  - name: CITY
+    number: '7'
+    value: Alexandria
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041014'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0001058
+  - value: ''
+  expected_count: 27
+  input: F65,C00391334,ORG,The Leadership PAC,675 N. Washington Street,Suite 410,Alexandria,VA,22314,,,20041014,1000.00,,,,,,,,,,,,,,0001058,
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x21fee60>
+  result: []
+sourceurl: !!python/unicode 20041015
+type: single
