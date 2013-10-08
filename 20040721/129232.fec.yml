@@ -1,0 +1,311 @@
+countraw: 6
+countrows: 4
+filename: 129232.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Stupak for Congress
+  - name: STREET 1
+    number: '4'
+    value: 817 Ninth Avenue
+  - name: STREET 2
+    number: '5'
+    value: ' P.O. Box 156'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Menominee
+  - name: ZIP
+    number: '8'
+    value: MI
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '49858'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2MI01068
+  - name: CAN/OFFICE
+    number: '11'
+    value: Bart Stupak
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: MI
+  - name: Signed
+    number: 14-
+    value: '1'
+  - value: '20040721'
+  expected_count: 14
+  input: F6,"C00270140","Stupak for Congress","817 Ninth Avenue, P.O. Box 156","","Menominee","MI","49858","H2MI01068","Bart
+    Stupak","H","MI","1",20040721
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0xe67560>
+  result: []
+- input: F65,"C00270140","IND","Janis^Susie","2410 W Aero Park Ct.","","Traverse City","MI","49686","Homemaker","Homemaker",20040721,"2000","","","","","","","","","","","","","","C8345"
+  record: <fec.version.v5_1.F65.Records instance at 0xe675f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Janis^Susie
+  - name: STREET 1
+    number: '5'
+    value: 2410 W Aero Park Ct.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Traverse City
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '49686'
+  - name: INDEMP
+    number: '10'
+    value: Homemaker
+  - name: INDOCC
+    number: '11'
+    value: Homemaker
+  - name: Of Contribution
+    number: 12-
+    value: '20040721'
+  - name: AMOUNT
+    number: '13'
+    value: '2000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C8345
+- input: F65,"C00270140","PAC","MICROSOFT CORPORATION POLITICAL ACTION COMMITTEE","16011
+    NE 36TH WAY","BOX 97017","REDMOND","WA","98073","","",20040720,"1000","C00227546","","","","","","","","","","","","","C8346"
+  record: <fec.version.v5_1.F65.Records instance at 0xe67560>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MICROSOFT CORPORATION POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 16011 NE 36TH WAY
+  - name: STREET 2
+    number: '6'
+    value: BOX 97017
+  - name: CITY
+    number: '7'
+    value: REDMOND
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98073'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040720'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00227546
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C8346
+- input: F65,"C00270140","PAC","MCI EMPLOYEES POLITICAL ACTION COMMITTEE","1133 19th
+    St. NW","","Washington","DC","20036","","",20040720,"1000","C00142836","","","","","","","","","","","","","C8347"
+  record: <fec.version.v5_1.F65.Records instance at 0xe675f0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00270140
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: MCI EMPLOYEES POLITICAL ACTION COMMITTEE
+  - name: STREET 1
+    number: '5'
+    value: 1133 19th St. NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20036'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040720'
+  - name: AMOUNT
+    number: '13'
+    value: '1000'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00142836
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C8347
+sourceurl: !!python/unicode 20040721
+type: single
