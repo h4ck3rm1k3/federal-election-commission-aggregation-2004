@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 140534.fec
+header: {}
+rows:
+- input: F6,"C00392597","BROOMFIELD FOR CONGRESS COMMITTEE","PO Box 12612","","San
+    Antonio","TX","78212","","","H","TX","50",20041015
+  record: <fec.version.v5_1.F6.Records instance at 0x403c24d0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392597
+  - name: COMMITTEE NAME
+    number: '3'
+    value: BROOMFIELD FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: PO Box 12612
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: San Antonio
+  - name: STATE
+    number: '7'
+    value: TX
+  - name: ZIP
+    number: '8'
+    value: '78212'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: TX
+  - name: CAN/DIST
+    number: '13'
+    value: '50'
+  - name: Signed
+    number: 14-
+    value: '20041015'
+- input: F65,"C00392597","PAC","Association of Trial Lawyers of America","The Leonard
+    M. Ring Law Center","1050 31st Street NW","Wahsington","DC","20007","","",20041014,"2500","","","","","","","","","","","","","","C2651"
+  record: <fec.version.v5_1.F65.Records instance at 0x403c25a8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392597
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Association of Trial Lawyers of America
+  - name: STREET 1
+    number: '5'
+    value: The Leonard M. Ring Law Center
+  - name: STREET 2
+    number: '6'
+    value: 1050 31st Street NW
+  - name: CITY
+    number: '7'
+    value: Wahsington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20007'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041014'
+  - name: AMOUNT
+    number: '13'
+    value: '2500'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C2651
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392597
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Williams^Anne
+  - name: STREET 1
+    number: '5'
+    value: 3252 Roanoke
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Kansas City
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '64111'
+  - name: INDEMP
+    number: '10'
+    value: Walton Construction
+  - name: INDOCC
+    number: '11'
+    value: ' LLC'
+  - name: Of Contribution
+    number: 12-
+    value: owner
+  - name: AMOUNT
+    number: '13'
+    value: '20041014'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C2687
+  expected_count: 27
+  input: F65,"C00392597","IND","Williams^Anne","3252 Roanoke","","Kansas City","MO","64111","Walton
+    Construction, LLC","owner",20041014,"1000","","","","","","","","","","","","","","C2687"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x403c2c20>
+  result: []
+sourceurl: !!python/unicode 20041015
+type: single
