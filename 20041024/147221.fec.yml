@@ -1,0 +1,740 @@
+countraw: 12
+countrows: 9
+filename: 147221.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Cubin For Congress
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: P.O. Box 4657
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Casper
+  - name: ZIP
+    number: '8'
+    value: WY
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '82604'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: ''
+  - name: CAN/OFFICE
+    number: '11'
+    value: ''
+  - name: CAN/STATE
+    number: '12'
+    value: ''
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: ''
+  - value: '20041023'
+  expected_count: 14
+  input: '"F6","C00290155","Cubin For Congress, Inc.","P.O. Box 4657","","Casper","WY","82604","","","","","",20041023'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x40754320>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Coles^James^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 3622 Hunts Point Rd.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Bellevue
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98004'
+  - name: INDEMP
+    number: '10'
+    value: Western Peterbilt
+  - name: INDOCC
+    number: '11'
+    value: ' Inc'
+  - name: Of Contribution
+    number: 12-
+    value: CEO
+  - name: AMOUNT
+    number: '13'
+    value: '20041023'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: '21201'
+  expected_count: 27
+  input: '"F65","C00290155","","Coles^James^Mr.^","3622 Hunts Point Rd.","","Bellevue","WA","98004","Western
+    Peterbilt, Inc","CEO",20041023,1000.00,"","","","","","","","","","","","","","21201"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x40754488>
+  result: []
+- input: '"F65","C00290155","","Southern Company Employees PAC","601 Pennsylvania
+    Ave. NW Suite 800","","Washington","DC","20004","N/A","N/A",20041023,1000.00,"","","","","","","","","","","","","","21194"'
+  record: <fec.version.v5_1.F65.Records instance at 0x3ea1d320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Southern Company Employees PAC
+  - name: STREET 1
+    number: '5'
+    value: 601 Pennsylvania Ave. NW Suite 800
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20004'
+  - name: INDEMP
+    number: '10'
+    value: N/A
+  - name: INDOCC
+    number: '11'
+    value: N/A
+  - name: Of Contribution
+    number: 12-
+    value: '20041023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '21194'
+- input: '"F65","C00290155","","True^Diemer^Mr.^Jr.","PO Drawer 2360","","Casper","WY","82602","","",20041023,1000.00,"","","","","","","","","","","","","","21197"'
+  record: <fec.version.v5_1.F65.Records instance at 0x40754320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: True^Diemer^Mr.^Jr.
+  - name: STREET 1
+    number: '5'
+    value: PO Drawer 2360
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Casper
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '82602'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '21197'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: True^Jean D.^Mrs.^
+  - name: STREET 1
+    number: '5'
+    value: P.O. Box 2360
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Casper
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '82602'
+  - name: INDEMP
+    number: '10'
+    value: Self
+  - name: INDOCC
+    number: '11'
+    value: Oil Producer
+  - name: Of Contribution
+    number: 12-
+    value: ' Rancher'
+  - name: AMOUNT
+    number: '13'
+    value: '20041023'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: '21195'
+  expected_count: 27
+  input: '"F65","C00290155","","True^Jean D.^Mrs.^","P.O. Box 2360","","Casper","WY","82602","Self","Oil
+    Producer, Rancher",20041023,1000.00,"","","","","","","","","","","","","","21195"'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x40754488>
+  result: []
+- input: '"F65","C00290155","","True^Karen S.^Mrs.^","3200 Bella Vista Dr.","","Casper","WY","826015329","None","Housewife",20041023,1000.00,"","","","","","","","","","","","","","21200"'
+  record: <fec.version.v5_1.F65.Records instance at 0x40754320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: True^Karen S.^Mrs.^
+  - name: STREET 1
+    number: '5'
+    value: 3200 Bella Vista Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Casper
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '826015329'
+  - name: INDEMP
+    number: '10'
+    value: None
+  - name: INDOCC
+    number: '11'
+    value: Housewife
+  - name: Of Contribution
+    number: 12-
+    value: '20041023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '21200'
+- input: '"F65","C00290155","","True^Kyle ^Mr.^","3670 Placid Dr.","","Casper","WY","826044924","Information
+    Requested","Information Requested",20041023,1000.00,"","","","","","","","","","","","","","21196"'
+  record: <fec.version.v5_1.F65.Records instance at 0x40754488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: True^Kyle ^Mr.^
+  - name: STREET 1
+    number: '5'
+    value: 3670 Placid Dr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Casper
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '826044924'
+  - name: INDEMP
+    number: '10'
+    value: Information Requested
+  - name: INDOCC
+    number: '11'
+    value: Information Requested
+  - name: Of Contribution
+    number: 12-
+    value: '20041023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '21196'
+- input: '"F65","C00290155","","True^Melanie ^Mrs.^","5440 S. Poplar St.","","Casper","WY","82604","None","Housewife",20041023,1000.00,"","","","","","","","","","","","","","21198"'
+  record: <fec.version.v5_1.F65.Records instance at 0x40754320>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: True^Melanie ^Mrs.^
+  - name: STREET 1
+    number: '5'
+    value: 5440 S. Poplar St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Casper
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '82604'
+  - name: INDEMP
+    number: '10'
+    value: None
+  - name: INDOCC
+    number: '11'
+    value: Housewife
+  - name: Of Contribution
+    number: 12-
+    value: '20041023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '21198'
+- input: '"F65","C00290155","","True^Susie L.^Mrs.^","6200 S. Poplar St.","","Casper","WY","82601","None","Housewife",20041023,1000.00,"","","","","","","","","","","","","","21199"'
+  record: <fec.version.v5_1.F65.Records instance at 0x40754488>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00290155
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: True^Susie L.^Mrs.^
+  - name: STREET 1
+    number: '5'
+    value: 6200 S. Poplar St.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Casper
+  - name: STATE
+    number: '8'
+    value: WY
+  - name: ZIP
+    number: '9'
+    value: '82601'
+  - name: INDEMP
+    number: '10'
+    value: None
+  - name: INDOCC
+    number: '11'
+    value: Housewife
+  - name: Of Contribution
+    number: 12-
+    value: '20041023'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: '21199'
+sourceurl: !!python/unicode 20041024
+type: single
