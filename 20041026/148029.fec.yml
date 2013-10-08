@@ -1,0 +1,487 @@
+countraw: 8
+countrows: 6
+filename: 148029.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: COMMITTEE NAME
+    number: '3'
+    value: MCCAUL FOR CONGRESS
+  - name: STREET 1
+    number: '4'
+    value: INC
+  - name: STREET 2
+    number: '5'
+    value: 1415 WESTOVER RD.
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: AUSTIN
+  - name: ZIP
+    number: '8'
+    value: TX
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '78703'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H4TX10093
+  - name: CAN/OFFICE
+    number: '11'
+    value: McCaul^Michael^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: TX
+  - name: Signed
+    number: 14-
+    value: '10'
+  - value: '20041026'
+  expected_count: 14
+  input: F6,C00392688,"MCCAUL FOR CONGRESS,INC",1415 WESTOVER RD.,,AUSTIN,TX,78703,H4TX10093,McCaul^Michael^^,H,TX,10,20041026
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23dbea8>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Bristow^B. Daryl^^
+  - name: STREET 1
+    number: '5'
+    value: 910 Louisiana
+  - name: STREET 2
+    number: '6'
+    value: ' Ste. 3000'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Houston
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: INDEMP
+    number: '10'
+    value: '77002'
+  - name: INDOCC
+    number: '11'
+    value: Baker Botts LLP
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20041025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00392688
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4TX10093
+  - name: CAN/OFFICE
+    number: '17'
+    value: McCaul^Michael^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '10'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8406
+  expected_count: 27
+  input: F65,C00392688,IND,Bristow^B. Daryl^^,"910 Louisiana, Ste. 3000",,Houston,TX,77002,Baker
+    Botts LLP,Attorney,20041025,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.8406
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23db050>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Cialone^Joseph A.^^II
+  - name: STREET 1
+    number: '5'
+    value: 910 Louisiana
+  - name: STREET 2
+    number: '6'
+    value: ' Ste. 3000'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Houston
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: INDEMP
+    number: '10'
+    value: '77002'
+  - name: INDOCC
+    number: '11'
+    value: Baker Botts LLP
+  - name: Of Contribution
+    number: 12-
+    value: Attorney
+  - name: AMOUNT
+    number: '13'
+    value: '20041025'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00392688
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4TX10093
+  - name: CAN/OFFICE
+    number: '17'
+    value: McCaul^Michael^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: TX
+  - name: CONDUIT NAME
+    number: '20'
+    value: '10'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.8407
+  expected_count: 27
+  input: F65,C00392688,IND,Cialone^Joseph A.^^II,"910 Louisiana, Ste. 3000",,Houston,TX,77002,Baker
+    Botts LLP,Attorney,20041025,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.8407
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dbea8>
+  result: []
+- input: F65,C00392688,IND,Schaper^Robert F.^^,23226 Oak Hollow Lane,,Tomball,TX,77375,Tomball
+    Regional Hospital,CEO,20041025,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.8409
+  record: <fec.version.v5_1.F65.Records instance at 0x23db050>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Schaper^Robert F.^^
+  - name: STREET 1
+    number: '5'
+    value: 23226 Oak Hollow Lane
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Tomball
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77375'
+  - name: INDEMP
+    number: '10'
+    value: Tomball Regional Hospital
+  - name: INDOCC
+    number: '11'
+    value: CEO
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8409
+- input: F65,C00392688,PAC,Baker Botts Bluebonnet Fund,910 Louisiana,,Houston,TX,77002,,,20041025,5000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.8405
+  record: <fec.version.v5_1.F65.Records instance at 0x23dbea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Baker Botts Bluebonnet Fund
+  - name: STREET 1
+    number: '5'
+    value: 910 Louisiana
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Houston
+  - name: STATE
+    number: '8'
+    value: TX
+  - name: ZIP
+    number: '9'
+    value: '77002'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '5000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8405
+- input: F65,C00392688,CCM,JOHN SHADEGGS FRIENDS,PO BOX 45444,,Phoenix,AZ,85064,,,20041025,1000.00,C00392688,H4TX10093,McCaul^Michael^^,H,TX,10,,,,,,,,F6.8408
+  record: <fec.version.v5_1.F65.Records instance at 0x23db050>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00392688
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: JOHN SHADEGGS FRIENDS
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 45444
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Phoenix
+  - name: STATE
+    number: '8'
+    value: AZ
+  - name: ZIP
+    number: '9'
+    value: '85064'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041025'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00392688
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4TX10093
+  - name: CANDIDATE NAME
+    number: '16'
+    value: McCaul^Michael^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: TX
+  - name: CAN/DIST
+    number: '19'
+    value: '10'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.8408
+sourceurl: !!python/unicode 20041026
+type: single
