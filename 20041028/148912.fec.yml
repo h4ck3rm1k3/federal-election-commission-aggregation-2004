@@ -1,0 +1,337 @@
+countraw: 5
+countrows: 3
+filename: 148912.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00079541
+  - name: COMMITTEE NAME
+    number: '3'
+    value: NARAL Pro-Choice America PAC
+  - name: STREET 1
+    number: '4'
+    value: 1156 15th Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: Suite 700
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20005'
+  - name: Signed
+    number: 10-
+    value: John Botts
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041028'
+  - value: '24'
+  expected_count: 11
+  input: F24,"C00079541","NARAL Pro-Choice America PAC","1156 15th Street, NW","Suite
+    700","Washington","DC","20005","John Botts",20041028,"24"
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x23dfdd0>
+  result: []
+- input: SE24,"C00079541","ORG","Mission Control","201 Adams Street","","Manchester","CT","06040","Direct
+    Mail",20041027,"195854.92","O","P00003335","George W. Bush","P","DC","0","C00404343","","","","","","","","","","","","_",20041028,20041028,20041028,"_","","D458","","","","","G2004","","011","","198391.87"
+  record: <fec.version.v5_1.SE.Records instance at 0x23dffc8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00079541
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Mission Control
+  - name: STREET 1
+    number: '5'
+    value: 201 Adams Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06040'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Direct Mail
+  - name: DATE
+    number: '11'
+    value: '20041027'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '195854.92'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P00003335
+  - name: S/O CAN/NAME
+    number: '15'
+    value: George W. Bush
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '0'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00404343
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: _
+  - name: Signed
+    number: 32-
+    value: '20041028'
+  - name: Notarized
+    number: 33-
+    value: '20041028'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041028'
+  - name: Notary
+    number: 35-
+    value: _
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: D458
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '011'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '198391.87'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00079541
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: NARAL ProChoice America
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1156 15th Street NW
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20005'
+  - name: DATE
+    number: '11'
+    value: List Rental
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041027'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '2536.95'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: O
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P00003335
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: George W. Bush
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: DC
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '0'
+  - name: Unused field
+    number: '20'
+    value: C00404343
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: _
+  - name: Notarized
+    number: 33-
+    value: '20041028'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041028'
+  - name: Notary
+    number: 35-
+    value: '20041028'
+  - name: AMENDED CD
+    number: '36'
+    value: _
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D459
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '198391.87'
+  expected_count: 46
+  input: SE24,"C00079541","ORG","NARAL ProChoice America, Inc.","1156 15th Street
+    NW","","Washington","DC","20005","List Rental",20041027,"2536.95","O","P00003335","George
+    W. Bush","P","DC","0","C00404343","","","","","","","","","","","","_",20041028,20041028,20041028,"_","","D459","","","","","G2004","","","","198391.87"
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x23dfdd0>
+  result: []
+sourceurl: !!python/unicode 20041028
+type: single
