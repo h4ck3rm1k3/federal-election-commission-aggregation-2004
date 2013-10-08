@@ -1,0 +1,228 @@
+countraw: 5
+countrows: 3
+filename: 133763.fec
+header: {}
+rows:
+- input: '"F6","C00396010","Paul Babbitt for Congress","P.O. Box 23541","","Flagstaff","AZ","86002","H4AZ01111","Paul
+    J. Babbitt Jr.","H","AZ","1","20040904"'
+  record: <fec.version.v5_1.F6.Records instance at 0xdf4ea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396010
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Paul Babbitt for Congress
+  - name: STREET 1
+    number: '4'
+    value: P.O. Box 23541
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Flagstaff
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '86002'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4AZ01111
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Paul J. Babbitt Jr.
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: AZ
+  - name: CAN/DIST
+    number: '13'
+    value: '1'
+  - name: Signed
+    number: 14-
+    value: '20040904'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396010
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Planned Parenthood Action Fund
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '6'
+    value: 1780 Massachusetts Ave
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20036'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20040904'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '1000.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00314617
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: C117977
+  expected_count: 27
+  input: '"F65","C00396010","PAC","Planned Parenthood Action Fund, Inc. PAC","1780
+    Massachusetts Ave, NW","","Washington","DC","20036","","","20040904","1000.00","C00314617","","","","","","","","","","","","","C117977"'
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0xdf4d88>
+  result: []
+- input: '"F65","C00396010","PAC","Maintenance Of Way Political League","20300 Civic
+    Center Dr.","Suite 320","Southfield","MI","48076","","","20040904","1500.00","C00000372","","","","","","","","","","","","","C117976"'
+  record: <fec.version.v5_1.F65.Records instance at 0xdf4ea8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396010
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Maintenance Of Way Political League
+  - name: STREET 1
+    number: '5'
+    value: 20300 Civic Center Dr.
+  - name: STREET 2
+    number: '6'
+    value: Suite 320
+  - name: CITY
+    number: '7'
+    value: Southfield
+  - name: STATE
+    number: '8'
+    value: MI
+  - name: ZIP
+    number: '9'
+    value: '48076'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20040904'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00000372
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: C117976
+sourceurl: !!python/unicode 20040905
+type: single
