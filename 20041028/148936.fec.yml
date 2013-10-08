@@ -1,0 +1,231 @@
+countraw: 5
+countrows: 3
+filename: 148936.fec
+header: {}
+rows:
+- input: F6,"C00264101","Becerra for Congress","PO Box 261060","","Los Angeles","CA","90026","H2CA30143","Xavier
+    Becerra","H","CA","31",20041028
+  record: <fec.version.v5_1.F6.Records instance at 0x23e23b0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00264101
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Becerra for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 261060
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Los Angeles
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90026'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H2CA30143
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Xavier Becerra
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '31'
+  - name: Signed
+    number: 14-
+    value: '20041028'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00264101
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Human Rights Campaign PAC
+  - name: STREET 1
+    number: '5'
+    value: 919 18th Street NW
+  - name: STREET 2
+    number: '6'
+    value: ' Suite 800'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20006'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1975'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00235853
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C6073
+  expected_count: 27
+  input: F65,"C00264101","PAC","Human Rights Campaign PAC","919 18th Street NW, Suite
+    800","","Washington","DC","20006","","",20041028,"1975","C00235853","","","","","","","","","","","","","C6073"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23e2a28>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00264101
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Madison^Cliff
+  - name: STREET 1
+    number: '5'
+    value: 254-A Maryland Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NE'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20002'
+  - name: INDOCC
+    number: '11'
+    value: Madison Associates
+  - name: Of Contribution
+    number: 12-
+    value: President
+  - name: AMOUNT
+    number: '13'
+    value: '20041028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: C6074
+  expected_count: 27
+  input: F65,"C00264101","IND","Madison^Cliff","254-A Maryland Avenue, NE","","Washington","DC","20002","Madison
+    Associates","President",20041028,"1000","","","","","","","","","","","","","","C6074"
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23e23b0>
+  result: []
+sourceurl: !!python/unicode 20041028
+type: single
