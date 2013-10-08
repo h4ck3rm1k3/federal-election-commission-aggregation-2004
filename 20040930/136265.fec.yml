@@ -1,0 +1,615 @@
+countraw: 7
+countrows: 5
+filename: 136265.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Sierra Club Political Committee
+  - name: STREET 1
+    number: '4'
+    value: 408 C Street
+  - name: STREET 2
+    number: '5'
+    value: ' NE'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20002'
+  - name: Signed
+    number: 10-
+    value: Haegele^Greg^^
+  - name: REPORT TYPE
+    number: '11'
+    value: '20040929'
+  - value: '48'
+  expected_count: 11
+  input: F24,C00135368,Sierra Club Political Committee,"408 C Street, NE",,Washington,DC,20002,Haegele^Greg^^,20040929,48
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x34536c20>
+  result: []
+- input: SE24,C00135368,IND,Antebi^Eric^^,85 Second Street,,San Francisco,CA,94105,Salaries
+    and benefits,20040929,178.80,S,,JOHN KERRY FOR PRESIDENT INC.^^^,P,,00,C00135368,,,,,,,,,,,,,,,,,,SE24.9926,,,,,G2004,,,,38115.69
+  record: <fec.version.v5_1.SE.Records instance at 0x345368c0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Antebi^Eric^^
+  - name: STREET 1
+    number: '5'
+    value: 85 Second Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and benefits
+  - name: DATE
+    number: '11'
+    value: '20040929'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '178.80'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: JOHN KERRY FOR PRESIDENT INC.^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.9926
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '38115.69'
+- input: SE24,C00135368,IND,Antebi^Eric^^,85 Second Street,,San Francisco,CA,94105,Salaries
+    and benefits,20040929,178.80,O,,BUSH FOR PRESIDENT INC.^^^,P,,00,C00135368,,,,,,,,,,,,,,,,,,SE24.9931,,,,,G2004,,,,38115.69
+  record: <fec.version.v5_1.SE.Records instance at 0x34536c20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Payee)
+    number: '4'
+    value: Antebi^Eric^^
+  - name: STREET 1
+    number: '5'
+    value: 85 Second Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Salaries and benefits
+  - name: DATE
+    number: '11'
+    value: '20040929'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '178.80'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BUSH FOR PRESIDENT INC.^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.9931
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '38115.69'
+- input: SE24,C00135368,CCM,Sierra Club.,85 Second St. 2nd Flr.,,San Francisco,CA,94105,Website
+    posting,20040929,25.00,S,,JOHN KERRY FOR PRESIDENT INC.^^^,P,,00,C00135368,,,,,,,,,,,,,,,,,,SE24.9934,,,,,G2004,,,,38140.69
+  record: <fec.version.v5_1.SE.Records instance at 0x34536a28>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Payee)
+    number: '4'
+    value: Sierra Club.
+  - name: STREET 1
+    number: '5'
+    value: 85 Second St. 2nd Flr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Website posting
+  - name: DATE
+    number: '11'
+    value: '20040929'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '25.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: JOHN KERRY FOR PRESIDENT INC.^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.9934
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '38140.69'
+- input: SE24,C00135368,CCM,Sierra Club.,85 Second St. 2nd Flr.,,San Francisco,CA,94105,Website
+    posting,20040929,25.00,O,,BUSH FOR PRESIDENT INC.^^^,P,,00,C00135368,,,,,,,,,,,,,,,,,,SE24.9935,,,,,G2004,,,,38140.69
+  record: <fec.version.v5_1.SE.Records instance at 0x34536c20>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00135368
+  - name: ENTITY TYPE
+    number: '3'
+    value: CCM
+  - name: NAME (Payee)
+    number: '4'
+    value: Sierra Club.
+  - name: STREET 1
+    number: '5'
+    value: 85 Second St. 2nd Flr.
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: San Francisco
+  - name: STATE
+    number: '8'
+    value: CA
+  - name: ZIP
+    number: '9'
+    value: '94105'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Website posting
+  - name: DATE
+    number: '11'
+    value: '20040929'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '25.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: O
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: BUSH FOR PRESIDENT INC.^^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: ''
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00135368
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.9935
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '38140.69'
+sourceurl: !!python/unicode 20040930
+type: single
