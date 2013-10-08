@@ -1,0 +1,633 @@
+countraw: 7
+countrows: 5
+filename: 137506.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Service Employees International Union Committee On Political Education
+      (SEIU COPE)
+  - name: STREET 1
+    number: '4'
+    value: 1313 L Street
+  - name: STREET 2
+    number: '5'
+    value: ' NW'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Washington
+  - name: ZIP
+    number: '8'
+    value: DC
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: '20005'
+  - name: Signed
+    number: 10-
+    value: Anna Burger
+  - name: REPORT TYPE
+    number: '11'
+    value: '20041009'
+  - value: '48'
+  expected_count: 11
+  input: F24,"C00004036","Service Employees International Union Committee On Political
+    Education (SEIU COPE)","1313 L Street, NW","","Washington","DC","20005","Anna
+    Burger",20041009,"48"
+  input_count: 12
+  record: <fec.version.v5_1.F24.Records instance at 0x21fecf8>
+  result: []
+- input: SE24,"C00004036","ORG","Moxie Media Inc.","2021 Minor Avenue East","","Seattle","WA","98102","Direct
+    Mail Oregon",20040928,"5285.1","S","P80000235","John Kerry","P","DC","0","C00404160","","","","","","","","","","","","Test
+    Nam",20041009,19990101,19990101,"Test Name Jr.","","D10733","","","","","G2004","","006","","1062435.08"
+  record: <fec.version.v5_1.SE.Records instance at 0x21fee18>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Moxie Media Inc.
+  - name: STREET 1
+    number: '5'
+    value: 2021 Minor Avenue East
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98102'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Direct Mail Oregon
+  - name: DATE
+    number: '11'
+    value: '20040928'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '5285.1'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: John Kerry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '0'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00404160
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Test Nam
+  - name: Signed
+    number: 32-
+    value: '20041009'
+  - name: Notarized
+    number: 33-
+    value: '19990101'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '19990101'
+  - name: Notary
+    number: 35-
+    value: Test Name Jr.
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: D10733
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '1062435.08'
+- input: SE24,"C00004036","ORG","Dipaola Photography Inc.","551 NE Goldie Drive","","Hillsboro","OR","97124","Mailing
+    Oregon",20040928,"409.02","S","P80000235","John Kerry","P","DC","0","C00404160","","","","","","","","","","","","Test
+    Nam",20041009,19990101,19990101,"Test Name Jr.","","D10735","","","","","G2004","","006","","1062435.08"
+  record: <fec.version.v5_1.SE.Records instance at 0x21fecf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Dipaola Photography Inc.
+  - name: STREET 1
+    number: '5'
+    value: 551 NE Goldie Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Hillsboro
+  - name: STATE
+    number: '8'
+    value: OR
+  - name: ZIP
+    number: '9'
+    value: '97124'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Mailing Oregon
+  - name: DATE
+    number: '11'
+    value: '20040928'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '409.02'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: John Kerry
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '0'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00404160
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: Test Nam
+  - name: Signed
+    number: 32-
+    value: '20041009'
+  - name: Notarized
+    number: 33-
+    value: '19990101'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '19990101'
+  - name: Notary
+    number: 35-
+    value: Test Name Jr.
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: D10735
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '006'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '1062435.08'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: MacWilliams Robinson & Partners
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 1660 L Street N W Suite 301
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '20036'
+  - name: DATE
+    number: '11'
+    value: Radio Ads - WI
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041007'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '27587.05'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P80000235
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: John Kerry
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: DC
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '0'
+  - name: Unused field
+    number: '20'
+    value: C00404160
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: Test Nam
+  - name: Notarized
+    number: 33-
+    value: '20041009'
+  - name: Notary Commission Expires
+    number: 34-
+    value: '19990101'
+  - name: Notary
+    number: 35-
+    value: '19990101'
+  - name: AMENDED CD
+    number: '36'
+    value: Test Name Jr.
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: D10785
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: '004'
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '1062435.08'
+  expected_count: 46
+  input: SE24,"C00004036","ORG","MacWilliams Robinson & Partners, Inc.","1660 L Street
+    N W Suite 301","","Washington","DC","20036","Radio Ads - WI",20041007,"27587.05","S","P80000235","John
+    Kerry","P","DC","0","C00404160","","","","","","","","","","","","Test Nam",20041009,19990101,19990101,"Test
+    Name Jr.","","D10785","","","","","G2004","","004","","1062435.08"
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x21fef38>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00004036
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Moxie Media Inc.
+  - name: STREET 1
+    number: '5'
+    value: 2021 Minor Avenue East
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Seattle
+  - name: STATE
+    number: '8'
+    value: WA
+  - name: ZIP
+    number: '9'
+    value: '98102'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Direct mail WA
+  - name: DATE
+    number: '11'
+    value: ' WI'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: ' MO'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: ' MI'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '20041008'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: '22122.1'
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: S
+  - name: S/O STATE
+    number: '17'
+    value: P80000235
+  - name: S/O CAN/DIST
+    number: '18'
+    value: John Kerry
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: P
+  - name: Unused field
+    number: '20'
+    value: DC
+  - name: Unused field
+    number: '21'
+    value: '0'
+  - name: Unused field
+    number: '22'
+    value: C00404160
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: Test Nam
+  - name: Notary
+    number: 35-
+    value: '20041009'
+  - name: AMENDED CD
+    number: '36'
+    value: '19990101'
+  - name: TRAN ID
+    number: '37'
+    value: '19990101'
+  - name: MEMO CODE
+    number: '38'
+    value: Test Name Jr.
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: D10786
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: G2004
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '006'
+  - value: ''
+  - value: '1062435.08'
+  expected_count: 46
+  input: SE24,"C00004036","ORG","Moxie Media Inc.","2021 Minor Avenue East","","Seattle","WA","98102","Direct
+    mail WA, WI, MO, MI",20041008,"22122.1","S","P80000235","John Kerry","P","DC","0","C00404160","","","","","","","","","","","","Test
+    Nam",20041009,19990101,19990101,"Test Name Jr.","","D10786","","","","","G2004","","006","","1062435.08"
+  input_count: 49
+  record: <fec.version.v5_1.SE.Records instance at 0x21fee18>
+  result: []
+sourceurl: !!python/unicode 20041009
+type: single
