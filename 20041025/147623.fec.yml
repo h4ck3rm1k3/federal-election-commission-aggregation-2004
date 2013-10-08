@@ -1,0 +1,626 @@
+countraw: 7
+countrows: 5
+filename: 147623.fec
+header: {}
+rows:
+- input: F24,C00010603,DNC SERVICES CORPORATION/DEMOCRATIC NATIONAL COMMITTEE,430
+    S. CAPITOL STREET S.E.,,WASHINGTON,DC,20003,Marshall^Bradley^^,20041025,24
+  record: <fec.version.v5_1.F24.Records instance at 0x2f77a758>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010603
+  - name: COMMITTEE NAME
+    number: '3'
+    value: DNC SERVICES CORPORATION/DEMOCRATIC NATIONAL COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: 430 S. CAPITOL STREET S.E.
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: WASHINGTON
+  - name: STATE
+    number: '7'
+    value: DC
+  - name: ZIP
+    number: '8'
+    value: '20003'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Marshall^Bradley^^
+  - name: Signed
+    number: 10-
+    value: '20041025'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010603
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Message Audience & Presentation
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2400 S 4th Street
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Austin
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '78704'
+  - name: DATE
+    number: '11'
+    value: Mail Production
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041025'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '67687.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P80000235
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: KERRY^JOHN F^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: DC
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00010603
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4610
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '30776311.04'
+  expected_count: 46
+  input: SE24,C00010603,ORG,"Message Audience & Presentation, Inc.",2400 S 4th Street,,Austin,TX,78704,Mail
+    Production,20041025,67687.00,S,P80000235,KERRY^JOHN F^^,P,DC,00,C00010603,,,,,,,,,,,,,,,,,,SE24.4610,,,,,G2004,,,,30776311.04
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2f77aef0>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010603
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Message Audience & Presentation
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2400 S 4th Street
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Austin
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '78704'
+  - name: DATE
+    number: '11'
+    value: Postage
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20041025'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '40931.33'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: P80000235
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: KERRY^JOHN F^^
+  - name: S/O STATE
+    number: '17'
+    value: P
+  - name: S/O CAN/DIST
+    number: '18'
+    value: DC
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: '00'
+  - name: Unused field
+    number: '20'
+    value: C00010603
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: SE24.4611
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: G2004
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: '30817242.37'
+  expected_count: 46
+  input: SE24,C00010603,ORG,"Message Audience & Presentation, Inc.",2400 S 4th Street,,Austin,TX,78704,Postage,20041025,40931.33,S,P80000235,KERRY^JOHN
+    F^^,P,DC,00,C00010603,,,,,,,,,,,,,,,,,,SE24.4611,,,,,G2004,,,,30817242.37
+  input_count: 47
+  record: <fec.version.v5_1.SE.Records instance at 0x2f77ac20>
+  result: []
+- input: SE24,C00010603,ORG,Mission Control,204 Adams Street,,Manchester,CT,06040,Mailings,20041025,18075.00,S,P80000235,KERRY^JOHN
+    F^^,P,DC,00,C00010603,,,,,,,,,,,,,,,,,,SE24.4613,,,,,G2004,,,,30835934.90
+  record: <fec.version.v5_1.SE.Records instance at 0x2f77a2d8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010603
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Mission Control
+  - name: STREET 1
+    number: '5'
+    value: 204 Adams Street
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Manchester
+  - name: STATE
+    number: '8'
+    value: CT
+  - name: ZIP
+    number: '9'
+    value: '06040'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Mailings
+  - name: DATE
+    number: '11'
+    value: '20041025'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '18075.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: S
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: P80000235
+  - name: S/O CAN/NAME
+    number: '15'
+    value: KERRY^JOHN F^^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: DC
+  - name: S/O CAN/DIST
+    number: '18'
+    value: '00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00010603
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: SE24.4613
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: ''
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '30835934.90'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00010603
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: National Telecommunications Services
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 122 C Street
+  - name: CITY
+    number: '7'
+    value: ' NW'
+  - name: STATE
+    number: '8'
+    value: Suite 640
+  - name: ZIP
+    number: '9'
+    value: Washington
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: DC
+  - name: DATE
+    number: '11'
+    value: '20001'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: Phone Calls
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '20041025'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: '617.53'
+  - name: S/O CAN/NAME
+    number: '15'
+    value: S
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P80000235
+  - name: S/O STATE
+    number: '17'
+    value: KERRY^JOHN F^^
+  - name: S/O CAN/DIST
+    number: '18'
+    value: P
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: DC
+  - name: Unused field
+    number: '20'
+    value: '00'
+  - name: Unused field
+    number: '21'
+    value: C00010603
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: SE24.4612
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: G2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: ''
+  - value: '30817859.90'
+  expected_count: 46
+  input: SE24,C00010603,ORG,"National Telecommunications Services, Inc.","122 C Street,
+    NW",Suite 640,Washington,DC,20001,Phone Calls,20041025,617.53,S,P80000235,KERRY^JOHN
+    F^^,P,DC,00,C00010603,,,,,,,,,,,,,,,,,,SE24.4612,,,,,G2004,,,,30817859.90
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x2f77ac20>
+  result: []
+sourceurl: !!python/unicode 20041025
+type: single
