@@ -1,0 +1,192 @@
+countraw: 4
+countrows: 2
+filename: 149602.fec
+header: {}
+rows:
+- input: '"F24","C00396291","Team America PAC","501 Church Street  #217","","Vienna","VA","22180   ","Sharon
+    Korchnak",20041029,"24"'
+  record: <fec.version.v5_1.F24.Records instance at 0x23df710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396291
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Team America PAC
+  - name: STREET 1
+    number: '4'
+    value: '501 Church Street  #217'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Vienna
+  - name: STATE
+    number: '7'
+    value: VA
+  - name: ZIP
+    number: '8'
+    value: '22180   '
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: Sharon Korchnak
+  - name: Signed
+    number: 10-
+    value: '20041029'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00396291
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Payee)
+    number: '4'
+    value: Gallegher Media
+  - name: STREET 1
+    number: '5'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '6'
+    value: 2626 E 82nd St
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Minneapolis
+  - name: ZIP
+    number: '9'
+    value: MN
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: '554251381'
+  - name: DATE
+    number: '11'
+    value: S H4AZ08017 radio spot-Graf
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '20040830'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: '8500.00'
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: S
+  - name: S/O CAN/NAME
+    number: '15'
+    value: H4AZ08017
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: GRAF
+  - name: S/O STATE
+    number: '17'
+    value: ' RANDALL RANDY'
+  - name: S/O CAN/DIST
+    number: '18'
+    value: H
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: AZ
+  - name: Unused field
+    number: '20'
+    value: 08
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: ''
+  - name: Signed
+    number: 32-
+    value: ''
+  - name: Notarized
+    number: 33-
+    value: Sharon Korchnak
+  - name: Notary Commission Expires
+    number: 34-
+    value: '20041029'
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: ''
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: 0914200423E539
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: ''
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: P2004
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: ''
+  - value: 24E
+  - value: '23129.00'
+  expected_count: 46
+  input: '"SE24","C00396291","ORG","Gallegher Media, Inc.","2626 E 82nd St","","Minneapolis","MN","554251381","S
+    H4AZ08017 radio spot-Graf",20040830,8500.00,"S","H4AZ08017","GRAF, RANDALL RANDY","H","AZ",08,"","","","","","","","","","","","","Sharon
+    Korchnak",20041029,,,"","","0914200423E539","","","","","P2004","","","24E",23129.00'
+  input_count: 48
+  record: <fec.version.v5_1.SE.Records instance at 0x23dfa70>
+  result: []
+sourceurl: !!python/unicode 20041030
+type: single
