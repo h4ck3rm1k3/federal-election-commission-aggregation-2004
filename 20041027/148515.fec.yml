@@ -1,0 +1,233 @@
+countraw: 5
+countrows: 3
+filename: 148515.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257121
+  - name: COMMITTEE NAME
+    number: '3'
+    value: CITIZENS FOR RUSH
+  - name: STREET 1
+    number: '4'
+    value: 1300 E. 47th Street
+  - name: STREET 2
+    number: '5'
+    value: ' PMB #448'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: CHICAGO
+  - name: ZIP
+    number: '8'
+    value: IL
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '606534508'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: H2IL01042
+  - name: CAN/OFFICE
+    number: '11'
+    value: RUSH^BOBBY LEE^^
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: IL
+  - name: Signed
+    number: 14-
+    value: '01'
+  - value: '20041027'
+  expected_count: 14
+  input: 'F6,C00257121,CITIZENS FOR RUSH,"1300 E. 47th Street, PMB #448",,CHICAGO,IL,606534508,H2IL01042,RUSH^BOBBY
+    LEE^^,H,IL,01,20041027'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x21fed88>
+  result: []
+- input: F65,C00257121,PAC,CITY POLITICAL ACTION COMMITTEE (CITY PAC),PO BOX 10320,,CHICAGO,IL,60610,,,20041026,1000.00,C00257121,H2IL01042,RUSH^BOBBY
+    LEE^^,H,IL,01,,,,,,,,F6.10102
+  record: <fec.version.v5_1.F65.Records instance at 0x21fef38>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257121
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: CITY POLITICAL ACTION COMMITTEE (CITY PAC)
+  - name: STREET 1
+    number: '5'
+    value: PO BOX 10320
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CHICAGO
+  - name: STATE
+    number: '8'
+    value: IL
+  - name: ZIP
+    number: '9'
+    value: '60610'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041026'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00257121
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H2IL01042
+  - name: CANDIDATE NAME
+    number: '16'
+    value: RUSH^BOBBY LEE^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: IL
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.10102
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00257121
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: UNITED FOOD & COMMERCIAL WORKERS
+  - name: STREET 1
+    number: '5'
+    value: ' ACTIVE BALLOT CLUB'
+  - name: STREET 2
+    number: '6'
+    value: 1775 K STREET
+  - name: CITY
+    number: '7'
+    value: ' N.W.'
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: WASHINGTON
+  - name: INDEMP
+    number: '10'
+    value: DC
+  - name: INDOCC
+    number: '11'
+    value: '20006'
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '20041026'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: '2500.00'
+  - name: CANDIDATE NAME
+    number: '16'
+    value: C00257121
+  - name: CAN/OFFICE
+    number: '17'
+    value: H2IL01042
+  - name: CAN/STATE
+    number: '18'
+    value: RUSH^BOBBY LEE^^
+  - name: CAN/DIST
+    number: '19'
+    value: H
+  - name: CONDUIT NAME
+    number: '20'
+    value: IL
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: '01'
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: ''
+  - value: F6.10103
+  expected_count: 27
+  input: F65,C00257121,PAC,"UNITED FOOD & COMMERCIAL WORKERS, ACTIVE BALLOT CLUB","1775
+    K STREET, N.W.",,WASHINGTON,DC,20006,,,20041026,2500.00,C00257121,H2IL01042,RUSH^BOBBY
+    LEE^^,H,IL,01,,,,,,,,F6.10103
+  input_count: 29
+  record: <fec.version.v5_1.F65.Records instance at 0x21fecb0>
+  result: []
+sourceurl: !!python/unicode 20041027
+type: single
