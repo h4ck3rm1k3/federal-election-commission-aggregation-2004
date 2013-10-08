@@ -1,0 +1,207 @@
+countraw: 5
+countrows: 3
+filename: 143303.fec
+header: {}
+rows:
+- input: '"F24N","C00122101","Safari Club International PAC","4800 W. GATES PASS ROAD","","TUCSON","AZ","85745","JAMES^KEN^^",20041019,"24"'
+  record: <fec.version.v5_1.F24.Records instance at 0x21fee60>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F24N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00122101
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Safari Club International PAC
+  - name: STREET 1
+    number: '4'
+    value: 4800 W. GATES PASS ROAD
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: TUCSON
+  - name: STATE
+    number: '7'
+    value: AZ
+  - name: ZIP
+    number: '8'
+    value: '85745'
+  - name: NAME/TREASURER (as signed)
+    number: '9'
+    value: JAMES^KEN^^
+  - name: Signed
+    number: 10-
+    value: '20041019'
+  - name: REPORT TYPE
+    number: '11'
+    value: '24'
+- input: '"SE24","C00122101","","Federal Captital Communications Corporation","1331
+    H Street NW","12th Floor","Washington","DC","20005","Advertisements supporting
+    Bush Campaign",20041019,5080.00,"SUP","","Bush^George W.^Mr.^","P","VA","","C00386987","","","","","","","","","","","","JAMES^KEN^^",20041019,,,"","","20431922","","","","","G2004","","004","",12470.51'
+  record: <fec.version.v5_1.SE.Records instance at 0x21fecb0>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SE24
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00122101
+  - name: ENTITY TYPE
+    number: '3'
+    value: ''
+  - name: NAME (Payee)
+    number: '4'
+    value: Federal Captital Communications Corporation
+  - name: STREET 1
+    number: '5'
+    value: 1331 H Street NW
+  - name: STREET 2
+    number: '6'
+    value: 12th Floor
+  - name: CITY
+    number: '7'
+    value: Washington
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20005'
+  - name: TRANS Purpose DESCRIP
+    number: '10'
+    value: Advertisements supporting Bush Campaign
+  - name: DATE
+    number: '11'
+    value: '20041019'
+  - name: AMOUNT EXPENDED
+    number: '12'
+    value: '5080.00'
+  - name: SUPPORT/OPPOSE
+    number: '13'
+    value: SUP
+  - name: S/O FEC CAN ID NUMBER
+    number: '14'
+    value: ''
+  - name: S/O CAN/NAME
+    number: '15'
+    value: Bush^George W.^Mr.^
+  - name: S/O CAN/OFFICE
+    number: '16'
+    value: P
+  - name: S/O STATE
+    number: '17'
+    value: VA
+  - name: S/O CAN/DIST
+    number: '18'
+    value: ''
+  - name: FEC COMMITTEE ID NUMBER
+    number: '19'
+    value: C00386987
+  - name: Unused field
+    number: '20'
+    value: ''
+  - name: Unused field
+    number: '21'
+    value: ''
+  - name: Unused field
+    number: '22'
+    value: ''
+  - name: Unused field
+    number: '23'
+    value: ''
+  - name: Unused field
+    number: '24'
+    value: ''
+  - name: CONDUIT NAME
+    number: '25'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '26'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '27'
+    value: ''
+  - name: CONDUIT CITY
+    number: '28'
+    value: ''
+  - name: CONDUIT STATE
+    number: '29'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '30'
+    value: ''
+  - name: as signed
+    number: 31-
+    value: JAMES^KEN^^
+  - name: Signed
+    number: 32-
+    value: '20041019'
+  - name: Notarized
+    number: 33-
+    value: ''
+  - name: Notary Commission Expires
+    number: 34-
+    value: ''
+  - name: Notary
+    number: 35-
+    value: ''
+  - name: AMENDED CD
+    number: '36'
+    value: ''
+  - name: TRAN ID
+    number: '37'
+    value: '20431922'
+  - name: MEMO CODE
+    number: '38'
+    value: ''
+  - name: MEMO TEXT
+    number: '39'
+    value: ''
+  - name: BACK REF TRAN ID
+    number: '40'
+    value: ''
+  - name: BACK REF SCHED NAME
+    number: '41'
+    value: ''
+  - name: ITEM ELECT CD
+    number: '42'
+    value: G2004
+  - name: ITEM ELECT OTHER
+    number: '43'
+    value: ''
+  - name: CATEGORY CODE
+    number: '44'
+    value: '004'
+  - name: TRANS CODE
+    number: '45'
+    value: ''
+  - name: CALENDAR YTD - OFFICE SOUGHT
+    number: '46'
+    value: '12470.51'
+- attempt:
+  - name: REC TYPE
+    number: '1'
+    value: TEXT
+  - name: FORM TYPE
+    number: '2'
+    value: F24N
+  - name: BACK REF TRAN ID
+    number: '3'
+    value: ''
+  - name: TEXT4000
+    number: '4'
+    value: Ads placed in outdoor news
+  - name: AMENDED CD
+    number: '5'
+    value: NO VALUE!
+  expected_count: 5
+  input: '"TEXT","F24N","","Ads placed in outdoor news"'
+  input_count: 4
+  record: <fec.version.v5_1.TEXT.Records instance at 0x21fea28>
+  result: []
+sourceurl: !!python/unicode 20041019
+type: single
