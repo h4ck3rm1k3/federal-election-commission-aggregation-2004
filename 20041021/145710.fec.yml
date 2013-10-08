@@ -1,0 +1,143 @@
+countraw: 4
+countrows: 2
+filename: 145710.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00388579
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Bush-Cheney '04 Compliance Committee
+  - name: STREET 1
+    number: '4'
+    value: ' Inc.'
+  - name: STREET 2
+    number: '5'
+    value: PO Box 10477
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Arlington
+  - name: ZIP
+    number: '8'
+    value: VA
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: '22210'
+  - name: CANDIDATE NAME
+    number: '10'
+    value: P00003335
+  - name: CAN/OFFICE
+    number: '11'
+    value: George W. Bush
+  - name: CAN/STATE
+    number: '12'
+    value: G
+  - name: CAN/DIST
+    number: '13'
+    value: ''
+  - name: Signed
+    number: 14-
+    value: ''
+  - value: '20041021'
+  expected_count: 14
+  input: F6,C00388579,"Bush-Cheney '04 Compliance Committee, Inc.","PO Box 10477",,"Arlington",VA,22210,P00003335,"George
+    W. Bush",G,,,20041021
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23e2a28>
+  result: []
+- input: F65,C00388579,COM,"2004 JOINT CANDIDATE COMMITTEE II","(FILING CORRECTS CMTE
+    NAME ONLY)","228 SOUTH WASHINGTON STREET","ALEXANDRIA",VA,22314,"THIS REPORT AMENDS
+    FEC-145458",,20041020,148000.00,C00400861,,,,,,,,,,,,,SA18-000002
+  record: <fec.version.v5_1.F65.Records instance at 0x30148d40>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00388579
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: 2004 JOINT CANDIDATE COMMITTEE II
+  - name: STREET 1
+    number: '5'
+    value: (FILING CORRECTS CMTE NAME ONLY)
+  - name: STREET 2
+    number: '6'
+    value: 228 SOUTH WASHINGTON STREET
+  - name: CITY
+    number: '7'
+    value: ALEXANDRIA
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22314'
+  - name: INDEMP
+    number: '10'
+    value: THIS REPORT AMENDS FEC-145458
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041020'
+  - name: AMOUNT
+    number: '13'
+    value: '148000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00400861
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: SA18-000002
+sourceurl: !!python/unicode 20041021
+type: single
