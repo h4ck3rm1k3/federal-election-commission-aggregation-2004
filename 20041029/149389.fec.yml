@@ -1,0 +1,745 @@
+countraw: 11
+countrows: 9
+filename: 149389.fec
+header: {}
+rows:
+- input: F6,C00289983,WHITFIELD FOR CONGRESS COMMITTEE,P.O. BOX 391,,HOPKINSVILLE,KY,42241,H4KY01040,WHITFIELD^ED^^,H,KY,01,20041029
+  record: <fec.version.v5_1.F6.Records instance at 0x403c23f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: COMMITTEE NAME
+    number: '3'
+    value: WHITFIELD FOR CONGRESS COMMITTEE
+  - name: STREET 1
+    number: '4'
+    value: P.O. BOX 391
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: HOPKINSVILLE
+  - name: STATE
+    number: '7'
+    value: KY
+  - name: ZIP
+    number: '8'
+    value: '42241'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H4KY01040
+  - name: CANDIDATE NAME
+    number: '10'
+    value: WHITFIELD^ED^^
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: KY
+  - name: CAN/DIST
+    number: '13'
+    value: '01'
+  - name: Signed
+    number: 14-
+    value: '20041029'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Logan
+  - name: STREET 1
+    number: '5'
+    value: ' III^John A.^^MD'
+  - name: STREET 2
+    number: '6'
+    value: P.O. Box 48
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Henderson
+  - name: ZIP
+    number: '9'
+    value: KY
+  - name: INDEMP
+    number: '10'
+    value: '42420'
+  - name: INDOCC
+    number: '11'
+    value: N / A
+  - name: Of Contribution
+    number: 12-
+    value: Retired
+  - name: AMOUNT
+    number: '13'
+    value: '20041028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00289983
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4KY01040
+  - name: CAN/OFFICE
+    number: '17'
+    value: WHITFIELD^ED^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: KY
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.16988
+  expected_count: 27
+  input: F65,C00289983,IND,"Logan, III^John A.^^MD",P.O. Box 48,,Henderson,KY,42420,N
+    / A,Retired,20041028,1000.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16988
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x403c25a8>
+  result: []
+- input: F65,C00289983,PAC,AMAZON.COM HOLDINGS INC. SEPARATE SEGREGATED FUND,126 C
+    STREET NW,,WASHINGTON,DC,20001,,,20041029,1000.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16997
+  record: <fec.version.v5_1.F65.Records instance at 0x403c23f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: AMAZON.COM HOLDINGS INC. SEPARATE SEGREGATED FUND
+  - name: STREET 1
+    number: '5'
+    value: 126 C STREET NW
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: WASHINGTON
+  - name: STATE
+    number: '8'
+    value: DC
+  - name: ZIP
+    number: '9'
+    value: '20001'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041029'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00289983
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4KY01040
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WHITFIELD^ED^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.16997
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: American Bankers Association PAC
+  - name: STREET 1
+    number: '5'
+    value: 1120 Connecticut Avenue
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: Suite 851
+  - name: STATE
+    number: '8'
+    value: WAshington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '4000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00289983
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4KY01040
+  - name: CAN/OFFICE
+    number: '17'
+    value: WHITFIELD^ED^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: KY
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.16989
+  expected_count: 27
+  input: F65,C00289983,PAC,American Bankers Association PAC,"1120 Connecticut Avenue,
+    NW",Suite 851,WAshington,DC,20036,,,20041028,4000.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16989
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x403c2d40>
+  result: []
+- input: F65,C00289983,PAC,ARCH COAL INC POLITICAL ACTION COMMITTEE (ARCHPAC),CITY
+    PLACE ONE SUITE 300,,ST LOUIS,MO,63141,,,20041028,1500.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16990
+  record: <fec.version.v5_1.F65.Records instance at 0x403c23f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: ARCH COAL INC POLITICAL ACTION COMMITTEE (ARCHPAC)
+  - name: STREET 1
+    number: '5'
+    value: CITY PLACE ONE SUITE 300
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: ST LOUIS
+  - name: STATE
+    number: '8'
+    value: MO
+  - name: ZIP
+    number: '9'
+    value: '63141'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041028'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00289983
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4KY01040
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WHITFIELD^ED^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.16990
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Association of Broadcasters PAC
+  - name: STREET 1
+    number: '5'
+    value: 1771 N Street
+  - name: STREET 2
+    number: '6'
+    value: ' NW'
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Washington
+  - name: ZIP
+    number: '9'
+    value: DC
+  - name: INDEMP
+    number: '10'
+    value: '20036'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041029'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '2500.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00289983
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4KY01040
+  - name: CAN/OFFICE
+    number: '17'
+    value: WHITFIELD^ED^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: KY
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.16995
+  expected_count: 27
+  input: F65,C00289983,PAC,National Association of Broadcasters PAC,"1771 N Street,
+    NW",,Washington,DC,20036,,,20041029,2500.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16995
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x403c2d40>
+  result: []
+- input: F65,C00289983,PAC,National Automobile Dealers Assoc. PAC,8400 Westpark Drive,,McLean,VA,22102,,,20041029,1500.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16996
+  record: <fec.version.v5_1.F65.Records instance at 0x403c23f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: National Automobile Dealers Assoc. PAC
+  - name: STREET 1
+    number: '5'
+    value: 8400 Westpark Drive
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: McLean
+  - name: STATE
+    number: '8'
+    value: VA
+  - name: ZIP
+    number: '9'
+    value: '22102'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041029'
+  - name: AMOUNT
+    number: '13'
+    value: '1500.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00289983
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4KY01040
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WHITFIELD^ED^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.16996
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Oral and Maxillofacial Surgery PAC
+  - name: STREET 1
+    number: '5'
+    value: 9700 W. Byrn Mawr Avenue
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Rosemont
+  - name: STATE
+    number: '8'
+    value: ''
+  - name: ZIP
+    number: '9'
+    value: IL
+  - name: INDEMP
+    number: '10'
+    value: '60018'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '3000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00289983
+  - name: CANDIDATE NAME
+    number: '16'
+    value: H4KY01040
+  - name: CAN/OFFICE
+    number: '17'
+    value: WHITFIELD^ED^^
+  - name: CAN/STATE
+    number: '18'
+    value: H
+  - name: CAN/DIST
+    number: '19'
+    value: KY
+  - name: CONDUIT NAME
+    number: '20'
+    value: '01'
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F6.16993
+  expected_count: 27
+  input: F65,C00289983,PAC,Oral and Maxillofacial Surgery PAC,9700 W. Byrn Mawr Avenue,,"Rosemont,",IL,60018,,,20041028,3000.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16993
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x403c2dd0>
+  result: []
+- input: F65,C00289983,PAC,QWEST PAC,5325 Zuni Street,Room 724,Denver,CO,80221,,,20041029,1000.00,C00289983,H4KY01040,WHITFIELD^ED^^,H,KY,01,,,,,,,,F6.16994
+  record: <fec.version.v5_1.F65.Records instance at 0x403c23f8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00289983
+  - name: ENTITY TYPE
+    number: '3'
+    value: PAC
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: QWEST PAC
+  - name: STREET 1
+    number: '5'
+    value: 5325 Zuni Street
+  - name: STREET 2
+    number: '6'
+    value: Room 724
+  - name: CITY
+    number: '7'
+    value: Denver
+  - name: STATE
+    number: '8'
+    value: CO
+  - name: ZIP
+    number: '9'
+    value: '80221'
+  - name: INDEMP
+    number: '10'
+    value: ''
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: '20041029'
+  - name: AMOUNT
+    number: '13'
+    value: '1000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: C00289983
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: H4KY01040
+  - name: CANDIDATE NAME
+    number: '16'
+    value: WHITFIELD^ED^^
+  - name: CAN/OFFICE
+    number: '17'
+    value: H
+  - name: CAN/STATE
+    number: '18'
+    value: KY
+  - name: CAN/DIST
+    number: '19'
+    value: '01'
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: F6.16994
+sourceurl: !!python/unicode 20041029
+type: single
