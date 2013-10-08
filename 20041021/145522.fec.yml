@@ -1,0 +1,146 @@
+countraw: 4
+countrows: 2
+filename: 145522.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371021
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Jeb Bradley for Congress Committee
+  - name: STREET 1
+    number: '4'
+    value: 645 South Main Street
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Wolfeboro
+  - name: STATE
+    number: '7'
+    value: NH
+  - name: ZIP
+    number: '8'
+    value: 03894
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Joseph E. Bradley
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' III'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: NH
+  - name: Signed
+    number: 14-
+    value: '1'
+  - value: '20041021'
+  expected_count: 14
+  input: '"F6N","C00371021","Jeb Bradley for Congress Committee","645 South Main Street","","Wolfeboro","NH","03894","","Joseph
+    E. Bradley, III","H","NH",1,"20041021"'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0x23de200>
+  result: []
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00371021
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Ray
+  - name: STREET 1
+    number: '5'
+    value: ' Alex'
+  - name: STREET 2
+    number: '6'
+    value: PO Box 581
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: Ashland
+  - name: ZIP
+    number: '9'
+    value: NH
+  - name: INDEMP
+    number: '10'
+    value: '03217'
+  - name: INDOCC
+    number: '11'
+    value: Great American Dining
+  - name: Of Contribution
+    number: 12-
+    value: President
+  - name: AMOUNT
+    number: '13'
+    value: '20041021'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: 'C019p01             '
+  expected_count: 27
+  input: '"F65","C00371021","IND","Ray, Alex","PO Box 581","","Ashland","NH","03217","Great
+    American Dining","President",20041021,1000.00,"","","","","",,"","","","","","","","C019p01             "'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23dec68>
+  result: []
+sourceurl: !!python/unicode 20041021
+type: single
