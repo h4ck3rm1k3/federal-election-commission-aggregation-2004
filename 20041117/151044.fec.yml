@@ -1,0 +1,124 @@
+countraw: 3
+countrows: 1
+filename: 151044.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H6TN09043
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 58 RIVER MIST LANE
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: MEMPHIS
+  - name: STATE
+    number: '7'
+    value: TN
+  - name: ZIP
+    number: '8'
+    value: '38103'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: TN
+  - name: CAN/DIST
+    number: '12'
+    value: '9'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00316141
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: RE-ELECT HAROLD FORD
+  - name: STREET 1
+    number: '16'
+    value: 5120 BARRY ROAD
+  - name: STREET 2
+    number: '17'
+    value: ''
+  - name: CITY
+    number: '18'
+    value: MEMPHIS
+  - name: STATE
+    number: '19'
+    value: TN
+  - name: ZIP
+    number: '20'
+    value: '38117'
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: ''
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: HAROLD FORD
+  - name: Signed
+    number: 29-
+    value: ' JR.'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20041115'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: FORD
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: HAROLD
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: E
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: JR
+  expected_count: 36
+  input: '"F2","H6TN09043","","58 RIVER MIST LANE","","MEMPHIS","TN","38103","DEM","H","TN","9","2006","C00316141","RE-ELECT
+    HAROLD FORD","5120 BARRY ROAD","","MEMPHIS","TN","38117","","","","","","","","HAROLD
+    FORD, JR.","20041115","0","0","FORD","HAROLD","E","","JR"'
+  input_count: 37
+  record: <fec.version.v5_1.F2.Records instance at 0x367b9248>
+  result: []
+sourceurl: !!python/unicode 20041117
+type: single
