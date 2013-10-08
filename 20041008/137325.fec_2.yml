@@ -1,0 +1,275 @@
+countraw: 2005
+countrows: 2003
+filename: 137325.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00381244
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: 'US AIRWAYS ATTN: US AIRWAYS'
+  - name: STREET 1
+    number: '5'
+    value: ' DEPT#05248-2'
+  - name: STREET 2
+    number: '6'
+    value: P.O. BOX 640184
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: PITSBURGH
+  - name: ZIP
+    number: '9'
+    value: PA
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: '152640184'
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: 'Travel - Expense '
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '0.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '287.45'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '0.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: '287.45'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: ''
+  - value: SD-ID-0957
+  expected_count: 28
+  input: '"SD10","C00381244","ORG","US AIRWAYS ATTN: US AIRWAYS, DEPT#05248-2","P.O.
+    BOX 640184","","PITSBURGH","PA","152640184","Travel - Expense ","0.00","287.45","0.00","287.45","","","","","","","","","","","","","","SD-ID-0957"'
+  input_count: 29
+  record: <fec.version.v5_1.SD.Records instance at 0x40a10dd0>
+  result: []
+- input: '"SD10","C00381244","IND","WHITNEY E. WASHINGTON ","414 QUINCY CENTER","","CAMBRIDGE","MA","02138","Salaries
+    ","0.00","1778.97","0.00","1778.97","","","","","","","","","","","","","","SD-ID-0958"'
+  record: <fec.version.v5_1.SD.Records instance at 0x40a10998>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00381244
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: 'WHITNEY E. WASHINGTON '
+  - name: STREET 1
+    number: '5'
+    value: 414 QUINCY CENTER
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CAMBRIDGE
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: 02138
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: 'Salaries '
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '1778.97'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '1778.97'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD-ID-0958
+- input: '"SD10","C00381244","ORG","3 STREET INC C/O DAVID STONE","P.O. BOX 425634","","CAMBRIDGE","MA","02142","Production
+    Special Programming","0.00","10000.00","0.00","10000.00","","","","","","","","","","","","","","SD-ID-0959"'
+  record: <fec.version.v5_1.SD.Records instance at 0x40a10f80>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: SD10
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00381244
+  - name: ENTITY TYPE
+    number: '3'
+    value: ORG
+  - name: NAME (Debtor/Creditor)
+    number: '4'
+    value: 3 STREET INC C/O DAVID STONE
+  - name: STREET 1
+    number: '5'
+    value: P.O. BOX 425634
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: CAMBRIDGE
+  - name: STATE
+    number: '8'
+    value: MA
+  - name: ZIP
+    number: '9'
+    value: '02142'
+  - name: NATURE/PURPOSE DEBT DESCRIPTION
+    number: '10'
+    value: Production Special Programming
+  - name: BEGINNING BALANCE
+    number: '11'
+    value: '0.00'
+  - name: INCURRED THIS PERIOD
+    number: '12'
+    value: '10000.00'
+  - name: PAYMENT THIS PERIOD
+    number: '13'
+    value: '0.00'
+  - name: BALANCE AT CLOSE
+    number: '14'
+    value: '10000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '15'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '16'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '17'
+    value: ''
+  - name: CAN/OFFICE
+    number: '18'
+    value: ''
+  - name: CAN/STATE
+    number: '19'
+    value: ''
+  - name: CAN/DIST
+    number: '20'
+    value: ''
+  - name: CONDUIT NAME
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '22'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '23'
+    value: ''
+  - name: CONDUIT CITY
+    number: '24'
+    value: ''
+  - name: CONDUIT STATE
+    number: '25'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '26'
+    value: ''
+  - name: AMENDED CD
+    number: '27'
+    value: ''
+  - name: TRAN ID
+    number: '28'
+    value: SD-ID-0959
+sourceurl: !!python/unicode 20041008
+type: chunk
