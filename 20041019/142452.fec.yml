@@ -1,0 +1,123 @@
+countraw: 3
+countrows: 1
+filename: 142452.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H4CA20124
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: 5001 California Ave.
+  - name: STREET 2
+    number: '5'
+    value: ' #107'
+  - name: CITY
+    number: '6'
+    value: ''
+  - name: STATE
+    number: '7'
+    value: Bakersfield
+  - name: ZIP
+    number: '8'
+    value: CA
+  - name: PTY/CODE
+    number: '9'
+    value: '93309'
+  - name: CAN/OFFICE
+    number: '10'
+    value: REP
+  - name: CAN/STATE
+    number: '11'
+    value: H
+  - name: CAN/DIST
+    number: '12'
+    value: CA
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '20'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: '2004'
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: C00395012
+  - name: STREET 1
+    number: '16'
+    value: Ashburn Congress Committee
+  - name: STREET 2
+    number: '17'
+    value: P.O. Box 11444
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Bakersfield
+  - name: ZIP
+    number: '20'
+    value: CA
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '93389'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: ''
+  - name: STREET 1
+    number: '23'
+    value: ''
+  - name: STREET 2
+    number: '24'
+    value: ''
+  - name: CITY
+    number: '25'
+    value: ''
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: ''
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: ''
+  - name: Signed
+    number: 29-
+    value: Roy Ashburn
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: '20041018'
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '0.00'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: Ashburn
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: Roy
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: ''
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: Mr.
+  - value: ''
+  expected_count: 36
+  input: 'F2,H4CA20124,,"5001 California Ave., #107",,Bakersfield,CA,93309,REP,H,CA,20,2004,C00395012,Ashburn
+    Congress Committee,P.O. Box 11444,,Bakersfield,CA,93389,,,,,,,,Roy Ashburn,20041018,0.00,0.00,Ashburn,Roy,,Mr.,'
+  input_count: 37
+  record: <fec.version.v5_1.F2.Records instance at 0x23df7a0>
+  result: []
+sourceurl: !!python/unicode 20041019
+type: single
