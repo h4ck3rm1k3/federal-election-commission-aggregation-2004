@@ -1,0 +1,227 @@
+countraw: 5
+countrows: 3
+filename: 131958.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F6
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367367
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Porter for Congress
+  - name: STREET 1
+    number: '4'
+    value: PO Box 26087
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Las Vegas
+  - name: STATE
+    number: '7'
+    value: NV
+  - name: ZIP
+    number: '8'
+    value: '89126   '
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0NV01078
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Jon C Porter
+  - name: CAN/OFFICE
+    number: '11'
+    value: ' Sr'
+  - name: CAN/STATE
+    number: '12'
+    value: H
+  - name: CAN/DIST
+    number: '13'
+    value: NV
+  - name: Signed
+    number: 14-
+    value: '3 '
+  - value: '20040819'
+  expected_count: 14
+  input: '"F6","C00367367","Porter for Congress","PO Box 26087","","Las Vegas","NV","89126   ","H0NV01078","Jon
+    C Porter, Sr","H","NV","3 ",20040819'
+  input_count: 15
+  record: <fec.version.v5_1.F6.Records instance at 0xdf4cf8>
+  result: []
+- input: '"F65","C00367367","IND","Gallagher^Marcia","3291 N Buffalo #8","","Las Vegas","NV","89119    ","Information
+    requested","Information requested",20040819,2000.00,"","","","","",,"","","","","","","","0819200413C10945"'
+  record: <fec.version.v5_1.F65.Records instance at 0xdf4710>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367367
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gallagher^Marcia
+  - name: STREET 1
+    number: '5'
+    value: '3291 N Buffalo #8'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Las Vegas
+  - name: STATE
+    number: '8'
+    value: NV
+  - name: ZIP
+    number: '9'
+    value: '89119    '
+  - name: INDEMP
+    number: '10'
+    value: Information requested
+  - name: INDOCC
+    number: '11'
+    value: Information requested
+  - name: Of Contribution
+    number: 12-
+    value: '20040819'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0819200413C10945
+- input: '"F65","C00367367","IND","Gallagher^Marcia","3291 N Buffalo #8","","Las Vegas","NV","89119    ","Information
+    requested","Information requested",20040819,2000.00,"","","","","",,"","","","","","","","0819200413C10946"'
+  record: <fec.version.v5_1.F65.Records instance at 0xdf4cf8>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00367367
+  - name: ENTITY TYPE
+    number: '3'
+    value: IND
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Gallagher^Marcia
+  - name: STREET 1
+    number: '5'
+    value: '3291 N Buffalo #8'
+  - name: STREET 2
+    number: '6'
+    value: ''
+  - name: CITY
+    number: '7'
+    value: Las Vegas
+  - name: STATE
+    number: '8'
+    value: NV
+  - name: ZIP
+    number: '9'
+    value: '89119    '
+  - name: INDEMP
+    number: '10'
+    value: Information requested
+  - name: INDOCC
+    number: '11'
+    value: Information requested
+  - name: Of Contribution
+    number: 12-
+    value: '20040819'
+  - name: AMOUNT
+    number: '13'
+    value: '2000.00'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: ''
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: ''
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: 0819200413C10946
+sourceurl: !!python/unicode 20040820
+type: single
