@@ -1,0 +1,126 @@
+countraw: 3
+countrows: 1
+filename: 157194.fec
+header: {}
+rows:
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F2N
+  - name: FILER FEC CAND ID
+    number: '2'
+    value: H2CA26026
+  - name: CANDIDATE NAME
+    number: '3'
+    value: ''
+  - name: STREET 1
+    number: '4'
+    value: '14546 Hamlin St. #202'
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Van Nuys
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '91411'
+  - name: PTY/CODE
+    number: '9'
+    value: DEM
+  - name: CAN/OFFICE
+    number: '10'
+    value: H
+  - name: CAN/STATE
+    number: '11'
+    value: CA
+  - name: CAN/DIST
+    number: '12'
+    value: '28'
+  - name: YEAR OF ELECTION 1900-2999
+    number: '13'
+    value: '2006'
+  - name: FEC COMMITTEE ID NUMBER (PCC)
+    number: '14'
+    value: C00147686
+  - name: COMMITTEE NAME (PCC)
+    number: '15'
+    value: BERMAN FOR CONGRESS
+  - name: STREET 1
+    number: '16'
+    value: 6380 Wilshire Blvd.
+  - name: STREET 2
+    number: '17'
+    value: ' #1612'
+  - name: CITY
+    number: '18'
+    value: ''
+  - name: STATE
+    number: '19'
+    value: Los Angeles
+  - name: ZIP
+    number: '20'
+    value: CA
+  - name: FEC COMMITTEE ID NUMBER (Auth)
+    number: '21'
+    value: '90048'
+  - name: COMMITTEE NAME (Auth)
+    number: '22'
+    value: C00147686
+  - name: STREET 1
+    number: '23'
+    value: BERMAN FOR CONGRESS
+  - name: STREET 2
+    number: '24'
+    value: 6380 Wilshire Blvd.
+  - name: CITY
+    number: '25'
+    value: ' #1612'
+  - name: STATE
+    number: '26'
+    value: ''
+  - name: ZIP
+    number: '27'
+    value: Los Angeles
+  - name: NAME/CAN (as signed)
+    number: '28'
+    value: CA
+  - name: Signed
+    number: 29-
+    value: '90048'
+  - name: PRI PERSONAL FUNDS DECLARED
+    number: '30'
+    value: BERMAN^HOWARD L^^
+  - name: GEN PERSONAL FUNDS DECLARED
+    number: '31'
+    value: '20041227'
+  - name: CANDIDATE LAST NAME
+    number: '32'
+    value: '0.00'
+  - name: CANDIDATE FIRST NAME
+    number: '33'
+    value: '0.00'
+  - name: CANDIDATE MIDDLE NAME
+    number: '34'
+    value: BERMAN
+  - name: CANDIDATE PREFIX
+    number: '35'
+    value: HOWARD L
+  - name: CANDIDATE SUFFIX
+    number: '36'
+    value: ''
+  - value: ''
+  - value: ''
+  expected_count: 36
+  input: 'F2N,H2CA26026,,14546 Hamlin St. #202,,Van Nuys,CA,91411,DEM,H,CA,28,2006,C00147686,BERMAN
+    FOR CONGRESS,"6380 Wilshire Blvd., #1612",,Los Angeles,CA,90048,C00147686,BERMAN
+    FOR CONGRESS,"6380 Wilshire Blvd., #1612",,Los Angeles,CA,90048,BERMAN^HOWARD
+    L^^,20041227,0.00,0.00,BERMAN,HOWARD L,,,'
+  input_count: 38
+  record: <fec.version.v5_1.F2.Records instance at 0x21fecb0>
+  result: []
+sourceurl: !!python/unicode 20041228
+type: single

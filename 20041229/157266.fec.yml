@@ -1,0 +1,141 @@
+countraw: 4
+countrows: 2
+filename: 157266.fec
+header: {}
+rows:
+- input: '"F6N","C00346296","Solis for Congress","3828 Latrobe",,"Los Angeles","CA","90031","H0CA31087","Solis^Hilda","H","CA","31","20041229"'
+  record: <fec.version.v5_1.F6.Records instance at 0x23db050>
+  result:
+  - name: FORM TYPE
+    number: '1'
+    value: F6N
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346296
+  - name: COMMITTEE NAME
+    number: '3'
+    value: Solis for Congress
+  - name: STREET 1
+    number: '4'
+    value: 3828 Latrobe
+  - name: STREET 2
+    number: '5'
+    value: ''
+  - name: CITY
+    number: '6'
+    value: Los Angeles
+  - name: STATE
+    number: '7'
+    value: CA
+  - name: ZIP
+    number: '8'
+    value: '90031'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '9'
+    value: H0CA31087
+  - name: CANDIDATE NAME
+    number: '10'
+    value: Solis^Hilda
+  - name: CAN/OFFICE
+    number: '11'
+    value: H
+  - name: CAN/STATE
+    number: '12'
+    value: CA
+  - name: CAN/DIST
+    number: '13'
+    value: '31'
+  - name: Signed
+    number: 14-
+    value: '20041229'
+- attempt:
+  - name: FORM TYPE
+    number: '1'
+    value: F65
+  - name: FILER FEC CMTE ID
+    number: '2'
+    value: C00346296
+  - name: ENTITY TYPE
+    number: '3'
+    value: COM
+  - name: NAME (Contributor/Lender)
+    number: '4'
+    value: Clear Channel Communications
+  - name: STREET 1
+    number: '5'
+    value: ' Inc. PAC'
+  - name: STREET 2
+    number: '6'
+    value: 200 E. Basse Rd.
+  - name: CITY
+    number: '7'
+    value: ''
+  - name: STATE
+    number: '8'
+    value: San Antonio
+  - name: ZIP
+    number: '9'
+    value: TX
+  - name: INDEMP
+    number: '10'
+    value: '782098328'
+  - name: INDOCC
+    number: '11'
+    value: ''
+  - name: Of Contribution
+    number: 12-
+    value: ''
+  - name: AMOUNT
+    number: '13'
+    value: '20041028'
+  - name: FEC COMMITTEE ID NUMBER
+    number: '14'
+    value: '1000.00'
+  - name: FEC CANDIDATE ID NUMBER
+    number: '15'
+    value: C00279216
+  - name: CANDIDATE NAME
+    number: '16'
+    value: ''
+  - name: CAN/OFFICE
+    number: '17'
+    value: ''
+  - name: CAN/STATE
+    number: '18'
+    value: ''
+  - name: CAN/DIST
+    number: '19'
+    value: ''
+  - name: CONDUIT NAME
+    number: '20'
+    value: ''
+  - name: CONDUIT STREET 1
+    number: '21'
+    value: ''
+  - name: CONDUIT STREET 2
+    number: '22'
+    value: ''
+  - name: CONDUIT CITY
+    number: '23'
+    value: ''
+  - name: CONDUIT STATE
+    number: '24'
+    value: ''
+  - name: CONDUIT ZIP
+    number: '25'
+    value: ''
+  - name: AMENDED CD
+    number: '26'
+    value: ''
+  - name: TRAN ID
+    number: '27'
+    value: ''
+  - value: F658295
+  expected_count: 27
+  input: '"F65","C00346296","COM","Clear Channel Communications, Inc. PAC","200 E.
+    Basse Rd.",,"San Antonio","TX","782098328","","","20041028","1000.00","C00279216",,"","","","",,,,,,,,F658295'
+  input_count: 28
+  record: <fec.version.v5_1.F65.Records instance at 0x23df758>
+  result: []
+sourceurl: !!python/unicode 20041229
+type: single
